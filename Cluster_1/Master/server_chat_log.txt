@@ -1,0 +1,129 @@
+[00:05:24]: [Join Announcement] chientrm
+[00:07:56]: [Join Announcement] makam
+[00:08:02]: [Death Announcement] chientrm was killed by Pengull. He became a spooky ghost!
+[00:08:27]: [Say] (KU_54sjcu-a) chientrm: forgot to make it endless
+[00:09:20]: [Say] (KU_8EfLHJb9) makam: need to clear spider quarry
+[00:09:29]: [Say] (KU_54sjcu-a) chientrm: send help
+[00:09:34]: [Say] (KU_8EfLHJb9) makam: wait day
+[00:10:47]: [Say] (KU_8EfLHJb9) makam:  Found a Skeleton! {-501.393,-114.248} structure 84E5A079F4034D1D
+[00:10:49]: [Say] (KU_8EfLHJb9) makam: no hammer
+[00:10:53]: [Say] (KU_54sjcu-a) chientrm:  Look here, it's a Skeleton. {-225.839,-394.834} structure 84E5A079F4034D1D
+[00:10:55]: [Say] (KU_54sjcu-a) chientrm: i'm not wanda
+[00:12:45]: [Say] (KU_8EfLHJb9) makam: 1 min
+[00:12:51]: [Say] (KU_54sjcu-a) chientrm: relax
+[00:13:00]: [Say] (KU_54sjcu-a) chientrm:  Surface will rain on day 31.60 (37m 31s).
+[00:13:06]: [Say] (KU_54sjcu-a) chientrm: plenty of time
+[00:14:32]: [Say] (KU_54sjcu-a) chientrm: wanda stronk but no long pig
+[00:14:44]: [Resurrect Announcement] chientrm was resurrected by makam.
+[00:15:04]: [Say] (KU_54sjcu-a) chientrm: I expected spring when I join
+[00:15:21]: [Whisper] (KU_54sjcu-a) chientrm: half health now
+[00:15:26]: [Say] (KU_8EfLHJb9) makam:  We have 69 cooked morsels in this ice box, and this one has 19% freshness.
+[00:15:27]: [Say] (KU_8EfLHJb9) makam:  We have 50 bananas in this ice box, and this one has 6% freshness.
+[00:15:32]: [Say] (KU_8EfLHJb9) makam: can cook before rot
+[00:15:51]: [Say] (KU_8EfLHJb9) makam:  I have 2 walrus tusks.
+[00:15:55]: [Say] (KU_8EfLHJb9) makam: swap pls
+[00:15:56]: [Say] (KU_8EfLHJb9) makam:  I have a the lazy explorer with 95% durability.
+[00:16:42]: [Say] (KU_8EfLHJb9) makam:  I have 2 dreadstone helms, and this one has 100% durability.
+[00:16:53]: [Say] (KU_54sjcu-a) chientrm: ty
+[00:17:14]: [Say] (KU_54sjcu-a) chientrm: i gonna build more chest then turn wanda or smth strongk
+[00:17:22]: [Say] (KU_8EfLHJb9) makam: wolf ?
+[00:17:43]: [Say] (KU_54sjcu-a) chientrm: maybe
+[00:17:53]: [Say] (KU_8EfLHJb9) makam: i wanna try using wathom to fullest but i suck lol
+[00:17:58]: [Say] (KU_8EfLHJb9) makam: maybe he bad too
+[00:18:49]: [Say] (KU_8EfLHJb9) makam:  I have 3 smolt frys, and this one has 100% freshness.
+[00:18:55]: [Say] (KU_8EfLHJb9) makam: soul
+[00:20:09]: [Say] (KU_8EfLHJb9) makam: floating
+[00:20:27]: [Say] (KU_54sjcu-a) chientrm: why thor not coming :v
+[00:20:42]: [Say] (KU_8EfLHJb9) makam:  Moose/Goose will attack in 7m29s.
+[00:20:47]: [Say] (KU_8EfLHJb9) makam: deerclop
+[00:20:47]: [Say] (KU_54sjcu-a) chientrm: wth
+[00:20:48]: [Say] (KU_8EfLHJb9) makam: lol
+[00:20:55]: [Say] (KU_8EfLHJb9) makam:  Loot Stash will despawn on day 36.
+[00:21:04]: [Say] (KU_8EfLHJb9) makam: im lazy to find
+[00:21:10]: [Say] (KU_8EfLHJb9) makam: lets fight anyway
+[00:21:18]: [Whisper] (KU_8EfLHJb9) makam: swamp cane ?
+[00:21:18]: [Say] (KU_54sjcu-a) chientrm: yeh if next to water
+[00:21:24]: [Whisper] (KU_8EfLHJb9) makam: swap
+[00:21:31]: [Whisper] (KU_54sjcu-a) chientrm: oh
+[00:21:36]: [Whisper] (KU_54sjcu-a) chientrm: it has percent
+[00:21:45]: [Whisper] (KU_8EfLHJb9) makam: cant soul hop with it
+[00:21:59]: [Whisper] (KU_8EfLHJb9) makam: where is glommer
+[00:22:05]: [Whisper] (KU_54sjcu-a) chientrm: dead
+[00:22:25]: [Say] (KU_54sjcu-a) chientrm:  We have 50 bananas in this ice box, and this one has 1% freshness.
+[00:23:01]: [Say] (KU_54sjcu-a) chientrm:  I have 3 meaty stews, and this one has 59% freshness.
+[00:23:27]: [Say] (KU_8EfLHJb9) makam:  Moose/Goose will attack in 4m45s.
+[00:24:07]: [Say] (KU_54sjcu-a) chientrm: hmm need salt shaker
+[00:24:23]: [Say] (KU_8EfLHJb9) makam:  Here! {113.222,-94.019} ground 84E5A079F4034D1D
+[00:24:25]: [Say] (KU_8EfLHJb9) makam:  Huh, it's a Loot Stash. {114.000,-94.000} other 84E5A079F4034D1D
+[00:24:28]: [Say] (KU_8EfLHJb9) makam: near water
+[00:24:32]: [Say] (KU_8EfLHJb9) makam: but portal not fixed
+[00:24:40]: [Say] (KU_54sjcu-a) chientrm:  I need 4 more salt crystals to make a salt shaker 3000.
+[00:24:43]: [Say] (KU_54sjcu-a) chientrm: cheap
+[00:24:49]: [Say] (KU_54sjcu-a) chientrm: can we get some?
+[00:24:54]: [Say] (KU_8EfLHJb9) makam: you get
+[00:24:57]: [Say] (KU_54sjcu-a) chientrm: :v
+[00:25:01]: [Say] (KU_54sjcu-a) chientrm: it prevent snow pile
+[00:25:23]: [Say] (KU_54sjcu-a) chientrm:  Surface will stop raining on day 28.54 (0m 40s).
+[00:28:21]: [Say] (KU_54sjcu-a) chientrm:  Watch out, Deerclops is here! {-183.074,-422.467} boss 84E5A079F4034D1D
+[00:28:26]: [Say] (KU_8EfLHJb9) makam: g
+[00:28:37]: [Say] (KU_54sjcu-a) chientrm: can't see
+[00:28:42]: [Say] (KU_54sjcu-a) chientrm:  Surface will rain on day 32.78 (31m 19s).
+[00:28:51]: [Say] (KU_8EfLHJb9) makam: storm last 1 day
+[00:29:32]: [Say] (KU_54sjcu-a) chientrm:  I have a dark sword with  9% durability.
+[00:29:48]: [Say] (KU_8EfLHJb9) makam: just farm fridge?
+[00:29:54]: [Say] (KU_54sjcu-a) chientrm: yes
+[00:30:06]: [Say] (KU_54sjcu-a) chientrm: ty
+[00:31:02]: [Say] (KU_8EfLHJb9) makam: can use mactusk to kill deer
+[00:31:39]: [Say] (KU_8EfLHJb9) makam: easy
+[00:31:45]: [Say] (KU_8EfLHJb9) makam: nvm
+[00:31:48]: [Say] (KU_8EfLHJb9) makam: bro got punched
+[00:32:03]: [Say] (KU_8EfLHJb9) makam: can use deer to clear spiderw
+[00:32:14]: [Say] (KU_54sjcu-a) chientrm: can
+[00:33:15]: [Say] (KU_54sjcu-a) chientrm: what to do with cherry tree
+[00:33:20]: [Say] (KU_8EfLHJb9) makam: idk
+[00:34:11]: [Say] (KU_8EfLHJb9) makam:  There are 24 Silks in the area.
+[00:35:03]: [Say] (KU_54sjcu-a) chientrm: the night is 1/3
+[00:35:17]: [Say] (KU_8EfLHJb9) makam:  The Spider Queen might be able to digest me! {-488.172,-193.715} boss 84E5A079F4034D1D
+[00:35:18]: [Say] (KU_8EfLHJb9) makam: g
+[00:35:31]: [Say] (KU_8EfLHJb9) makam:  I have 3 deer antlers.
+[00:37:43]: [Say] (KU_54sjcu-a) chientrm: any nmf lol
+[00:37:44]: [Say] (KU_54sjcu-a) chientrm:  I have a the lazy forager with 26% durability.
+[00:37:46]: [Whisper] (KU_8EfLHJb9) makam:  I have 22 nightmare fuels.
+[00:39:03]: [Say] (KU_8EfLHJb9) makam: deerclop op
+[00:39:50]: [Say] (KU_8EfLHJb9) makam: 7 left
+[00:39:56]: [Say] (KU_54sjcu-a) chientrm: we kinda need nmf farm
+[00:40:07]: [Say] (KU_54sjcu-a) chientrm:  I have a the lazy forager with 26% durability.
+[00:43:29]: [Say] (KU_8EfLHJb9) makam: spider quarry almost cleared
+[00:43:33]: [Say] (KU_8EfLHJb9) makam: i kill deerclop right after
+[00:43:39]: [Say] (KU_54sjcu-a) chientrm:  I have a salt shaker 3000 with 100% durability.
+[00:43:42]: [Say] (KU_8EfLHJb9) makam: nice
+[00:44:36]: [Say] (KU_54sjcu-a) chientrm: no more abimole
+[00:46:24]: [Say] (KU_8EfLHJb9) makam:  I have a deerclops eyeball.
+[00:46:35]: [Say] (KU_8EfLHJb9) makam: fullmoon
+[00:46:36]: [Say] (KU_8EfLHJb9) makam:  I have a star caller's staff with 20% durability.
+[00:46:41]: [Say] (KU_8EfLHJb9) makam: i didnt set up
+[00:46:47]: [Say] (KU_54sjcu-a) chientrm: that fine
+[00:46:51]: [Say] (KU_54sjcu-a) chientrm: no overheat in forest
+[00:47:36]: [Say] (KU_8EfLHJb9) makam: gg
+[00:47:41]: [Say] (KU_8EfLHJb9) makam: flare no longer summon deerclop
+[00:47:46]: [Say] (KU_54sjcu-a) chientrm: yes
+[00:47:49]: [Say] (KU_8EfLHJb9) makam: :(
+[00:48:09]: [Say] (KU_8EfLHJb9) makam: where wood
+[00:48:14]: [Whisper] (KU_54sjcu-a) chientrm:  We have 21 logs in this chest.
+[00:48:17]: [Skin Announcement] makam feet_wendy_gladiator
+[00:51:03]: [Say] (KU_54sjcu-a) chientrm: omg
+[00:51:05]: [Say] (KU_54sjcu-a) chientrm:  I have a moon tear.
+[00:52:19]: [Say] (KU_8EfLHJb9) makam: scuffed
+[00:52:22]: [Say] (KU_8EfLHJb9) makam: but it worked
+[00:52:23]: [Say] (KU_8EfLHJb9) makam: gg
+[00:52:27]: [Say] (KU_8EfLHJb9) makam:  What a glamorous Moon Stone. {-260.881,-263.250} other 84E5A079F4034D1D
+[00:52:47]: [Say] (KU_8EfLHJb9) makam:  I have a moon caller's staff with 100% durability.
+[00:52:54]: [Say] (KU_8EfLHJb9) makam: for archive maybe
+[00:53:15]: [Say] (KU_54sjcu-a) chientrm: i'm not going cave anytime soon
+[00:54:57]: [Say] (KU_8EfLHJb9) makam: aaaaa
+[00:56:43]: [Say] (KU_8EfLHJb9) makam:  I have a celestial orb.
+[00:57:03]: [Say] (KU_54sjcu-a) chientrm: when will we go to cherry
+[00:57:07]: [Say] (KU_8EfLHJb9) makam: idk
+[00:57:15]: [Say] (KU_8EfLHJb9) makam: not in winter
+[00:57:21]: [Say] (KU_8EfLHJb9) makam: cant fight klaus in storm
+[00:57:26]: [Say] (KU_8EfLHJb9) makam: a
