@@ -1,0 +1,3 @@
+[00:04:04]: [Join Announcement] chientrm
+[00:14:03]: [Skin Announcement] chientrm body_suspenders_blue_cornflower
+[00:14:25]: [Leave Announcement] chientrm

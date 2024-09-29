@@ -3,5 +3,5 @@ services:
   dst:
     build: .
     volumes:
-      - ${PWD}/hamlet:/root/.klei/DoNotStarveTogether/Cluster_1
+      - ${PWD}/tropical:/root/.klei/DoNotStarveTogether/Cluster_1
       - ${PWD}/dedicated_server_mods_setup.lua:/home/dst/mods/dedicated_server_mods_setup.lua
