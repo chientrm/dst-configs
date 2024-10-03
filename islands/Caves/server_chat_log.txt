@@ -1,0 +1,4 @@
+[00:02:22]: [Join Announcement] chientrm
+[00:03:20]: [Leave Announcement] chientrm
+[00:05:32]: [Join Announcement] chientrm
+[00:08:02]: [Leave Announcement] chientrm
