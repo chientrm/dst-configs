@@ -1,0 +1,1413 @@
+[00:00:00]: PersistRootStorage is now /root/.klei//DoNotStarveTogether/Cluster_1/Loot/ 
+[00:00:00]: Starting Up
+[00:00:00]: Version: 639083
+[00:00:00]: Current time: Sat Nov 23 02:14:37 2024
+
+[00:00:00]: System Name: Linux
+[00:00:00]: Host Name: 93fb15ba8c4f
+[00:00:00]: Release(Kernel) Version: 6.1.112+
+[00:00:00]: Kernel Build Timestamp: #1 SMP PREEMPT_DYNAMIC Sun Nov 10 15:28:10 UTC 2024
+[00:00:00]: Machine Arch: x86_64
+[00:00:00]: Don't Starve Together: 639083 LINUX
+[00:00:00]: Build Date: 2713
+[00:00:00]: Mode: 64-bit
+[00:00:00]: Parsing command line
+[00:00:00]: Command Line Arguments: -shard Loot 
+[00:00:00]: Initializing distribution platform
+[00:00:00]: ....Done
+[00:00:00]: THREAD - started 'GAClient' (136054152144576)
+[00:00:00]: CurlRequestManager::ClientThread::Main()
+[00:00:00]: ProfileIndex:9.96
+[00:00:00]: Mounting file system databundles/klump.zip successful.
+[00:00:00]: Mounting file system databundles/shaders.zip successful.
+[00:00:00]: Mounting file system databundles/fonts.zip successful.
+[00:00:00]: Mounting file system databundles/anim_dynamic.zip successful.
+[00:00:00]: Mounting file system databundles/bigportraits.zip successful.
+[00:00:00]: Mounting file system databundles/images.zip successful.
+[00:00:00]: Mounting file system databundles/scripts.zip successful.
+[00:00:00]: [Steam] SteamGameServer_Init(11002, 27020)
+[00:00:01]: [Steam] SteamGameServer_Init success
+[00:00:01]: [Connect] PendingConnection::Reset(true)
+[00:00:01]: Platform: 1
+[00:00:01]: Network tick rate: U=15(2), D=0
+[00:00:01]: Network tick rate: U=15(2), D=0
+[00:00:01]: OnLoadPermissionList: /root/.klei//DoNotStarveTogether/Cluster_1/blocklist.txt (Failure)
+[00:00:01]: OnLoadPermissionList: /root/.klei//DoNotStarveTogether/Cluster_1/adminlist.txt (Failure)
+[00:00:01]: OnLoadUserIdList: /root/.klei//DoNotStarveTogether/Cluster_1/whitelist.txt (Failure)
+[00:00:01]: Token retrieved from: /root/.klei//DoNotStarveTogether/Cluster_1/cluster_token.txt
+[00:00:01]: Token retrieved from: /root/.klei//DoNotStarveTogether/Cluster_1/cluster_token.txt
+[00:00:01]: cGame::InitializeOnMainThread
+[00:00:01]: THREAD - started 'StreamInput' (136054097729216)
+[00:00:01]: Renderer initialize: Okay
+[00:00:01]: AnimManager initialize: Okay
+[00:00:01]: Buffers initialize: Okay
+[00:00:01]: cDontStarveGame::DoGameSpecificInitialize()
+[00:00:01]: GameSpecific initialize: Okay
+[00:00:01]: cGame::StartPlaying
+[00:00:01]: AppVersion::GetArchitecture() x64
+[00:00:01]: LOADING LUA
+[00:00:01]: DoLuaFile scripts/main.lua
+[00:00:01]: DoLuaFile loading buffer scripts/main.lua
+[00:00:01]:   taskgrouplist:	default	Together	
+[00:00:01]:   taskgrouplist:	classic	Classic	
+[00:00:01]:   taskgrouplist:	cave_default	Underground	
+[00:00:01]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:00:01]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:00:02]: Running main.lua
+	
+[00:00:02]: Could not load modindex	
+[00:00:02]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:02]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:04]: LOADING LUA SUCCESS
+[00:00:04]: PlayerDeaths could not load morgue	
+[00:00:04]: PlayerHistory could not load player_history	
+[00:00:04]: ServerPreferences could not load server_preferences	
+[00:00:04]: ConsoleScreenSettings could not load consolescreen	
+[00:00:04]: bloom_enabled	true	
+[00:00:04]: OnFilesLoaded()	
+[00:00:04]: OnUpdatePurchaseStateComplete	
+[00:00:04]: Klump load on boot started.	
+[00:00:04]: Klump files loaded: 	0	
+[00:00:06]: 	Load FE	
+[00:00:07]: 	Load FE: done	
+[00:00:07]: Check for write access: TRUE
+[00:00:07]: Check for read access: TRUE
+[00:00:07]: Available disk space for save files: 4606 MB
+[00:00:07]: ModIndex: Load sequence finished successfully.	
+[00:00:07]: Reset() returning
+[00:00:07]: THREAD - started 'FilesExistAsyncThread' (136053749962432)
+[00:00:07]: FilesExistAsyncThread started (25160 files)...
+[00:00:08]: [200] Account Communication Success (6)
+[00:00:08]: Cached userid (null) saved to /root/.klei//DoNotStarveTogether/Cluster_1/Loot/save/cached_userid
+[00:00:08]: Received (KU_54sjcu-a) from TokenPurpose
+[00:00:08]: Starting Dedicated Server Game	
+[00:00:08]: Network tick rate: U=15(2), D=0
+[00:00:08]: About to start a server with the following settings:
+[00:00:08]:   Dedicated: true
+[00:00:08]:   Online: true
+[00:00:08]:   Passworded: false
+[00:00:08]:   ServerPort: 11002
+[00:00:08]:   SteamAuthPort: 8770
+[00:00:08]:   SteamMasterServerPort: 27020
+[00:00:08]:   ClanID: false
+[00:00:08]:   ClanOnly: false
+[00:00:08]:   ClanAdmin: false
+[00:00:08]:   LanOnly: false
+[00:00:08]:   FriendsOnly: false
+[00:00:08]:   EnableAutosaver: true
+[00:00:08]:   EncodeUserPath: false
+[00:00:08]:   PVP: false
+[00:00:08]:   MaxPlayers: 32
+[00:00:08]:   GameMode: endless
+[00:00:08]:   OverridenDNS: 
+[00:00:08]:   PauseWhenEmpty: true
+[00:00:08]:   IdleTimeout: 1800s
+[00:00:08]:   VoteEnabled: true
+[00:00:08]:   InternetBroadcasting: true
+[00:00:08]: Online Server Started on port: 11002
+[00:00:08]: Not applying level data overrides.	
+[00:00:08]: Found a worldgen override file with these contents:	
+[00:00:08]: 	K: 	override_enabled	 V: 	true	
+[00:00:08]: 	K: 	overrides	 V: 	table: 0x214c9140	
+[00:00:08]: 		K: 	bees	 V: 	often	
+[00:00:08]: 		K: 	berrrybush	 V: 	often	
+[00:00:08]: 	K: 	preset	 V: 	ENDLESS	
+[00:00:08]:   sanity-checking worldgenoverride.lua...	
+[00:00:08]:     WARNING! Found override 'berrrybush', but this doesn't match any known option. Did you make a typo?	
+[00:00:08]: Loaded and applied world gen overrides from ../worldgenoverride.lua	
+[00:00:08]:   contained worldgen preset ENDLESS, loading...	
+[00:00:08]:   contained settings preset ENDLESS, loading...	
+[00:00:08]: Overwriting savedata with override file.	
+[00:00:08]: Collecting garbage...
+[00:00:08]: ... FilesExistAsyncThread complete
+[00:00:08]: lua_gc took 0.19 seconds
+[00:00:08]: ~ShardLuaProxy()
+[00:00:08]: ~cEventLeaderboardProxy()
+[00:00:08]: ~ItemServerLuaProxy()
+[00:00:08]: ~InventoryLuaProxy()
+[00:00:08]: ~NetworkLuaProxy()
+[00:00:08]: ~SimLuaProxy()
+[00:00:08]: lua_close took 0.23 seconds
+[00:00:08]: ReleaseAll
+[00:00:08]: ReleaseAll Finished
+[00:00:08]: cGame::StartPlaying
+[00:00:08]: AppVersion::GetArchitecture() x64
+[00:00:08]: LOADING LUA
+[00:00:08]: DoLuaFile scripts/main.lua
+[00:00:08]: DoLuaFile loading buffer scripts/main.lua
+[00:00:09]:   taskgrouplist:	default	Together	
+[00:00:09]:   taskgrouplist:	classic	Classic	
+[00:00:09]:   taskgrouplist:	cave_default	Underground	
+[00:00:09]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:00:09]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:00:09]: Running main.lua
+	
+[00:00:09]: loaded modindex	
+[00:00:09]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:10]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:10]: LOADING LUA SUCCESS
+[00:00:10]: PlayerDeaths could not load morgue	
+[00:00:10]: PlayerHistory could not load player_history	
+[00:00:10]: ServerPreferences could not load server_preferences	
+[00:00:10]: ConsoleScreenSettings could not load consolescreen	
+[00:00:10]: bloom_enabled	true	
+[00:00:10]: OnFilesLoaded()	
+[00:00:10]: OnUpdatePurchaseStateComplete	
+[00:00:10]: Not applying level data overrides.	
+[00:00:10]: Found a worldgen override file with these contents:	
+[00:00:10]: 	K: 	override_enabled	 V: 	true	
+[00:00:10]: 	K: 	overrides	 V: 	table: 0x16489d10	
+[00:00:10]: 		K: 	bees	 V: 	often	
+[00:00:10]: 		K: 	berrrybush	 V: 	often	
+[00:00:10]: 	K: 	preset	 V: 	ENDLESS	
+[00:00:10]:   sanity-checking worldgenoverride.lua...	
+[00:00:10]:     WARNING! Found override 'berrrybush', but this doesn't match any known option. Did you make a typo?	
+[00:00:10]: Loaded and applied world gen overrides from ../worldgenoverride.lua	
+[00:00:10]:   contained worldgen preset ENDLESS, loading...	
+[00:00:10]:   contained settings preset ENDLESS, loading...	
+[00:00:10]: Overwriting savedata with override file.	
+[00:00:10]: WorldSim::SimThread::SimThread()
+[00:00:10]: ABOUT TO INSTALL STACKTRACE
+[00:00:10]: DoLuaFile scripts/stacktrace.lua
+[00:00:10]: DoLuaFile loading buffer scripts/stacktrace.lua
+[00:00:10]: INSTALLED STACKTRACE
+[00:00:10]: Engine Seed: (1732328087 + 273174943) & 0x7FFFFFFF = 2005503030
+[00:00:10]: WorldSim::SimThread::SimThread() complete
+[00:00:10]: Check for write access: TRUE
+[00:00:10]: Check for read access: TRUE
+[00:00:10]: Available disk space for save files: 4606 MB
+[00:00:10]: ModIndex: Load sequence finished successfully.	
+[00:00:10]: Reset() returning
+[00:00:10]: THREAD - started 'WorldSim' (136053718480576)
+[00:00:10]: WorldSim::SimThread::Main()
+[00:00:10]: DoLuaFile scripts/worldgen_main.lua
+[00:00:10]: DoLuaFile loading buffer scripts/worldgen_main.lua
+[00:00:10]: DLC enabled : 	false	
+[00:00:10]:   taskgrouplist:	default	Together	
+[00:00:10]:   taskgrouplist:	classic	Classic	
+[00:00:10]:   taskgrouplist:	cave_default	Underground	
+[00:00:10]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:00:10]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:00:10]: running worldgen_main.lua
+	
+[00:00:10]: SEED = 	2005503030	
+[00:00:10]: Generating world with these parameters:	
+[00:00:10]: level_type	SURVIVAL	
+[00:00:10]: level_data:	
+[00:00:10]: 	K: 	desc	 V: 	A never-ending Don't Starve sandbox.
+Resurrection is always available via the Florid Postern.	
+[00:00:10]: 	K: 	hideminimap	 V: 	false	
+[00:00:10]: 	K: 	id	 V: 	ENDLESS	
+[00:00:10]: 	K: 	location	 V: 	forest	
+[00:00:10]: 	K: 	max_playlist_position	 V: 	999	
+[00:00:10]: 	K: 	min_playlist_position	 V: 	0	
+[00:00:10]: 	K: 	name	 V: 	Endless	
+[00:00:10]: 	K: 	numrandom_set_pieces	 V: 	4	
+[00:00:10]: 	K: 	override_level_string	 V: 	false	
+[00:00:10]: 	K: 	overrides	 V: 	table: 0x7bbd6a460600	
+[00:00:10]: 		K: 	basicresource_regrowth	 V: 	always	
+[00:00:10]: 		K: 	bees	 V: 	often	
+[00:00:10]: 		K: 	berrrybush	 V: 	often	
+[00:00:10]: 		K: 	ghostsanitydrain	 V: 	none	
+[00:00:10]: 		K: 	has_ocean	 V: 	true	
+[00:00:10]: 		K: 	keep_disconnected_tiles	 V: 	true	
+[00:00:10]: 		K: 	layout_mode	 V: 	LinkNodesByKeys	
+[00:00:10]: 		K: 	no_joining_islands	 V: 	true	
+[00:00:10]: 		K: 	no_wormholes_to_disconnected_tiles	 V: 	true	
+[00:00:10]: 		K: 	portalresurection	 V: 	always	
+[00:00:10]: 		K: 	resettime	 V: 	none	
+[00:00:10]: 		K: 	roads	 V: 	default	
+[00:00:10]: 		K: 	season_start	 V: 	default	
+[00:00:10]: 		K: 	start_location	 V: 	default	
+[00:00:10]: 		K: 	task_set	 V: 	default	
+[00:00:10]: 		K: 	world_size	 V: 	default	
+[00:00:10]: 		K: 	wormhole_prefab	 V: 	wormhole	
+[00:00:10]: 	K: 	playstyle	 V: 	endless	
+[00:00:10]: 	K: 	random_set_pieces	 V: 	table: 0x7bbd6a45cfa0	
+[00:00:10]: 		K: 	1	 V: 	Sculptures_2	
+[00:00:10]: 		K: 	2	 V: 	Sculptures_3	
+[00:00:10]: 		K: 	3	 V: 	Sculptures_4	
+[00:00:10]: 		K: 	4	 V: 	Sculptures_5	
+[00:00:10]: 		K: 	5	 V: 	Chessy_1	
+[00:00:10]: 		K: 	6	 V: 	Chessy_2	
+[00:00:10]: 		K: 	7	 V: 	Chessy_3	
+[00:00:10]: 		K: 	8	 V: 	Chessy_4	
+[00:00:10]: 		K: 	9	 V: 	Chessy_5	
+[00:00:10]: 		K: 	10	 V: 	Chessy_6	
+[00:00:10]: 		K: 	11	 V: 	Maxwell1	
+[00:00:10]: 		K: 	12	 V: 	Maxwell2	
+[00:00:10]: 		K: 	13	 V: 	Maxwell3	
+[00:00:10]: 		K: 	14	 V: 	Maxwell4	
+[00:00:10]: 		K: 	15	 V: 	Maxwell6	
+[00:00:10]: 		K: 	16	 V: 	Maxwell7	
+[00:00:10]: 		K: 	17	 V: 	Warzone_1	
+[00:00:10]: 		K: 	18	 V: 	Warzone_2	
+[00:00:10]: 		K: 	19	 V: 	Warzone_3	
+[00:00:10]: 	K: 	required_prefabs	 V: 	table: 0x7bbd6a45bde0	
+[00:00:10]: 		K: 	1	 V: 	multiplayer_portal	
+[00:00:10]: 	K: 	required_setpieces	 V: 	table: 0x7bbd6a45a170	
+[00:00:10]: 		K: 	1	 V: 	Sculptures_1	
+[00:00:10]: 		K: 	2	 V: 	Maxwell5	
+[00:00:10]: 	K: 	settings_desc	 V: 	A never-ending Don't Starve sandbox.
+Resurrection is always available via the Florid Postern.	
+[00:00:10]: 	K: 	settings_id	 V: 	ENDLESS	
+[00:00:10]: 	K: 	settings_name	 V: 	Endless	
+[00:00:10]: 	K: 	substitutes	 V: 	table: 0x7bbd6a459f60	
+[00:00:10]: 	K: 	version	 V: 	4	
+[00:00:10]: 	K: 	worldgen_desc	 V: 	A never-ending Don't Starve sandbox.
+Resurrection is always available via the Florid Postern.	
+[00:00:10]: 	K: 	worldgen_id	 V: 	ENDLESS	
+[00:00:10]: 	K: 	worldgen_name	 V: 	Endless	
+[00:00:10]: 
+#######
+#
+# Generating SURVIVAL Mode Level
+#
+#######
+	
+[00:00:10]: Prefab Swap Selection: grass gekko	
+[00:00:10]: Prefab Swap Selection: regular twigs	
+[00:00:10]: Prefab Swap Selection: regular berries	
+[00:00:10]: Sculptures_1 added to task Beeeees!	
+[00:00:10]: Maxwell5 added to task Lightning Bluff	
+[00:00:10]: Maxwell4 added to task For a nice walk	
+[00:00:10]: Maxwell3 added to task Make a Beehat	
+[00:00:10]: Maxwell4 added to task Mole Colony Rocks	
+[00:00:10]: Chessy_1 added to task Make a Beehat	
+[00:00:10]: New size:	425	default	
+[00:00:10]: Creating story...	
+[00:00:10]: [Story Gen] Generate nodes. Starting at: 'Make a pick'	
+[00:00:10]: [Story Gen] LinkNodesByKeys	
+[00:00:10]: Finding valid start task...	
+[00:00:10]:    ...picked 	Make a pick	
+[00:00:10]: Has start node	Clearing	
+[00:00:10]: Adding Background Nodes	
+[00:00:10]: [Story Gen] Adding Cove Nodes	
+[00:00:10]: [Ocean] Processing ocean fake room content.	
+[00:00:10]: [WorldSimActual::WorldGen_InitializeNodePoints]
+[00:00:10]: [WorldSimActual::WorldGen_VoronoiPass]
+[00:00:10]: GenerateVoronoiMap [100]:
+[00:00:12]: ...Done.
+[00:00:12]: [Story Gen] Finding nodes on mainland to connect a region to.	
+[00:00:12]: [Story Gen] Generate nodes. Starting at: 'MoonIsland_IslandShards'	
+[00:00:12]: [Story Gen] RestrictNodesByKey	
+[00:00:12]: [Story Gen] Adding Cove Nodes	
+[00:00:12]: [WorldSimActual::WorldGen_AddNewPositions]
+[00:00:12]: [WorldSimActual::WorldGen_VoronoiPass]
+[00:00:12]: GenerateVoronoiMap [50]:
+[00:00:13]: ...Done.
+[00:00:13]: ... story created	
+[00:00:13]: Baking map...	425	
+[00:00:13]: [WorldSimActual::WorldGen_Commit] worldgen success.
+[00:00:13]: [WorldSimActual::ConvertToTileMap]
+[00:00:13]: [ConvertToTileMap]
+[00:00:13]: [WorldSimActual::ConvertToTileMap] complete
+[00:00:13]: [WorldSimActual::SeparateIslands]
+[00:00:13]: [SeparateIslands]
+[00:00:13]: [WorldSimActual::SeparateIslands] complete
+[00:00:13]: Map Baked!	
+[00:00:13]: [WorldSimActual::ForceConnectivity]
+[00:00:13]: [GenerateLandmasses]
+[00:00:13]: [GenerateLandmasses] islands: 11
+[00:00:13]: [MergeConnectedLandmasses] false
+[00:00:13]: [WorldSimActual::ForceConnectivity] complete
+[00:00:13]: [WorldSimActual::DrawRoads]
+[00:00:13]: [DrawRoads]
+[00:00:13]: [WorldSimActual::DrawRoads] complete
+[00:00:13]: Encoding...	
+[00:00:13]: [WorldSimActual::CreateNodeIdTileMap]
+[00:00:13]: Encoding... DONE	
+[00:00:13]: Checking Tags	
+[00:00:13]: Populating voronoi...	
+[00:00:14]: [ReplaceSingleNonLandTiles] Validating...
+[00:00:14]: [ReplaceSingleNonLandTiles] Replaced 2 tiles.
+[00:00:14]: Not checking for disconnected tiles.	
+[00:00:14]: [Ocean] Placing ocean set pieces.	
+[00:00:14]: [Ocean] Placed 11 of 11 ocean set pieces.	
+[00:00:14]: [Ocean] Convert impassible to water...	
+[00:00:14]: [Ocean]  Square fill...	
+[00:00:18]: [Ocean]  Ground fill...	
+[00:00:18]: [Ocean]  Noise...	
+[00:00:19]: [Ocean]  Blend...	
+[00:00:20]: [Ocean]  Adding shoreline...	
+[00:00:20]: [Ocean] Void Outline...	
+[00:00:21]: [Ocean] Populating the ocean with lots of fun things to do...	
+[00:00:21]: [Ocean] Placing ocean set pieces.	
+[00:00:21]: [Ocean] Placed 9 of 9 ocean set pieces.	
+[00:00:21]: [Ocean] Placing ocean set pieces.	
+[00:00:21]: [Ocean] Placed 5 of 5 ocean set pieces.	
+[00:00:21]: [Ocean] Placing ocean set pieces.	
+[00:00:21]: [Ocean] Placed 1 of 2 ocean set pieces.	
+[00:00:21]: Checking Required Prefab moon_altar_rock_glass has at least 1 instances (1 found).	
+[00:00:21]: Checking Required Prefab sculpture_bishop has at least 1 instances (1 found).	
+[00:00:21]: Checking Required Prefab pigking has at least 1 instances (1 found).	
+[00:00:21]: Checking Required Prefab moon_fissure has at least 2 instances (44 found).	
+[00:00:21]: Checking Required Prefab monkeyqueen has at least 1 instances (0 found).	
+[00:00:21]: PANIC: missing required prefab [monkeyqueen]! Expected 1, got 0	
+[00:00:21]: An error occured during world gen we will retry! [was 	1	 of 	5	]	
+[00:00:21]: New size:	425	default	
+[00:00:21]: Creating story...	
+[00:00:21]: [Story Gen] Generate nodes. Starting at: 'Make a pick'	
+[00:00:21]: [Story Gen] LinkNodesByKeys	
+[00:00:21]: Finding valid start task...	
+[00:00:21]:    ...picked 	Make a pick	
+[00:00:21]: Has start node	Clearing	
+[00:00:21]: Adding Background Nodes	
+[00:00:21]: [Story Gen] Adding Cove Nodes	
+[00:00:21]: [Ocean] Processing ocean fake room content.	
+[00:00:21]: [WorldSimActual::WorldGen_InitializeNodePoints]
+[00:00:21]: [WorldSimActual::WorldGen_VoronoiPass]
+[00:00:21]: GenerateVoronoiMap [100]:
+[00:00:23]: ...Done.
+[00:00:23]: [Story Gen] Finding nodes on mainland to connect a region to.	
+[00:00:23]: [Story Gen] Generate nodes. Starting at: 'MoonIsland_IslandShards'	
+[00:00:23]: [Story Gen] RestrictNodesByKey	
+[00:00:23]: [Story Gen] Adding Cove Nodes	
+[00:00:23]: [WorldSimActual::WorldGen_AddNewPositions]
+[00:00:23]: [WorldSimActual::WorldGen_VoronoiPass]
+[00:00:23]: GenerateVoronoiMap [50]:
+[00:00:24]: ...Done.
+[00:00:24]: ... story created	
+[00:00:24]: Baking map...	425	
+[00:00:24]: [WorldSimActual::WorldGen_Commit] worldgen success.
+[00:00:24]: [WorldSimActual::ConvertToTileMap]
+[00:00:24]: [ConvertToTileMap]
+[00:00:24]: [WorldSimActual::ConvertToTileMap] complete
+[00:00:24]: [WorldSimActual::SeparateIslands]
+[00:00:24]: [SeparateIslands]
+[00:00:24]: [WorldSimActual::SeparateIslands] complete
+[00:00:24]: Map Baked!	
+[00:00:24]: [WorldSimActual::ForceConnectivity]
+[00:00:24]: [GenerateLandmasses]
+[00:00:24]: [GenerateLandmasses] islands: 14
+[00:00:24]: [MergeConnectedLandmasses] false
+[00:00:24]: [WorldSimActual::ForceConnectivity] complete
+[00:00:24]: [WorldSimActual::DrawRoads]
+[00:00:24]: [DrawRoads]
+[00:00:24]: [WorldSimActual::DrawRoads] complete
+[00:00:24]: Encoding...	
+[00:00:24]: [WorldSimActual::CreateNodeIdTileMap]
+[00:00:24]: Encoding... DONE	
+[00:00:24]: Checking Tags	
+[00:00:24]: Populating voronoi...	
+[00:00:24]: Warning! Could not find a spot for MooseNest in node Make a Beehat:0:FlowerPatch	
+[00:00:24]: Warning! Could not find a spot for Maxwell3 in node Make a Beehat:BG_83:BGGrass	
+[00:00:24]: Warning! Could not find a spot for Terrarium_Forest_Spiders in node Befriend the pigs:BG_7:BGForest	
+[00:00:24]: [ReplaceSingleNonLandTiles] Validating...
+[00:00:24]: [ReplaceSingleNonLandTiles] Replaced 9 tiles.
+[00:00:24]: Not checking for disconnected tiles.	
+[00:00:24]: [Ocean] Placing ocean set pieces.	
+[00:00:24]: [Ocean] Placed 11 of 11 ocean set pieces.	
+[00:00:24]: [Ocean] Convert impassible to water...	
+[00:00:24]: [Ocean]  Square fill...	
+[00:00:27]: [Ocean]  Ground fill...	
+[00:00:28]: [Ocean]  Noise...	
+[00:00:29]: [Ocean]  Blend...	
+[00:00:29]: [Ocean]  Adding shoreline...	
+[00:00:30]: [Ocean] Void Outline...	
+[00:00:30]: [Ocean] Populating the ocean with lots of fun things to do...	
+[00:00:30]: [Ocean] Placing ocean set pieces.	
+[00:00:30]: [Ocean] Placed 9 of 9 ocean set pieces.	
+[00:00:30]: [Ocean] Placing ocean set pieces.	
+[00:00:30]: [Ocean] Placed 3 of 3 ocean set pieces.	
+[00:00:30]: [Ocean] Placing ocean set pieces.	
+[00:00:30]: [Ocean] Placed 2 of 2 ocean set pieces.	
+[00:00:31]: Checking Required Prefab moon_altar_rock_glass has at least 1 instances (1 found).	
+[00:00:31]: Checking Required Prefab sculpture_bishop has at least 1 instances (1 found).	
+[00:00:31]: Checking Required Prefab pigking has at least 1 instances (1 found).	
+[00:00:31]: Checking Required Prefab moon_fissure has at least 2 instances (62 found).	
+[00:00:31]: Checking Required Prefab monkeyqueen has at least 1 instances (1 found).	
+[00:00:31]: Checking Required Prefab terrariumchest has at least 1 instances (0 found).	
+[00:00:31]: PANIC: missing required prefab [terrariumchest]! Expected 1, got 0	
+[00:00:31]: An error occured during world gen we will retry! [was 	2	 of 	5	]	
+[00:00:31]: New size:	425	default	
+[00:00:31]: Creating story...	
+[00:00:31]: [Story Gen] Generate nodes. Starting at: 'Make a pick'	
+[00:00:31]: [Story Gen] LinkNodesByKeys	
+[00:00:31]: Finding valid start task...	
+[00:00:31]:    ...picked 	Make a pick	
+[00:00:31]: Has start node	Clearing	
+[00:00:31]: Adding Background Nodes	
+[00:00:31]: [Story Gen] Adding Cove Nodes	
+[00:00:31]: [Ocean] Processing ocean fake room content.	
+[00:00:31]: [WorldSimActual::WorldGen_InitializeNodePoints]
+[00:00:31]: [WorldSimActual::WorldGen_VoronoiPass]
+[00:00:31]: GenerateVoronoiMap [100]:
+[00:00:32]: ...Done.
+[00:00:32]: [Story Gen] Finding nodes on mainland to connect a region to.	
+[00:00:32]: [Story Gen] Generate nodes. Starting at: 'MoonIsland_IslandShards'	
+[00:00:32]: [Story Gen] RestrictNodesByKey	
+[00:00:32]: [Story Gen] Adding Cove Nodes	
+[00:00:32]: [WorldSimActual::WorldGen_AddNewPositions]
+[00:00:32]: [WorldSimActual::WorldGen_VoronoiPass]
+[00:00:32]: GenerateVoronoiMap [50]:
+[00:00:33]: ...Done.
+[00:00:33]: ... story created	
+[00:00:33]: Baking map...	425	
+[00:00:33]: [WorldSimActual::WorldGen_Commit] worldgen success.
+[00:00:33]: [WorldSimActual::ConvertToTileMap]
+[00:00:33]: [ConvertToTileMap]
+[00:00:33]: [WorldSimActual::ConvertToTileMap] complete
+[00:00:33]: [WorldSimActual::SeparateIslands]
+[00:00:33]: [SeparateIslands]
+[00:00:33]: [WorldSimActual::SeparateIslands] complete
+[00:00:33]: Map Baked!	
+[00:00:33]: [WorldSimActual::ForceConnectivity]
+[00:00:33]: [GenerateLandmasses]
+[00:00:33]: [GenerateLandmasses] islands: 12
+[00:00:33]: [MergeConnectedLandmasses] false
+[00:00:33]: [WorldSimActual::ForceConnectivity] complete
+[00:00:33]: [WorldSimActual::DrawRoads]
+[00:00:33]: [DrawRoads]
+[00:00:33]: [WorldSimActual::DrawRoads] complete
+[00:00:33]: Encoding...	
+[00:00:33]: [WorldSimActual::CreateNodeIdTileMap]
+[00:00:33]: Encoding... DONE	
+[00:00:33]: Checking Tags	
+[00:00:33]: Populating voronoi...	
+[00:00:33]: [ReplaceSingleNonLandTiles] Validating...
+[00:00:33]: [ReplaceSingleNonLandTiles] Replaced 3 tiles.
+[00:00:33]: Not checking for disconnected tiles.	
+[00:00:34]: [Ocean] Placing ocean set pieces.	
+[00:00:34]: [Ocean] Placed 11 of 11 ocean set pieces.	
+[00:00:34]: [Ocean] Convert impassible to water...	
+[00:00:34]: [Ocean]  Square fill...	
+[00:00:37]: [Ocean]  Ground fill...	
+[00:00:38]: [Ocean]  Noise...	
+[00:00:38]: [Ocean]  Blend...	
+[00:00:39]: [Ocean]  Adding shoreline...	
+[00:00:40]: [Ocean] Void Outline...	
+[00:00:40]: [Ocean] Populating the ocean with lots of fun things to do...	
+[00:00:40]: [Ocean] Placing ocean set pieces.	
+[00:00:40]: [Ocean] Placed 9 of 9 ocean set pieces.	
+[00:00:40]: [Ocean] Placing ocean set pieces.	
+[00:00:40]: [Ocean] Placed 2 of 2 ocean set pieces.	
+[00:00:40]: [Ocean] Placing ocean set pieces.	
+[00:00:40]: [Ocean] Placed 1 of 2 ocean set pieces.	
+[00:00:40]: Checking Required Prefab moon_altar_rock_glass has at least 1 instances (1 found).	
+[00:00:40]: Checking Required Prefab sculpture_bishop has at least 1 instances (1 found).	
+[00:00:40]: Checking Required Prefab pigking has at least 1 instances (1 found).	
+[00:00:40]: Checking Required Prefab moon_fissure has at least 2 instances (87 found).	
+[00:00:40]: Checking Required Prefab monkeyqueen has at least 1 instances (0 found).	
+[00:00:40]: PANIC: missing required prefab [monkeyqueen]! Expected 1, got 0	
+[00:00:40]: An error occured during world gen we will retry! [was 	3	 of 	5	]	
+[00:00:40]: New size:	425	default	
+[00:00:40]: Creating story...	
+[00:00:40]: [Story Gen] Generate nodes. Starting at: 'Make a pick'	
+[00:00:40]: [Story Gen] LinkNodesByKeys	
+[00:00:40]: Finding valid start task...	
+[00:00:40]:    ...picked 	Make a pick	
+[00:00:40]: Has start node	Clearing	
+[00:00:40]: Adding Background Nodes	
+[00:00:40]: [Story Gen] Adding Cove Nodes	
+[00:00:40]: [Ocean] Processing ocean fake room content.	
+[00:00:40]: [WorldSimActual::WorldGen_InitializeNodePoints]
+[00:00:40]: [WorldSimActual::WorldGen_VoronoiPass]
+[00:00:40]: GenerateVoronoiMap [100]:
+[00:00:42]: ...Done.
+[00:00:42]: [Story Gen] Finding nodes on mainland to connect a region to.	
+[00:00:42]: [Story Gen] Generate nodes. Starting at: 'MoonIsland_IslandShards'	
+[00:00:42]: [Story Gen] RestrictNodesByKey	
+[00:00:42]: [Story Gen] Adding Cove Nodes	
+[00:00:42]: [WorldSimActual::WorldGen_AddNewPositions]
+[00:00:42]: [WorldSimActual::WorldGen_VoronoiPass]
+[00:00:42]: GenerateVoronoiMap [50]:
+[00:00:43]: ...Done.
+[00:00:43]: ... story created	
+[00:00:43]: Baking map...	425	
+[00:00:43]: [WorldSimActual::WorldGen_Commit] worldgen success.
+[00:00:43]: [WorldSimActual::ConvertToTileMap]
+[00:00:43]: [ConvertToTileMap]
+[00:00:43]: [WorldSimActual::ConvertToTileMap] complete
+[00:00:43]: [WorldSimActual::SeparateIslands]
+[00:00:43]: [SeparateIslands]
+[00:00:43]: [WorldSimActual::SeparateIslands] complete
+[00:00:43]: Map Baked!	
+[00:00:43]: [WorldSimActual::ForceConnectivity]
+[00:00:43]: [GenerateLandmasses]
+[00:00:43]: [GenerateLandmasses] islands: 12
+[00:00:43]: [MergeConnectedLandmasses] false
+[00:00:43]: [WorldSimActual::ForceConnectivity] complete
+[00:00:43]: [WorldSimActual::DrawRoads]
+[00:00:43]: [DrawRoads]
+[00:00:43]: [WorldSimActual::DrawRoads] complete
+[00:00:43]: Encoding...	
+[00:00:43]: [WorldSimActual::CreateNodeIdTileMap]
+[00:00:43]: Encoding... DONE	
+[00:00:43]: Checking Tags	
+[00:00:43]: Populating voronoi...	
+[00:00:43]: Warning! Could not find a spot for junk_yard in node Befriend the pigs:3:DeepForest	
+[00:00:43]: [ReplaceSingleNonLandTiles] Validating...
+[00:00:43]: [ReplaceSingleNonLandTiles] Replaced 0 tiles.
+[00:00:43]: Not checking for disconnected tiles.	
+[00:00:43]: [Ocean] Placing ocean set pieces.	
+[00:00:43]: [Ocean] Placed 11 of 11 ocean set pieces.	
+[00:00:43]: [Ocean] Convert impassible to water...	
+[00:00:43]: [Ocean]  Square fill...	
+[00:00:45]: [Ocean]  Ground fill...	
+[00:00:46]: [Ocean]  Noise...	
+[00:00:46]: [Ocean]  Blend...	
+[00:00:46]: [Ocean]  Adding shoreline...	
+[00:00:47]: [Ocean] Void Outline...	
+[00:00:47]: [Ocean] Populating the ocean with lots of fun things to do...	
+[00:00:47]: [Ocean] Placing ocean set pieces.	
+[00:00:47]: [Ocean] Placed 9 of 9 ocean set pieces.	
+[00:00:47]: [Ocean] Placing ocean set pieces.	
+[00:00:47]: [Ocean] Placed 4 of 4 ocean set pieces.	
+[00:00:47]: [Ocean] Placing ocean set pieces.	
+[00:00:47]: [Ocean] Placed 2 of 2 ocean set pieces.	
+[00:00:47]: Checking Required Prefab moon_altar_rock_glass has at least 1 instances (1 found).	
+[00:00:47]: Checking Required Prefab sculpture_bishop has at least 1 instances (1 found).	
+[00:00:47]: Checking Required Prefab pigking has at least 1 instances (1 found).	
+[00:00:47]: Checking Required Prefab moon_fissure has at least 2 instances (85 found).	
+[00:00:47]: Checking Required Prefab monkeyqueen has at least 1 instances (1 found).	
+[00:00:47]: Checking Required Prefab terrariumchest has at least 1 instances (1 found).	
+[00:00:47]: Checking Required Prefab gravestone has at least 1 instances (30 found).	
+[00:00:47]: Checking Required Prefab statueglommer has at least 1 instances (1 found).	
+[00:00:47]: Checking Required Prefab waterplant has at least 1 instances (72 found).	
+[00:00:47]: Checking Required Prefab sculpture_rook has at least 1 instances (1 found).	
+[00:00:47]: Checking Required Prefab hermithouse_construction1 has at least 1 instances (1 found).	
+[00:00:47]: Checking Required Prefab sculpture_knight has at least 1 instances (1 found).	
+[00:00:47]: Checking Required Prefab statueharp_hedgespawner has at least 1 instances (1 found).	
+[00:00:47]: Checking Required Prefab crabking_spawner has at least 1 instances (1 found).	
+[00:00:47]: Checking Required Prefab moon_altar_rock_idol has at least 1 instances (1 found).	
+[00:00:47]: Checking Required Prefab moon_altar_rock_seed has at least 1 instances (1 found).	
+[00:00:47]: Checking Required Prefab junk_pile_big has at least 1 instances (0 found).	
+[00:00:47]: PANIC: missing required prefab [junk_pile_big]! Expected 1, got 0	
+[00:00:47]: An error occured during world gen we will retry! [was 	4	 of 	5	]	
+[00:00:47]: New size:	425	default	
+[00:00:47]: Creating story...	
+[00:00:47]: [Story Gen] Generate nodes. Starting at: 'Make a pick'	
+[00:00:47]: [Story Gen] LinkNodesByKeys	
+[00:00:47]: Finding valid start task...	
+[00:00:47]:    ...picked 	Make a pick	
+[00:00:47]: Has start node	Clearing	
+[00:00:47]: Adding Background Nodes	
+[00:00:47]: [Story Gen] Adding Cove Nodes	
+[00:00:47]: [Ocean] Processing ocean fake room content.	
+[00:00:47]: [WorldSimActual::WorldGen_InitializeNodePoints]
+[00:00:47]: [WorldSimActual::WorldGen_VoronoiPass]
+[00:00:47]: GenerateVoronoiMap [100]:
+[00:00:48]: ...Done.
+[00:00:48]: [Story Gen] Finding nodes on mainland to connect a region to.	
+[00:00:48]: [Story Gen] Generate nodes. Starting at: 'MoonIsland_IslandShards'	
+[00:00:48]: [Story Gen] RestrictNodesByKey	
+[00:00:48]: [Story Gen] Adding Cove Nodes	
+[00:00:48]: [WorldSimActual::WorldGen_AddNewPositions]
+[00:00:48]: [WorldSimActual::WorldGen_VoronoiPass]
+[00:00:48]: GenerateVoronoiMap [50]:
+[00:00:49]: ...Done.
+[00:00:49]: Infinite edge! MoonIsland_Mine:COVE_0:Empty_Cove
+[00:00:49]: Infinite edge! MoonIsland_Mine:COVE_0:Empty_Cove
+[00:00:49]: ... story created	
+[00:00:49]: Baking map...	425	
+[00:00:49]: [WorldSimActual::WorldGen_Commit] worldgen success.
+[00:00:49]: [WorldSimActual::ConvertToTileMap]
+[00:00:49]: [ConvertToTileMap]
+[00:00:49]: [WorldSimActual::ConvertToTileMap] complete
+[00:00:49]: [WorldSimActual::SeparateIslands]
+[00:00:49]: [SeparateIslands]
+[00:00:49]: [WorldSimActual::SeparateIslands] complete
+[00:00:49]: Map Baked!	
+[00:00:49]: [WorldSimActual::ForceConnectivity]
+[00:00:49]: [GenerateLandmasses]
+[00:00:49]: [GenerateLandmasses] islands: 15
+[00:00:49]: [MergeConnectedLandmasses] false
+[00:00:49]: [WorldSimActual::ForceConnectivity] complete
+[00:00:49]: [WorldSimActual::DrawRoads]
+[00:00:49]: [DrawRoads]
+[00:00:49]: [WorldSimActual::DrawRoads] complete
+[00:00:49]: Encoding...	
+[00:00:49]: [WorldSimActual::CreateNodeIdTileMap]
+[00:00:49]: Encoding... DONE	
+[00:00:49]: Checking Tags	
+[00:00:49]: Populating voronoi...	
+[00:00:49]: Warning! Could not find a spot for Beefalo Farm in node Great Plains:1:BeefalowPlain	
+[00:00:49]: [ReplaceSingleNonLandTiles] Validating...
+[00:00:49]: [ReplaceSingleNonLandTiles] Replaced 7 tiles.
+[00:00:49]: Not checking for disconnected tiles.	
+[00:00:49]: [Ocean] Placing ocean set pieces.	
+[00:00:49]: [Ocean] Placed 11 of 11 ocean set pieces.	
+[00:00:49]: [Ocean] Convert impassible to water...	
+[00:00:49]: [Ocean]  Square fill...	
+[00:00:51]: [Ocean]  Ground fill...	
+[00:00:51]: [Ocean]  Noise...	
+[00:00:52]: [Ocean]  Blend...	
+[00:00:52]: [Ocean]  Adding shoreline...	
+[00:00:52]: [Ocean] Void Outline...	
+[00:00:52]: [Ocean] Populating the ocean with lots of fun things to do...	
+[00:00:52]: [Ocean] Placing ocean set pieces.	
+[00:00:52]: [Ocean] Placed 9 of 9 ocean set pieces.	
+[00:00:52]: [Ocean] Placing ocean set pieces.	
+[00:00:52]: [Ocean] Placed 4 of 4 ocean set pieces.	
+[00:00:52]: [Ocean] Placing ocean set pieces.	
+[00:00:53]: [Ocean] Placed 2 of 2 ocean set pieces.	
+[00:00:53]: Checking Required Prefab moon_altar_rock_glass has at least 1 instances (1 found).	
+[00:00:53]: Checking Required Prefab sculpture_bishop has at least 1 instances (1 found).	
+[00:00:53]: Checking Required Prefab pigking has at least 1 instances (1 found).	
+[00:00:53]: Checking Required Prefab moon_fissure has at least 2 instances (84 found).	
+[00:00:53]: Checking Required Prefab monkeyqueen has at least 1 instances (1 found).	
+[00:00:53]: Checking Required Prefab terrariumchest has at least 1 instances (1 found).	
+[00:00:53]: Checking Required Prefab gravestone has at least 1 instances (27 found).	
+[00:00:53]: Checking Required Prefab statueglommer has at least 1 instances (1 found).	
+[00:00:53]: Checking Required Prefab waterplant has at least 1 instances (106 found).	
+[00:00:53]: Checking Required Prefab sculpture_rook has at least 1 instances (1 found).	
+[00:00:53]: Checking Required Prefab hermithouse_construction1 has at least 1 instances (1 found).	
+[00:00:53]: Checking Required Prefab sculpture_knight has at least 1 instances (1 found).	
+[00:00:53]: Checking Required Prefab statueharp_hedgespawner has at least 1 instances (1 found).	
+[00:00:53]: Checking Required Prefab crabking_spawner has at least 1 instances (1 found).	
+[00:00:53]: Checking Required Prefab moon_altar_rock_idol has at least 1 instances (1 found).	
+[00:00:53]: Checking Required Prefab moon_altar_rock_seed has at least 1 instances (1 found).	
+[00:00:53]: Checking Required Prefab junk_pile_big has at least 1 instances (1 found).	
+[00:00:53]: Checking Required Prefab charlie_stage_post has at least 1 instances (1 found).	
+[00:00:53]: [ReplaceSingleNonLandTiles] Validating...
+[00:00:53]: [ReplaceSingleNonLandTiles] Replaced 0 tiles.
+[00:00:53]: Done forest map gen!	
+[00:00:53]: Checking map...	
+[00:00:53]: Generation complete, injecting world entities.	
+[00:00:53]: Injected world entities.	
+[00:00:53]: WorldSim::SimThread::Main() complete
+[00:00:53]: Serializing world: session/608E9B3712D4EC7B/0000000002
+[00:00:53]: Auto-enabling encoded user paths
+[00:00:53]: Klump load on boot started.	
+[00:00:53]: Klump files loaded: 	0	
+[00:00:53]: 	Unload FE	
+[00:00:53]: 	Unload FE done	
+[00:00:55]: 	LOAD BE	
+[00:01:08]: 	LOAD BE: done	
+[00:01:08]: Begin Session: 608E9B3712D4EC7B
+[00:01:08]: saving to server_temp/server_save	
+[00:01:08]: MiniMapComponent::AddAtlas( minimap/minimap_data1.xml )
+[00:01:08]: MiniMapComponent::AddAtlas( minimap/minimap_data2.xml )
+[00:01:08]: Loading 19 new character(s)	
+[00:01:09]: Total 19 character(s) loaded	
+[00:01:10]: Loading Nav Grid	
+[00:01:10]: World generated on build 639083 with save version: 5.151, using seed: 2005503030	
+[00:01:10]: [Shard] Secondary shard is waiting for LUA...
+[00:01:10]: OVERRIDE: setting	resettime	to	none	
+[00:01:10]: OVERRIDE: setting	basicresource_regrowth	to	always	
+[00:01:10]: OVERRIDE: setting	portalresurection	to	always	
+[00:01:10]: OVERRIDE: setting	ghostsanitydrain	to	none	
+[00:01:15]: Reconstructing topology	
+[00:01:15]: 	...Sorting points	
+[00:01:15]: 	...Sorting edges	
+[00:01:15]: 	...Connecting nodes	
+[00:01:15]: 	...Validating connections	
+[00:01:15]: 	...Housekeeping	
+[00:01:15]: 	...Done!	
+[00:01:15]: [Special Event] Setting up hallowed_nights	
+[00:01:15]: [Hallowed Nights] Halloween Trinkets added: 54	
+[00:01:15]: 1 uploads added to server. From server_temp
+[00:01:15]: About to start a shard with these settings:
+[00:01:15]:   ShardName: Loot
+[00:01:15]:   ShardID: 3
+[00:01:15]:   ShardRole: SECONDARY
+[00:01:15]:   MasterHost: 127.0.0.1
+[00:01:15]:   MasterBind: (null)
+[00:01:15]:   MasterPort: 10889
+[00:01:16]: [Shard] Connecting to master...
+[00:01:16]: Telling Client our new session identifier: 608E9B3712D4EC7B
+[00:01:16]: [Shard] Sending secondary shard information to master...
+[00:01:17]: Validating portal[1] <-> <nil>[1] (inactive)	
+[00:01:17]: Validating portal[2] <-> <nil>[2] (inactive)	
+[00:01:17]: Validating portal[3] <-> <nil>[3] (inactive)	
+[00:01:17]: Validating portal[4] <-> <nil>[4] (inactive)	
+[00:01:17]: Validating portal[5] <-> <nil>[5] (inactive)	
+[00:01:17]: Validating portal[6] <-> <nil>[6] (inactive)	
+[00:01:17]: Validating portal[7] <-> <nil>[7] (inactive)	
+[00:01:17]: Validating portal[8] <-> <nil>[8] (inactive)	
+[00:01:17]: Validating portal[9] <-> <nil>[9] (inactive)	
+[00:01:17]: Validating portal[10] <-> <nil>[10] (inactive)	
+[00:01:17]: Received MasterInfoPacket row d54a71ab746f9567fdc946172390201c region ap-southeast-1
+[00:01:17]: Obtaining secondary shard IP from ap-southeast-1 lobby
+[00:01:17]: [Shard] secondary shard is now ready!
+[00:01:18]: World 2 is now connected	
+[00:01:18]: Invalid RPC sender list
+[00:01:18]: Validating portal[1] <-> 2[1] (disabled)	
+[00:01:18]: Validating portal[2] <-> 2[2] (disabled)	
+[00:01:18]: Validating portal[3] <-> 2[3] (disabled)	
+[00:01:18]: Validating portal[4] <-> 2[4] (disabled)	
+[00:01:18]: Validating portal[5] <-> 2[5] (disabled)	
+[00:01:18]: Validating portal[6] <-> 2[6] (disabled)	
+[00:01:18]: Validating portal[7] <-> 2[7] (disabled)	
+[00:01:18]: Validating portal[8] <-> 2[8] (disabled)	
+[00:01:18]: Validating portal[9] <-> 2[9] (disabled)	
+[00:01:18]: Validating portal[10] <-> 2[10] (disabled)	
+[00:01:18]: World 1 is now connected	
+[00:01:18]: Validating portal[1] <-> 1[1] (disabled)	
+[00:01:18]: Validating portal[2] <-> 1[2] (disabled)	
+[00:01:18]: Validating portal[3] <-> 1[3] (disabled)	
+[00:01:18]: Validating portal[4] <-> 1[4] (disabled)	
+[00:01:18]: Validating portal[5] <-> 1[5] (disabled)	
+[00:01:18]: Validating portal[6] <-> 1[6] (disabled)	
+[00:01:18]: Validating portal[7] <-> 1[7] (disabled)	
+[00:01:18]: Validating portal[8] <-> 1[8] (disabled)	
+[00:01:18]: Validating portal[9] <-> 1[9] (disabled)	
+[00:01:18]: Validating portal[10] <-> 1[10] (disabled)	
+[00:01:18]: [SyncWorldSettings] recieved world settings from master shard.	true	
+[00:01:18]: [SyncWorldSettings] applying portalresurection = always from master shard.	
+[00:01:18]: component hauntable already exists on entity 104227 - multiplayer_portal!	scripts/prefabs/multiplayer_portal.lua:47 in (upvalue) OnGetPortalRez (Lua) <45-54>	
+[00:01:18]: [SyncWorldSettings] applying ghostsanitydrain = none from master shard.	
+[00:01:18]: [SyncWorldSettings] applying resettime = none from master shard.	
+[00:01:18]: [SyncWorldSettings] applying basicresource_regrowth = always from master shard.	
+[00:01:19]: [Shard] secondary shard LUA is now ready!
+[00:01:19]: Sim paused
+[00:12:32]: Sim unpaused
+[00:12:35]: Server Autopaused	
+[00:12:36]: Server Unpaused	
+[00:12:37]: Server Autopaused	
+[00:12:37]: Server Unpaused	
+[00:12:37]: Server Autopaused	
+[00:12:52]: Server Unpaused	
+[00:12:52]: Sim paused
+[00:14:13]: Sim unpaused
+[00:14:17]: Server Autopaused	
+[00:14:21]: Server Unpaused	
+[00:15:11]: Server Autopaused	
+[00:15:13]: Server Unpaused	
+[00:15:14]: Server Autopaused	
+[00:15:30]: Server Unpaused	
+[00:15:31]: Server Autopaused	
+[00:15:38]: Server Unpaused	
+[00:15:39]: Server Autopaused	
+[00:15:40]: Server Unpaused	
+[00:15:46]: Server Autopaused	
+[00:15:47]: Server Unpaused	
+[00:15:55]: Server Autopaused	
+[00:15:55]: Server Unpaused	
+[00:15:56]: Server Autopaused	
+[00:15:56]: Server Unpaused	
+[00:15:56]: Server Autopaused	
+[00:15:57]: Server Unpaused	
+[00:15:57]: Server Autopaused	
+[00:15:57]: Server Unpaused	
+[00:15:57]: Server Autopaused	
+[00:15:57]: Server Unpaused	
+[00:15:58]: Server Autopaused	
+[00:15:58]: Server Unpaused	
+[00:15:58]: Server Autopaused	
+[00:15:59]: Server Unpaused	
+[00:18:37]: Server Autopaused	
+[00:19:13]: Server Unpaused	
+[00:19:25]: Server Autopaused	
+[00:19:26]: Server Unpaused	
+[00:19:28]: Server Autopaused	
+[00:19:33]: Server Unpaused	
+[00:19:36]: Server Autopaused	
+[00:19:37]: Server Unpaused	
+[00:19:39]: Server Autopaused	
+[00:19:40]: Server Unpaused	
+[00:19:49]: Server Autopaused	
+[00:19:51]: Server Unpaused	
+[00:20:01]: Server Autopaused	
+[00:20:09]: Server Unpaused	
+[00:20:18]: Server Autopaused	
+[00:20:19]: Server Unpaused	
+[00:20:55]: Server Autopaused	
+[00:20:56]: Server Unpaused	
+[00:20:57]: Server Autopaused	
+[00:20:58]: Server Unpaused	
+[00:21:09]: Server Autopaused	
+[00:21:10]: Server Unpaused	
+[00:21:11]: Server Autopaused	
+[00:21:12]: Server Unpaused	
+[00:21:16]: Server Autopaused	
+[00:21:17]: Server Unpaused	
+[00:21:18]: Server Autopaused	
+[00:21:19]: Server Unpaused	
+[00:21:31]: Server Autopaused	
+[00:21:32]: Server Unpaused	
+[00:21:32]: Server Autopaused	
+[00:21:33]: Server Unpaused	
+[00:21:37]: Server Autopaused	
+[00:21:37]: Server Unpaused	
+[00:21:38]: Server Autopaused	
+[00:21:39]: Server Unpaused	
+[00:21:44]: Server Autopaused	
+[00:21:45]: Server Unpaused	
+[00:21:46]: Server Autopaused	
+[00:21:47]: Server Unpaused	
+[00:21:49]: Server Autopaused	
+[00:21:50]: Server Unpaused	
+[00:21:51]: Server Autopaused	
+[00:21:52]: Server Unpaused	
+[00:21:55]: Server Autopaused	
+[00:21:56]: Server Unpaused	
+[00:21:56]: Server Autopaused	
+[00:21:57]: Server Unpaused	
+[00:22:06]: Server Autopaused	
+[00:22:07]: Server Unpaused	
+[00:22:08]: Server Autopaused	
+[00:22:09]: Server Unpaused	
+[00:22:21]: Server Autopaused	
+[00:22:22]: Server Unpaused	
+[00:22:22]: Server Autopaused	
+[00:22:23]: Server Unpaused	
+[00:22:25]: Server Autopaused	
+[00:22:27]: Server Unpaused	
+[00:22:27]: Server Autopaused	
+[00:22:28]: Server Unpaused	
+[00:22:30]: Server Autopaused	
+[00:22:30]: Server Unpaused	
+[00:22:31]: Server Autopaused	
+[00:22:32]: Server Unpaused	
+[00:22:34]: Server Autopaused	
+[00:22:34]: Server Unpaused	
+[00:22:35]: Server Autopaused	
+[00:22:36]: Server Unpaused	
+[00:22:38]: Server Autopaused	
+[00:22:43]: Server Unpaused	
+[00:22:44]: Server Autopaused	
+[00:22:45]: Server Unpaused	
+[00:22:48]: Server Autopaused	
+[00:22:51]: Server Unpaused	
+[00:22:52]: [Shard] #2 -> session/608E9B3712D4EC7B/A7GK9MMPN3T4/0000000003
+[00:22:52]: [Shard] Received migration #2 data for (KU_54sjcu-a)
+[00:22:55]: [P2P] Session request for '76561199127037806'
+[00:23:00]: [P2P] Create session: 16.43.192.60|1 '76561199127037806'
+[00:23:00]: [P2P] Received from 16.43.192.60|1 '76561199127037806'
+[00:23:00]: [P2P] Sent to 16.43.192.60|1 '76561199127037806'
+[00:23:02]: New incoming connection 16.43.192.60|1 <15218207022821331481>
+[00:23:02]: Client connected from 16.43.192.60|1 <15218207022821331481>
+[00:23:02]: ValidateGameSessionToken GUID<15218207022821331481>
+[00:23:02]: Client authenticated: (KU_54sjcu-a) chientrm
+[00:23:02]: [Steam] Authenticated host '76561199127037806'
+[00:23:02]: [Shard] Completed incoming migration #2 for (KU_54sjcu-a)
+[00:23:25]: Resuming user: session/608E9B3712D4EC7B/A7GK9MMPN3T4/0000000003
+[00:23:25]: Player will spawn at default location	
+[00:23:25]: Spawning player at: [Load] (122.00, 0.00, 354.00)	
+[00:23:32]: Server Autopaused	
+[00:23:34]: Server Unpaused	
+[00:23:34]: Server Autopaused	
+[00:23:36]: Server Unpaused	
+[00:23:36]: Server Autopaused	
+[00:23:37]: Server Unpaused	
+[00:23:37]: Server Autopaused	
+[00:23:43]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(c_gonext("cave_entrance")) @(121.86, 362.80)
+[00:23:43]: Finding a 	cave_entrance	
+[00:23:43]: Found 103532 (1/10)	
+[00:23:43]: Server Unpaused	
+[00:23:52]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(local player = UserToPlayer('KU_54sjcu-a') if player == nil then ThePlayer.components.talker:Say("Command does not work because the player isn't in the same world with you!") return end function StopActiveGodmode() if player.GodmodeTask then player.GodmodeTask:Cancel() player.GodmodeTask = nil player.components.health:SetInvincible(false) print("Godmode task stopped") end end function GodmodePlayerTask() if player and player:IsValid() and player.components.health then player.components.health:SetInvincible(true) player.components.health:SetPercent(1) player.components.sanity:SetPercent(1) player.components.hunger:SetPercent(1) player.components.temperature:SetTemperature(25) else StopActiveGodmode() end end function ToggleGodmode() if player.GodmodeTask then StopActiveGodmode() elseif player.components.health ~= nil then player.GodmodeTask = player:DoPeriodicTask(0.1, GodmodePlayerTask) print("Godmode task started") end end ToggleGodmode()) @(265.08, 717.86)
+[00:23:52]: Godmode task started	
+[00:24:07]: Server Autopaused	
+[00:24:17]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(print(c_find("cave_entrance"):GetDebugString())) @(244.44, 712.29)
+[00:24:17]: 103532 - cave_entrance age 465.83
+GUID:103532 Name:  Tags: inspectable antlion_sinkhole_blocker MINE_workable blocker 
+Prefab: cave_entrance
+AnimState: bank: cave_entrance build: cave_entrance anim: idle_closed anim/cave_entrance.zip:idle_closed Frame: 1/2 Facing: 0:right
+Transform: Pos=(256.50,0.00,719.68) Scale=(1.00,1.00,1.00) Heading=0.00 Prediction=-1.00
+Network: NetworkID=19785 Owner=UNASSIGNED_RAKNET_GUID NetSleep=1111111111111111111111111111111111111111111111111111111111111110
+MiniMapEntity: 
+Physics: Collision Group: 512 Mask: 256,1024,16384, (ACTIVE) Vel: 0.00
+SoundEmitter: 
+Buffered Action: nil
+-----------
+workable: workleft: 6 maxwork: -1 workable: true
+worldmigrator: ID: 4 world: 1 (auto) available: true receives: 4 status: inactive enabled: false
+	
+[00:24:17]: Server Unpaused	
+[00:24:32]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(local player = UserToPlayer('KU_54sjcu-a') if player == nil then UserToPlayer("KU_54sjcu-a").components.talker:Say("Command does not work because the player isn't in the same world with you!") end local function InInv(b) local inv = b.components.inventoryitem return inv and inv.owner and true or false end local function CanDelete(inst) if inst and inst ~= TheWorld and not InInv(inst) and inst.Transform then if inst:HasTag("player") then if inst.userid == nil or inst.userid == "" then return true end else return true end end return false end if player and player.Transform then if player.components.burnable then player.components.burnable:Extinguish(true) end local x,y,z = player.Transform:GetWorldPosition() local ents = TheSim:FindEntities(x,y,z, 3) for _, obj in pairs(ents) do if CanDelete(obj) then if obj.components then if obj.components.burnable then obj.components.burnable:Extinguish(true) end if obj.components.firefx then if obj.components.firefx.extinguishsoundtest then obj.components.firefx.extinguishsoundtest = function() return true end end obj.components.firefx:Extinguish() end end if (not (obj.prefab == "minerhatlight" or "lanternlight" or "yellowamuletlight" or "slurperlight" or "redlanternlight" or "lighterfire" or "torchfire" or "torchfire_rag" or "torchfire_spooky" or "torchfire_shadow")) or (obj.entity:GetParent() == nil) then obj:Remove() print(obj.prefab) end end end end) @(251.68, 714.85)
+[00:24:32]: cave_entrance	
+[00:24:33]: Server Autopaused	
+[00:24:35]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(c_gonext("cave_entrance")) @(249.71, 720.50)
+[00:24:35]: Finding a 	cave_entrance	
+[00:24:35]: Found 103533 (1/9)	
+[00:24:35]: Server Unpaused	
+[00:24:36]: Available disk space for save files: 4598 MB
+[00:24:37]: Serializing user: session/608E9B3712D4EC7B/A7GK9MMPN3T4/0000000003
+[00:24:37]: Serializing world: session/608E9B3712D4EC7B/0000000003
+[00:24:37]: Server Autopaused	
+[00:24:37]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(print(c_find("cave_entrance"):GetDebugString())) @(-323.09, 669.32)
+[00:24:37]: 103533 - cave_entrance age 482.47
+GUID:103533 Name:  Tags: inspectable antlion_sinkhole_blocker MINE_workable blocker 
+Prefab: cave_entrance
+AnimState: bank: cave_entrance build: cave_entrance anim: idle_closed anim/cave_entrance.zip:idle_closed Frame: 1/2 Facing: 0:right
+Transform: Pos=(-316.32,0.00,668.50) Scale=(1.00,1.00,1.00) Heading=0.00 Prediction=-1.00
+Network: NetworkID=19786 Owner=UNASSIGNED_RAKNET_GUID NetSleep=1111111111111111111111111111111111111111111111111111111111111110
+MiniMapEntity: 
+Physics: Collision Group: 512 Mask: 256,1024,16384, (ACTIVE) Vel: 0.00
+SoundEmitter: 
+Buffered Action: nil
+-----------
+workable: workleft: 6 maxwork: -1 workable: true
+worldmigrator: ID: 9 world: 1 (auto) available: true receives: 9 status: inactive enabled: false
+	
+[00:24:37]: Server Unpaused	
+[00:24:50]: [Steam] SendUserDisconnect for '76561199127037806'
+[00:24:50]: Connection lost to 16.43.192.60|1 <15218207022821331481>
+[00:24:50]: Serializing user: session/608E9B3712D4EC7B/A7GK9MMPN3T4/0000000004
+[00:24:50]: Sim paused
+[00:24:57]: [P2P] Connection failed for '76561199127037806' because of error code 4(The connection timed out because the target user didn't respond.).
+[00:26:20]: [Shard] Received forward request #3 for (KU_54sjcu-a)
+[00:26:20]: Sim unpaused
+[00:26:32]: [P2P] Received from 16.43.192.60|1 '76561199127037806'
+[00:26:32]: [P2P] Sent to 16.43.192.60|1 '76561199127037806'
+[00:26:33]: New incoming connection 16.43.192.60|1 <16385147361023917895>
+[00:26:33]: Client connected from 16.43.192.60|1 <16385147361023917895>
+[00:26:33]: ValidateGameSessionToken GUID<16385147361023917895>
+[00:26:34]: Client authenticated: (KU_54sjcu-a) chientrm
+[00:26:34]: [Steam] Authenticated host '76561199127037806'
+[00:26:35]: There is no active event to validate against.
+[00:26:35]: [Shard] Completed incoming migration #3 for (KU_54sjcu-a)
+[00:27:05]: Resuming user: session/608E9B3712D4EC7B/A7GK9MMPN3T4/0000000004
+[00:27:05]: Spawning player at: [Load] (-317.81, 0.00, 668.50)	
+[00:27:10]: Server Autopaused	
+[00:27:12]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(print(c_find("cave_entrance"):GetDebugString())) @(-315.62, 632.03)
+[00:27:12]: 103533 - cave_entrance age 545.30
+GUID:103533 Name:  Tags: inspectable antlion_sinkhole_blocker MINE_workable blocker 
+Prefab: cave_entrance
+AnimState: bank: cave_entrance build: cave_entrance anim: idle_closed anim/cave_entrance.zip:idle_closed Frame: 1/2 Facing: 0:right
+Transform: Pos=(-316.32,0.00,668.50) Scale=(1.00,1.00,1.00) Heading=0.00 Prediction=-1.00
+Network: NetworkID=19786 Owner=UNASSIGNED_RAKNET_GUID NetSleep=1111111111111111111111111111111111111111111111111111111111111110
+MiniMapEntity: 
+Physics: Collision Group: 512 Mask: 256,1024,16384, (ACTIVE) Vel: 0.00
+SoundEmitter: 
+Buffered Action: nil
+-----------
+workable: workleft: 6 maxwork: -1 workable: true
+worldmigrator: ID: 9 world: 1 (auto) available: true receives: 9 status: inactive enabled: false
+	
+[00:27:12]: Server Unpaused	
+[00:27:16]: Server Autopaused	
+[00:27:19]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(c_gonext("cave_entrance")) @(-324.76, 672.20)
+[00:27:19]: Finding a 	cave_entrance	
+[00:27:19]: Found 103534 (2/9)	
+[00:27:19]: Server Unpaused	
+[00:27:20]: Server Autopaused	
+[00:27:20]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(print(c_find("cave_entrance"):GetDebugString())) @(-107.91, 323.38)
+[00:27:20]: 103534 - cave_entrance age 549.73
+GUID:103534 Name:  Tags: inspectable antlion_sinkhole_blocker MINE_workable blocker 
+Prefab: cave_entrance
+AnimState: bank: cave_entrance build: cave_entrance anim: idle_closed anim/cave_entrance.zip:idle_closed Frame: 1/2 Facing: 0:right
+Transform: Pos=(-99.50,0.00,319.68) Scale=(1.00,1.00,1.00) Heading=0.00 Prediction=-1.00
+Network: NetworkID=19787 Owner=UNASSIGNED_RAKNET_GUID NetSleep=1111111111111111111111111111111111111111111111111111111111111110
+MiniMapEntity: 
+Physics: Collision Group: 512 Mask: 256,1024,16384, (ACTIVE) Vel: 0.00
+SoundEmitter: 
+Buffered Action: nil
+-----------
+workable: workleft: 6 maxwork: -1 workable: true
+worldmigrator: ID: 3 world: 1 (auto) available: true receives: 3 status: inactive enabled: false
+	
+[00:27:20]: Server Unpaused	
+[00:27:25]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(local player = UserToPlayer('KU_54sjcu-a') if player == nil then UserToPlayer("KU_54sjcu-a").components.talker:Say("Command does not work because the player isn't in the same world with you!") end local function InInv(b) local inv = b.components.inventoryitem return inv and inv.owner and true or false end local function CanDelete(inst) if inst and inst ~= TheWorld and not InInv(inst) and inst.Transform then if inst:HasTag("player") then if inst.userid == nil or inst.userid == "" then return true end else return true end end return false end if player and player.Transform then if player.components.burnable then player.components.burnable:Extinguish(true) end local x,y,z = player.Transform:GetWorldPosition() local ents = TheSim:FindEntities(x,y,z, 3) for _, obj in pairs(ents) do if CanDelete(obj) then if obj.components then if obj.components.burnable then obj.components.burnable:Extinguish(true) end if obj.components.firefx then if obj.components.firefx.extinguishsoundtest then obj.components.firefx.extinguishsoundtest = function() return true end end obj.components.firefx:Extinguish() end end if (not (obj.prefab == "minerhatlight" or "lanternlight" or "yellowamuletlight" or "slurperlight" or "redlanternlight" or "lighterfire" or "torchfire" or "torchfire_rag" or "torchfire_spooky" or "torchfire_shadow")) or (obj.entity:GetParent() == nil) then obj:Remove() print(obj.prefab) end end end end) @(-104.13, 314.54)
+[00:27:25]: cave_entrance	
+[00:27:26]: Server Autopaused	
+[00:27:26]: Server Unpaused	
+[00:27:27]: Server Autopaused	
+[00:27:27]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(c_gonext("cave_entrance")) @(-106.68, 320.23)
+[00:27:27]: Finding a 	cave_entrance	
+[00:27:27]: Found 103535 (2/8)	
+[00:27:28]: Server Unpaused	
+[00:27:28]: Server Autopaused	
+[00:27:29]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(print(c_find("cave_entrance"):GetDebugString())) @(-583.72, 268.23)
+[00:27:29]: 103535 - cave_entrance age 556.43
+GUID:103535 Name:  Tags: inspectable antlion_sinkhole_blocker MINE_workable blocker 
+Prefab: cave_entrance
+AnimState: bank: cave_entrance build: cave_entrance anim: idle_closed anim/cave_entrance.zip:idle_closed Frame: 1/2 Facing: 0:right
+Transform: Pos=(-576.50,0.00,267.68) Scale=(1.00,1.00,1.00) Heading=0.00 Prediction=-1.00
+Network: NetworkID=19788 Owner=UNASSIGNED_RAKNET_GUID NetSleep=1111111111111111111111111111111111111111111111111111111111111110
+MiniMapEntity: 
+Physics: Collision Group: 512 Mask: 256,1024,16384, (ACTIVE) Vel: 0.00
+SoundEmitter: 
+Buffered Action: nil
+-----------
+workable: workleft: 6 maxwork: -1 workable: true
+worldmigrator: ID: 8 world: 1 (auto) available: true receives: 8 status: inactive enabled: false
+	
+[00:27:29]: Server Unpaused	
+[00:27:32]: Server Autopaused	
+[00:27:33]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(c_gonext("cave_entrance")) @(-575.78, 231.21)
+[00:27:33]: Finding a 	cave_entrance	
+[00:27:33]: Found 103536 (3/8)	
+[00:27:33]: Server Unpaused	
+[00:27:33]: Server Autopaused	
+[00:27:34]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(print(c_find("cave_entrance"):GetDebugString())) @(-7.78, 559.84)
+[00:27:34]: 103536 - cave_entrance age 559.80
+GUID:103536 Name:  Tags: inspectable antlion_sinkhole_blocker MINE_workable blocker 
+Prefab: cave_entrance
+AnimState: bank: cave_entrance build: cave_entrance anim: idle_closed anim/cave_entrance.zip:idle_closed Frame: 1/2 Facing: 0:right
+Transform: Pos=(-8.50,0.00,596.31) Scale=(1.00,1.00,1.00) Heading=0.00 Prediction=-1.00
+Network: NetworkID=19789 Owner=UNASSIGNED_RAKNET_GUID NetSleep=1111111111111111111111111111111111111111111111111111111111111110
+MiniMapEntity: 
+Physics: Collision Group: 512 Mask: 256,1024,16384, (ACTIVE) Vel: 0.00
+SoundEmitter: 
+Buffered Action: nil
+-----------
+workable: workleft: 6 maxwork: -1 workable: true
+worldmigrator: ID: 1 world: 1 (auto) available: true receives: 1 status: inactive enabled: false
+	
+[00:27:34]: Server Unpaused	
+[00:27:37]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(local player = UserToPlayer('KU_54sjcu-a') if player == nil then UserToPlayer("KU_54sjcu-a").components.talker:Say("Command does not work because the player isn't in the same world with you!") end local function InInv(b) local inv = b.components.inventoryitem return inv and inv.owner and true or false end local function CanDelete(inst) if inst and inst ~= TheWorld and not InInv(inst) and inst.Transform then if inst:HasTag("player") then if inst.userid == nil or inst.userid == "" then return true end else return true end end return false end if player and player.Transform then if player.components.burnable then player.components.burnable:Extinguish(true) end local x,y,z = player.Transform:GetWorldPosition() local ents = TheSim:FindEntities(x,y,z, 3) for _, obj in pairs(ents) do if CanDelete(obj) then if obj.components then if obj.components.burnable then obj.components.burnable:Extinguish(true) end if obj.components.firefx then if obj.components.firefx.extinguishsoundtest then obj.components.firefx.extinguishsoundtest = function() return true end end obj.components.firefx:Extinguish() end end if (not (obj.prefab == "minerhatlight" or "lanternlight" or "yellowamuletlight" or "slurperlight" or "redlanternlight" or "lighterfire" or "torchfire" or "torchfire_rag" or "torchfire_spooky" or "torchfire_shadow")) or (obj.entity:GetParent() == nil) then obj:Remove() print(obj.prefab) end end end end) @(-13.19, 591.03)
+[00:27:37]: cave_entrance	
+[00:27:39]: Server Autopaused	
+[00:27:40]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(c_gonext("cave_entrance")) @(-13.30, 597.86)
+[00:27:40]: Finding a 	cave_entrance	
+[00:27:40]: Found 103537 (3/7)	
+[00:27:40]: Server Unpaused	
+[00:27:40]: Server Autopaused	
+[00:27:41]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(print(c_find("cave_entrance"):GetDebugString())) @(390.87, -6.95)
+[00:27:41]: 103537 - cave_entrance age 564.93
+GUID:103537 Name:  Tags: inspectable antlion_sinkhole_blocker MINE_workable blocker 
+Prefab: cave_entrance
+AnimState: bank: cave_entrance build: cave_entrance anim: idle_closed anim/cave_entrance.zip:idle_closed Frame: 1/2 Facing: 0:right
+Transform: Pos=(395.68,0.00,-8.50) Scale=(1.00,1.00,1.00) Heading=0.00 Prediction=-1.00
+Network: NetworkID=19790 Owner=UNASSIGNED_RAKNET_GUID NetSleep=1111111111111111111111111111111111111111111111111111111111111110
+MiniMapEntity: 
+Physics: Collision Group: 512 Mask: 256,1024,16384, (ACTIVE) Vel: 0.00
+SoundEmitter: 
+Buffered Action: nil
+-----------
+workable: workleft: 6 maxwork: -1 workable: true
+worldmigrator: ID: 7 world: 1 (auto) available: true receives: 7 status: inactive enabled: false
+	
+[00:27:41]: Server Unpaused	
+[00:27:43]: Server Autopaused	
+[00:27:44]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(c_gonext("cave_entrance")) @(399.55, -6.88)
+[00:27:44]: Finding a 	cave_entrance	
+[00:27:44]: Found 103538 (4/7)	
+[00:27:44]: Server Unpaused	
+[00:27:45]: Server Autopaused	
+[00:27:46]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(print(c_find("cave_entrance"):GetDebugString())) @(488.37, 149.93)
+[00:27:46]: 103538 - cave_entrance age 567.40
+GUID:103538 Name:  Tags: inspectable antlion_sinkhole_blocker MINE_workable blocker 
+Prefab: cave_entrance
+AnimState: bank: cave_entrance build: cave_entrance anim: idle_closed anim/cave_entrance.zip:idle_closed Frame: 1/2 Facing: 0:right
+Transform: Pos=(484.50,0.00,148.31) Scale=(1.00,1.00,1.00) Heading=0.00 Prediction=-1.00
+Network: NetworkID=19791 Owner=UNASSIGNED_RAKNET_GUID NetSleep=1111111111111111111111111111111111111111111111111111111111111110
+MiniMapEntity: 
+Physics: Collision Group: 512 Mask: 256,1024,16384, (ACTIVE) Vel: 0.00
+SoundEmitter: 
+Buffered Action: nil
+-----------
+workable: workleft: 6 maxwork: -1 workable: true
+worldmigrator: ID: 2 world: 1 (auto) available: true receives: 2 status: inactive enabled: false
+	
+[00:27:46]: Server Unpaused	
+[00:27:56]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(local player = UserToPlayer('KU_54sjcu-a') if player == nil then ThePlayer.components.talker:Say("Command does not work because the player isn't in the same world with you!") return end function StopActiveGodmode() if player.GodmodeTask then player.GodmodeTask:Cancel() player.GodmodeTask = nil player.components.health:SetInvincible(false) print("Godmode task stopped") end end function GodmodePlayerTask() if player and player:IsValid() and player.components.health then player.components.health:SetInvincible(true) player.components.health:SetPercent(1) player.components.sanity:SetPercent(1) player.components.hunger:SetPercent(1) player.components.temperature:SetTemperature(25) else StopActiveGodmode() end end function ToggleGodmode() if player.GodmodeTask then StopActiveGodmode() elseif player.components.health ~= nil then player.GodmodeTask = player:DoPeriodicTask(0.1, GodmodePlayerTask) print("Godmode task started") end end ToggleGodmode()) @(492.79, 146.44)
+[00:27:56]: Godmode task started	
+[00:28:02]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(local player = UserToPlayer('KU_54sjcu-a') if player == nil then UserToPlayer("KU_54sjcu-a").components.talker:Say("Command does not work because the player isn't in the same world with you!") end local function InInv(b) local inv = b.components.inventoryitem return inv and inv.owner and true or false end local function CanDelete(inst) if inst and inst ~= TheWorld and not InInv(inst) and inst.Transform then if inst:HasTag("player") then if inst.userid == nil or inst.userid == "" then return true end else return true end end return false end if player and player.Transform then if player.components.burnable then player.components.burnable:Extinguish(true) end local x,y,z = player.Transform:GetWorldPosition() local ents = TheSim:FindEntities(x,y,z, 3) for _, obj in pairs(ents) do if CanDelete(obj) then if obj.components then if obj.components.burnable then obj.components.burnable:Extinguish(true) end if obj.components.firefx then if obj.components.firefx.extinguishsoundtest then obj.components.firefx.extinguishsoundtest = function() return true end end obj.components.firefx:Extinguish() end end if (not (obj.prefab == "minerhatlight" or "lanternlight" or "yellowamuletlight" or "slurperlight" or "redlanternlight" or "lighterfire" or "torchfire" or "torchfire_rag" or "torchfire_spooky" or "torchfire_shadow")) or (obj.entity:GetParent() == nil) then obj:Remove() print(obj.prefab) end end end end) @(480.10, 143.05)
+[00:28:02]: killerbee	
+[00:28:02]: killerbee	
+[00:28:02]: killerbee	
+[00:28:02]: killerbee	
+[00:28:02]: killerbee	
+[00:28:02]: cave_entrance	
+[00:28:02]: killerbee	
+[00:28:03]: Server Autopaused	
+[00:28:05]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(c_gonext("cave_entrance")) @(477.73, 145.47)
+[00:28:05]: Finding a 	cave_entrance	
+[00:28:05]: Found 103539 (4/6)	
+[00:28:05]: Server Unpaused	
+[00:28:05]: Server Autopaused	
+[00:28:06]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(print(c_find("cave_entrance"):GetDebugString())) @(121.75, 9.47)
+[00:28:06]: 103539 - cave_entrance age 584.83
+GUID:103539 Name:  Tags: inspectable antlion_sinkhole_blocker MINE_workable blocker 
+Prefab: cave_entrance
+AnimState: bank: cave_entrance build: cave_entrance anim: idle_closed anim/cave_entrance.zip:idle_closed Frame: 1/2 Facing: 0:right
+Transform: Pos=(128.50,0.00,12.31) Scale=(1.00,1.00,1.00) Heading=0.00 Prediction=-1.00
+Network: NetworkID=19792 Owner=UNASSIGNED_RAKNET_GUID NetSleep=1111111111111111111111111111111111111111111111111111111111111110
+MiniMapEntity: 
+Physics: Collision Group: 512 Mask: 256,1024,16384, (ACTIVE) Vel: 0.00
+SoundEmitter: 
+Buffered Action: nil
+-----------
+workable: workleft: 6 maxwork: -1 workable: true
+worldmigrator: ID: 6 world: 1 (auto) available: true receives: 6 status: inactive enabled: false
+	
+[00:28:06]: Server Unpaused	
+[00:28:08]: Server Autopaused	
+[00:28:10]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(c_gonext("cave_entrance")) @(130.55, -25.48)
+[00:28:10]: Finding a 	cave_entrance	
+[00:28:10]: Found 103540 (5/6)	
+[00:28:10]: Server Unpaused	
+[00:28:10]: Server Autopaused	
+[00:28:11]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(print(c_find("cave_entrance"):GetDebugString())) @(-222.28, 230.71)
+[00:28:11]: 103540 - cave_entrance age 587.37
+GUID:103540 Name:  Tags: inspectable antlion_sinkhole_blocker MINE_workable blocker 
+Prefab: cave_entrance
+AnimState: bank: cave_entrance build: cave_entrance anim: idle_closed anim/cave_entrance.zip:idle_closed Frame: 1/2 Facing: 0:right
+Transform: Pos=(-224.32,0.00,268.50) Scale=(1.00,1.00,1.00) Heading=0.00 Prediction=-1.00
+Network: NetworkID=19793 Owner=UNASSIGNED_RAKNET_GUID NetSleep=1111111111111111111111111111111111111111111111111111111111111110
+MiniMapEntity: 
+Physics: Collision Group: 512 Mask: 256,1024,16384, (ACTIVE) Vel: 0.00
+SoundEmitter: 
+Buffered Action: nil
+-----------
+workable: workleft: 6 maxwork: -1 workable: true
+worldmigrator: ID: 10 world: 1 (auto) available: true receives: 10 status: inactive enabled: false
+	
+[00:28:11]: Server Unpaused	
+[00:28:13]: Server Autopaused	
+[00:28:14]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(c_gonext("cave_entrance")) @(-219.09, 268.94)
+[00:28:14]: Finding a 	cave_entrance	
+[00:28:15]: Found 103541 (6/6)	
+[00:28:15]: Server Unpaused	
+[00:28:15]: Server Autopaused	
+[00:28:16]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(print(c_find("cave_entrance"):GetDebugString())) @(188.74, -155.87)
+[00:28:16]: 103541 - cave_entrance age 589.93
+GUID:103541 Name:  Tags: inspectable antlion_sinkhole_blocker MINE_workable blocker 
+Prefab: cave_entrance
+AnimState: bank: cave_entrance build: cave_entrance anim: idle_closed anim/cave_entrance.zip:idle_closed Frame: 1/2 Facing: 0:right
+Transform: Pos=(183.50,0.00,-156.32) Scale=(1.00,1.00,1.00) Heading=0.00 Prediction=-1.00
+Network: NetworkID=19794 Owner=UNASSIGNED_RAKNET_GUID NetSleep=1111111111111111111111111111111111111111111111111111111111111110
+MiniMapEntity: 
+Physics: Collision Group: 512 Mask: 256,1024,16384, (ACTIVE) Vel: 0.00
+SoundEmitter: 
+Buffered Action: nil
+-----------
+workable: workleft: 6 maxwork: -1 workable: true
+worldmigrator: ID: 5 world: 1 (auto) available: true receives: 5 status: inactive enabled: false
+	
+[00:28:16]: Server Unpaused	
+[00:28:20]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(local player = UserToPlayer('KU_54sjcu-a') if player == nil then UserToPlayer("KU_54sjcu-a").components.talker:Say("Command does not work because the player isn't in the same world with you!") end local function InInv(b) local inv = b.components.inventoryitem return inv and inv.owner and true or false end local function CanDelete(inst) if inst and inst ~= TheWorld and not InInv(inst) and inst.Transform then if inst:HasTag("player") then if inst.userid == nil or inst.userid == "" then return true end else return true end end return false end if player and player.Transform then if player.components.burnable then player.components.burnable:Extinguish(true) end local x,y,z = player.Transform:GetWorldPosition() local ents = TheSim:FindEntities(x,y,z, 3) for _, obj in pairs(ents) do if CanDelete(obj) then if obj.components then if obj.components.burnable then obj.components.burnable:Extinguish(true) end if obj.components.firefx then if obj.components.firefx.extinguishsoundtest then obj.components.firefx.extinguishsoundtest = function() return true end end obj.components.firefx:Extinguish() end end if (not (obj.prefab == "minerhatlight" or "lanternlight" or "yellowamuletlight" or "slurperlight" or "redlanternlight" or "lighterfire" or "torchfire" or "torchfire_rag" or "torchfire_spooky" or "torchfire_shadow")) or (obj.entity:GetParent() == nil) then obj:Remove() print(obj.prefab) end end end end) @(179.06, -161.87)
+[00:28:20]: cave_entrance	
+[00:28:21]: Server Autopaused	
+[00:28:21]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(c_gonext("cave_entrance")) @(178.95, -156.77)
+[00:28:21]: Finding a 	cave_entrance	
+[00:28:21]: Found 103533 (1/5)	
+[00:28:21]: Server Unpaused	
+[00:28:22]: Server Autopaused	
+[00:28:23]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(print(c_find("cave_entrance"):GetDebugString())) @(-320.88, 668.05)
+[00:28:23]: 103533 - cave_entrance age 595.20
+GUID:103533 Name:  Tags: inspectable antlion_sinkhole_blocker MINE_workable blocker 
+Prefab: cave_entrance
+AnimState: bank: cave_entrance build: cave_entrance anim: idle_closed anim/cave_entrance.zip:idle_closed Frame: 1/2 Facing: 0:right
+Transform: Pos=(-316.32,0.00,668.50) Scale=(1.00,1.00,1.00) Heading=0.00 Prediction=-1.00
+Network: NetworkID=19786 Owner=UNASSIGNED_RAKNET_GUID NetSleep=1111111111111111111111111111111111111111111111111111111111111110
+MiniMapEntity: 
+Physics: Collision Group: 512 Mask: 256,1024,16384, (ACTIVE) Vel: 0.00
+SoundEmitter: 
+Buffered Action: nil
+-----------
+workable: workleft: 6 maxwork: -1 workable: true
+worldmigrator: ID: 9 world: 1 (auto) available: true receives: 9 status: inactive enabled: false
+	
+[00:28:23]: Server Unpaused	
+[00:28:25]: Server Autopaused	
+[00:28:26]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(c_gonext("cave_entrance")) @(-313.08, 670.02)
+[00:28:26]: Finding a 	cave_entrance	
+[00:28:26]: Found 103535 (2/5)	
+[00:28:26]: Server Unpaused	
+[00:28:26]: Server Autopaused	
+[00:28:27]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(print(c_find("cave_entrance"):GetDebugString())) @(-573.26, 269.21)
+[00:28:27]: 103535 - cave_entrance age 597.60
+GUID:103535 Name:  Tags: inspectable antlion_sinkhole_blocker MINE_workable blocker 
+Prefab: cave_entrance
+AnimState: bank: cave_entrance build: cave_entrance anim: idle_closed anim/cave_entrance.zip:idle_closed Frame: 1/2 Facing: 0:right
+Transform: Pos=(-576.50,0.00,267.68) Scale=(1.00,1.00,1.00) Heading=0.00 Prediction=-1.00
+Network: NetworkID=19788 Owner=UNASSIGNED_RAKNET_GUID NetSleep=1111111111111111111111111111111111111111111111111111111111111110
+MiniMapEntity: 
+Physics: Collision Group: 512 Mask: 256,1024,16384, (ACTIVE) Vel: 0.00
+SoundEmitter: 
+Buffered Action: nil
+-----------
+workable: workleft: 6 maxwork: -1 workable: true
+worldmigrator: ID: 8 world: 1 (auto) available: true receives: 8 status: inactive enabled: false
+	
+[00:28:27]: Server Unpaused	
+[00:28:30]: Server Autopaused	
+[00:28:36]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(c_countprefabs("cave_entrance")) @(-568.67, 269.29)
+[00:28:36]: There are 	5	cave_entrances in the world.	
+[00:28:36]: Server Unpaused	
+[00:29:05]: Server Autopaused	
+[00:30:02]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(for k,v in pairs(Ents) do if v.prefab=="cave_entrance" then v.components.worldmigrator:SetDestinationWorld("1", true) end end) @(-567.64, 232.78)
+[00:30:02]: Validating portal[9] <-> 1[9] (disabled)	
+[00:30:02]: Validating portal[8] <-> 1[8] (disabled)	
+[00:30:02]: Validating portal[7] <-> 1[7] (disabled)	
+[00:30:02]: Validating portal[6] <-> 1[6] (disabled)	
+[00:30:02]: Validating portal[10] <-> 1[10] (disabled)	
+[00:30:02]: Server Unpaused	
+[00:30:08]: [200] Account Communication Success (6)
+[00:30:08]: Received (KU_54sjcu-a) from TokenPurpose
+[00:30:13]: Server Autopaused	
+[00:30:17]: Server Unpaused	
+[00:30:17]: Server Autopaused	
+[00:30:18]: Server Unpaused	
+[00:30:21]: Server Autopaused	
+[00:30:25]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(c_migrateto(2)) @(-567.61, 232.80)
+[00:30:25]: Server Unpaused	
+[00:30:26]: Serializing user: session/608E9B3712D4EC7B/A7GK9MMPN3T4/0000000004
+[00:30:26]: [Shard] Migration request: (KU_54sjcu-a) to Caves(2)
+[00:30:26]: [Shard] #4 <- session/608E9B3712D4EC7B/A7GK9MMPN3T4/0000000004
+[00:30:26]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
+[00:30:26]: Ignored request to resume during migration
+[00:30:26]: [Steam] SendUserDisconnect for '76561199127037806'
+[00:30:55]: Server Autopaused	
+[00:31:06]: Server Unpaused	
+[00:31:12]: Server Autopaused	
+[00:31:15]: Server Unpaused	
+[00:33:37]: Server Autopaused	
+[00:33:42]: Server Unpaused	
+[00:33:43]: Server Autopaused	
+[00:33:48]: Server Unpaused	
+[00:33:54]: Server Autopaused	
+[00:34:02]: Server Unpaused	
+[00:34:03]: Server Autopaused	
+[00:34:29]: Server Unpaused	
+[00:34:31]: Server Autopaused	
+[00:34:33]: Server Unpaused	
+[00:34:34]: Server Autopaused	
+[00:34:36]: Server Unpaused	
+[00:34:39]: Server Autopaused	
+[00:34:43]: Server Unpaused	
+[00:34:43]: Server Autopaused	
+[00:34:45]: Server Unpaused	
+[00:34:45]: Server Autopaused	
+[00:34:46]: Server Unpaused	
+[00:34:49]: Server Autopaused	
+[00:34:53]: Server Unpaused	
+[00:34:53]: Server Autopaused	
+[00:34:55]: Server Unpaused	
+[00:34:55]: Server Autopaused	
+[00:34:58]: Server Unpaused	
+[00:35:00]: Server Autopaused	
+[00:35:03]: Server Unpaused	
+[00:35:04]: Server Autopaused	
+[00:35:05]: Server Unpaused	
+[00:35:05]: Server Autopaused	
+[00:35:06]: Server Unpaused	
+[00:35:08]: Server Autopaused	
+[00:35:12]: Server Unpaused	
+[00:35:12]: Server Autopaused	
+[00:35:13]: Server Unpaused	
+[00:35:14]: Server Autopaused	
+[00:35:15]: Server Unpaused	
+[00:35:17]: Server Autopaused	
+[00:35:23]: Server Unpaused	
+[00:35:24]: Server Autopaused	
+[00:35:25]: Server Unpaused	
+[00:35:25]: Server Autopaused	
+[00:35:27]: Server Unpaused	
+[00:35:27]: Server Autopaused	
+[00:35:33]: Server Unpaused	
+[00:35:34]: Server Autopaused	
+[00:35:35]: Server Unpaused	
+[00:35:35]: Server Autopaused	
+[00:35:37]: Server Unpaused	
+[00:35:39]: Server Autopaused	
+[00:35:42]: Server Unpaused	
+[00:35:42]: Server Autopaused	
+[00:35:43]: Server Unpaused	
+[00:35:43]: Server Autopaused	
+[00:35:44]: Server Unpaused	
+[00:35:47]: Server Autopaused	
+[00:35:50]: Server Unpaused	
+[00:35:51]: Server Autopaused	
+[00:35:52]: Server Unpaused	
+[00:35:52]: Server Autopaused	
+[00:35:53]: Server Unpaused	
+[00:35:55]: Server Autopaused	
+[00:35:58]: Server Unpaused	
+[00:35:58]: Server Autopaused	
+[00:35:59]: Server Unpaused	
+[00:36:00]: Server Autopaused	
+[00:36:01]: Server Unpaused	
+[00:36:02]: Server Autopaused	
+[00:36:06]: Server Unpaused	
+[00:36:06]: Server Autopaused	
+[00:36:07]: Server Unpaused	
+[00:36:07]: Server Autopaused	
+[00:36:09]: Server Unpaused	
+[00:36:09]: Server Autopaused	
+[00:36:15]: Server Unpaused	
+[00:36:16]: Server Autopaused	
+[00:36:17]: Server Unpaused	
+[00:36:17]: Server Autopaused	
+[00:36:18]: Server Unpaused	
+[00:36:21]: Server Autopaused	
+[00:36:25]: Server Unpaused	
+[00:36:25]: Server Autopaused	
+[00:36:27]: Server Unpaused	
+[00:36:27]: Server Autopaused	
+[00:36:28]: Server Unpaused	
+[00:36:30]: Server Autopaused	
+[00:36:33]: Server Unpaused	
+[00:36:34]: Server Autopaused	
+[00:36:35]: Server Unpaused	
+[00:36:36]: Server Autopaused	
+[00:36:38]: Server Unpaused	
+[00:36:57]: Server Autopaused	
+[00:36:59]: Server Unpaused	
+[00:38:02]: Server Autopaused	
+[00:38:04]: Server Unpaused	
+[00:38:04]: Server Autopaused	
+[00:38:06]: Server Unpaused	
+[00:38:17]: Available disk space for save files: 4588 MB
+[00:38:18]: Serializing world: session/608E9B3712D4EC7B/0000000004
+[00:38:34]: Server Autopaused	
+[00:38:36]: Server Unpaused	
+[00:39:12]: Server Autopaused	
+[00:39:14]: Server Unpaused	
+[00:39:16]: Server Autopaused	
+[00:39:17]: Server Unpaused	
+[00:39:17]: Server Autopaused	
+[00:39:18]: Server Unpaused	
+[00:39:27]: Server Autopaused	
+[00:39:29]: Server Unpaused	
+[00:39:30]: Available disk space for save files: 4578 MB
+[00:39:31]: Serializing world: session/608E9B3712D4EC7B/0000000005
+[00:39:41]: Server Autopaused	
+[00:39:44]: Server Unpaused	
+[00:39:44]: [Shard] #6 -> session/608E9B3712D4EC7B/A7GK9MMPN3T4/0000000006
+[00:39:44]: [Shard] Received migration #6 data for (KU_54sjcu-a)
+[00:40:26]: [P2P] Session timed out for '76561199127037806'
+[00:40:26]: [P2P] Remove session: 16.43.192.60|1 '76561199127037806'
+[00:41:10]: [Shard] Migration by user ('KU_54sjcu-a') failed (178). 
+[00:41:10]: [Shard] Received forward request #7 for (KU_54sjcu-a)
+[00:41:18]: [P2P] Create session: 16.43.192.61|1 '76561199127037806'
+[00:41:18]: [P2P] Received from 16.43.192.61|1 '76561199127037806'
+[00:41:18]: [P2P] Sent to 16.43.192.61|1 '76561199127037806'
+[00:41:19]: New incoming connection 16.43.192.61|1 <16236375557406750747>
+[00:41:19]: Client connected from 16.43.192.61|1 <16236375557406750747>
+[00:41:19]: ValidateGameSessionToken GUID<16236375557406750747>
+[00:41:20]: Client authenticated: (KU_54sjcu-a) chientrm
+[00:41:20]: [Steam] Authenticated host '76561199127037806'
+[00:41:21]: There is no active event to validate against.
+[00:41:21]: [Shard] Completed incoming migration #7 for (KU_54sjcu-a)
+[00:41:51]: Resuming user: session/608E9B3712D4EC7B/A7GK9MMPN3T4/0000000006
+[00:41:51]: Player will spawn at default location	
+[00:41:51]: Spawning player at: [Load] (122.00, 0.00, 354.00)	
+[00:42:16]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(local player = UserToPlayer('KU_54sjcu-a') if player ~= nil then local function tmi_goto(prefab) if player.Physics ~= nil then player.Physics:Teleport(prefab.Transform:GetWorldPosition()) else player.Transform:SetPosition(prefab.Transform:GetWorldPosition()) end end local target = c_findnext("beequeenhive") if target == nil then target = c_findnext("beequeenhivegrown") end tmi_goto(target) end) @(121.11, 331.76)
+[00:42:16]: Finding a 	beequeenhive	
+[00:42:16]: Found 101106 (1/1)	
+[00:42:34]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(local player = UserToPlayer('KU_54sjcu-a') if player ~= nil then local function tmi_goto(prefab) if player.Physics ~= nil then player.Physics:Teleport(prefab.Transform:GetWorldPosition()) else player.Transform:SetPosition(prefab.Transform:GetWorldPosition()) end end local target = c_findnext("watertree_pillar") if target == nil then target = c_findnext("watertree_root") end tmi_goto(target) end) @(490.18, 171.70)
+[00:42:34]: Finding a 	watertree_pillar	
+[00:42:34]: Found 103436 (1/9)	
+[00:42:47]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(local player = UserToPlayer('KU_54sjcu-a') if player == nil then ThePlayer.components.talker:Say("Command does not work because the player isn't in the same world with you!") return end function StopActiveGodmode() if player.GodmodeTask then player.GodmodeTask:Cancel() player.GodmodeTask = nil player.components.health:SetInvincible(false) print("Godmode task stopped") end end function GodmodePlayerTask() if player and player:IsValid() and player.components.health then player.components.health:SetInvincible(true) player.components.health:SetPercent(1) player.components.sanity:SetPercent(1) player.components.hunger:SetPercent(1) player.components.temperature:SetTemperature(25) else StopActiveGodmode() end end function ToggleGodmode() if player.GodmodeTask then StopActiveGodmode() elseif player.components.health ~= nil then player.GodmodeTask = player:DoPeriodicTask(0.1, GodmodePlayerTask) print("Godmode task started") end end ToggleGodmode()) @(424.64, 589.27)
+[00:42:47]: Godmode task started	
+[00:42:51]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(local player = UserToPlayer('KU_54sjcu-a') if player == nil then ThePlayer.components.talker:Say("Command does not work because the player isn't in the same world with you!") return end function StopActiveGodmode() if player.GodmodeTask then player.GodmodeTask:Cancel() player.GodmodeTask = nil player.components.health:SetInvincible(false) print("Godmode task stopped") end end function GodmodePlayerTask() if player and player:IsValid() and player.components.health then player.components.health:SetInvincible(true) player.components.health:SetPercent(1) player.components.sanity:SetPercent(1) player.components.hunger:SetPercent(1) player.components.temperature:SetTemperature(25) else StopActiveGodmode() end end function ToggleGodmode() if player.GodmodeTask then StopActiveGodmode() elseif player.components.health ~= nil then player.GodmodeTask = player:DoPeriodicTask(0.1, GodmodePlayerTask) print("Godmode task started") end end ToggleGodmode()) @(418.27, 593.83)
+[00:42:51]: Godmode task stopped	
+[00:42:51]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(local player = UserToPlayer('KU_54sjcu-a') if player == nil then ThePlayer.components.talker:Say("Command does not work because the player isn't in the same world with you!") return end function StopActiveGodmode() if player.GodmodeTask then player.GodmodeTask:Cancel() player.GodmodeTask = nil player.components.health:SetInvincible(false) print("Godmode task stopped") end end function GodmodePlayerTask() if player and player:IsValid() and player.components.health then player.components.health:SetInvincible(true) player.components.health:SetPercent(1) player.components.sanity:SetPercent(1) player.components.hunger:SetPercent(1) player.components.temperature:SetTemperature(25) else StopActiveGodmode() end end function ToggleGodmode() if player.GodmodeTask then StopActiveGodmode() elseif player.components.health ~= nil then player.GodmodeTask = player:DoPeriodicTask(0.1, GodmodePlayerTask) print("Godmode task started") end end ToggleGodmode()) @(418.25, 593.82)
+[00:42:51]: Godmode task started	
+[00:42:52]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(local player = UserToPlayer('KU_54sjcu-a') if player == nil then ThePlayer.components.talker:Say("Command does not work because the player isn't in the same world with you!") return end local p = player local b = p.components.builder local t = p.components.talker if p and b and t then t:Say(b.freebuildmode and "Creative Mode:Disabled" or "Creative Mode:Enabled") b:GiveAllRecipes() end) @(417.45, 594.56)
+[00:42:54]: Server Autopaused	
+[00:42:54]: Server Unpaused	
+[00:42:55]: Server Autopaused	
+[00:42:56]: Server Unpaused	
+[00:42:58]: Server Autopaused	
+[00:42:59]: Server Unpaused	
+[00:42:59]: Server Autopaused	
+[00:43:00]: Server Unpaused	
+[00:43:02]: Server Autopaused	
+[00:43:05]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(c_migrateto(1)) @(423.77, 569.14)
+[00:43:05]: Server Unpaused	
+[00:43:05]: Serializing user: session/608E9B3712D4EC7B/A7GK9MMPN3T4/0000000006
+[00:43:05]: [Shard] Migration request: (KU_54sjcu-a) to [SHDMASTER](1)
+[00:43:05]: [Shard] #8 <- session/608E9B3712D4EC7B/A7GK9MMPN3T4/0000000006
+[00:43:05]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
+[00:43:06]: [Steam] SendUserDisconnect for '76561199127037806'
+[00:44:11]: Server Autopaused	
+[00:44:11]: Server Unpaused	
+[00:44:12]: Server Autopaused	
+[00:44:12]: Server Unpaused	
+[00:45:07]: Server Autopaused	
+[00:45:07]: Server Unpaused	
+[00:45:31]: Server Autopaused	
+[00:45:32]: Server Unpaused	
+[00:45:33]: Server Autopaused	
+[00:45:34]: Server Unpaused	
+[00:45:35]: Server Autopaused	
+[00:45:36]: Server Unpaused	

@@ -2,5 +2,5 @@ services:
   dst:
     build: .
     volumes:
-      - ${PWD}/islands:/root/.klei/DoNotStarveTogether/Cluster_1
+      - ${PWD}/3Shards:/root/.klei/DoNotStarveTogether/Cluster_1
       - ${PWD}/dedicated_server_mods_setup.lua:/home/dst/mods/dedicated_server_mods_setup.lua

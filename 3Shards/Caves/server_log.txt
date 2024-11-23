@@ -1,0 +1,1262 @@
+[00:00:00]: PersistRootStorage is now /root/.klei//DoNotStarveTogether/Cluster_1/Caves/ 
+[00:00:00]: Starting Up
+[00:00:00]: Version: 639083
+[00:00:00]: Current time: Sat Nov 23 02:14:37 2024
+
+[00:00:00]: System Name: Linux
+[00:00:00]: Host Name: 93fb15ba8c4f
+[00:00:00]: Release(Kernel) Version: 6.1.112+
+[00:00:00]: Kernel Build Timestamp: #1 SMP PREEMPT_DYNAMIC Sun Nov 10 15:28:10 UTC 2024
+[00:00:00]: Machine Arch: x86_64
+[00:00:00]: Don't Starve Together: 639083 LINUX
+[00:00:00]: Build Date: 2713
+[00:00:00]: Mode: 64-bit
+[00:00:00]: Parsing command line
+[00:00:00]: Command Line Arguments: -shard Caves 
+[00:00:00]: Initializing distribution platform
+[00:00:00]: ....Done
+[00:00:00]: THREAD - started 'GAClient' (135910092465856)
+[00:00:00]: CurlRequestManager::ClientThread::Main()
+[00:00:00]: ProfileIndex:7.92
+[00:00:00]: Mounting file system databundles/klump.zip successful.
+[00:00:00]: Mounting file system databundles/shaders.zip successful.
+[00:00:00]: Mounting file system databundles/fonts.zip successful.
+[00:00:00]: Mounting file system databundles/anim_dynamic.zip successful.
+[00:00:00]: Mounting file system databundles/bigportraits.zip successful.
+[00:00:00]: Mounting file system databundles/images.zip successful.
+[00:00:00]: Mounting file system databundles/scripts.zip successful.
+[00:00:00]: [Steam] SteamGameServer_Init(11001, 27019)
+[00:00:00]: [Steam] SteamGameServer_Init success
+[00:00:00]: [Connect] PendingConnection::Reset(true)
+[00:00:00]: Platform: 1
+[00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:00]: OnLoadPermissionList: /root/.klei//DoNotStarveTogether/Cluster_1/blocklist.txt (Failure)
+[00:00:00]: OnLoadPermissionList: /root/.klei//DoNotStarveTogether/Cluster_1/adminlist.txt (Failure)
+[00:00:00]: OnLoadUserIdList: /root/.klei//DoNotStarveTogether/Cluster_1/whitelist.txt (Failure)
+[00:00:00]: Token retrieved from: /root/.klei//DoNotStarveTogether/Cluster_1/cluster_token.txt
+[00:00:00]: Token retrieved from: /root/.klei//DoNotStarveTogether/Cluster_1/cluster_token.txt
+[00:00:00]: cGame::InitializeOnMainThread
+[00:00:00]: THREAD - started 'StreamInput' (135909970716352)
+[00:00:00]: Renderer initialize: Okay
+[00:00:00]: AnimManager initialize: Okay
+[00:00:00]: Buffers initialize: Okay
+[00:00:01]: cDontStarveGame::DoGameSpecificInitialize()
+[00:00:01]: GameSpecific initialize: Okay
+[00:00:01]: cGame::StartPlaying
+[00:00:01]: AppVersion::GetArchitecture() x64
+[00:00:01]: LOADING LUA
+[00:00:01]: DoLuaFile scripts/main.lua
+[00:00:01]: DoLuaFile loading buffer scripts/main.lua
+[00:00:01]:   taskgrouplist:	default	Together	
+[00:00:01]:   taskgrouplist:	classic	Classic	
+[00:00:01]:   taskgrouplist:	cave_default	Underground	
+[00:00:01]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:00:01]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:00:01]: Running main.lua
+	
+[00:00:01]: Could not load modindex	
+[00:00:01]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:02]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:04]: LOADING LUA SUCCESS
+[00:00:04]: PlayerDeaths could not load morgue	
+[00:00:04]: PlayerHistory could not load player_history	
+[00:00:04]: ServerPreferences could not load server_preferences	
+[00:00:04]: ConsoleScreenSettings could not load consolescreen	
+[00:00:04]: bloom_enabled	true	
+[00:00:04]: OnFilesLoaded()	
+[00:00:04]: OnUpdatePurchaseStateComplete	
+[00:00:04]: Klump load on boot started.	
+[00:00:04]: Klump files loaded: 	0	
+[00:00:06]: 	Load FE	
+[00:00:06]: THREAD - started 'FilesExistAsyncThread' (135909959169728)
+[00:00:06]: FilesExistAsyncThread started (25160 files)...
+[00:00:06]: 	Load FE: done	
+[00:00:06]: Check for write access: TRUE
+[00:00:06]: Check for read access: TRUE
+[00:00:06]: Available disk space for save files: 4606 MB
+[00:00:06]: ModIndex: Load sequence finished successfully.	
+[00:00:06]: Reset() returning
+[00:00:07]: [200] Account Communication Success (6)
+[00:00:07]: Cached userid (null) saved to /root/.klei//DoNotStarveTogether/Cluster_1/Caves/save/cached_userid
+[00:00:07]: Received (KU_54sjcu-a) from TokenPurpose
+[00:00:07]: Starting Dedicated Server Game	
+[00:00:07]: Network tick rate: U=15(2), D=0
+[00:00:07]: About to start a server with the following settings:
+[00:00:07]:   Dedicated: true
+[00:00:07]:   Online: true
+[00:00:07]:   Passworded: false
+[00:00:07]:   ServerPort: 11001
+[00:00:07]:   SteamAuthPort: 8769
+[00:00:07]:   SteamMasterServerPort: 27019
+[00:00:07]:   ClanID: false
+[00:00:07]:   ClanOnly: false
+[00:00:07]:   ClanAdmin: false
+[00:00:07]:   LanOnly: false
+[00:00:07]:   FriendsOnly: false
+[00:00:07]:   EnableAutosaver: true
+[00:00:07]:   EncodeUserPath: false
+[00:00:07]:   PVP: false
+[00:00:07]:   MaxPlayers: 32
+[00:00:07]:   GameMode: endless
+[00:00:07]:   OverridenDNS: 
+[00:00:07]:   PauseWhenEmpty: true
+[00:00:07]:   IdleTimeout: 1800s
+[00:00:07]:   VoteEnabled: true
+[00:00:07]:   InternetBroadcasting: true
+[00:00:07]: Online Server Started on port: 11001
+[00:00:07]: Not applying level data overrides.	
+[00:00:07]: Found a worldgen override file with these contents:	
+[00:00:07]: 	K: 	override_enabled	 V: 	true	
+[00:00:07]: 	K: 	overrides	 V: 	table: 0xe6ec280	
+[00:00:07]: 	K: 	preset	 V: 	DST_CAVE	
+[00:00:07]:   sanity-checking worldgenoverride.lua...	
+[00:00:07]: Loaded and applied world gen overrides from ../worldgenoverride.lua	
+[00:00:07]:   contained worldgen preset DST_CAVE, loading...	
+[00:00:07]:   contained settings preset DST_CAVE, loading...	
+[00:00:07]: Overwriting savedata with override file.	
+[00:00:07]: Collecting garbage...
+[00:00:07]: ... FilesExistAsyncThread complete
+[00:00:07]: lua_gc took 0.22 seconds
+[00:00:07]: ~ShardLuaProxy()
+[00:00:07]: ~cEventLeaderboardProxy()
+[00:00:07]: ~ItemServerLuaProxy()
+[00:00:07]: ~InventoryLuaProxy()
+[00:00:07]: ~NetworkLuaProxy()
+[00:00:07]: ~SimLuaProxy()
+[00:00:07]: lua_close took 0.23 seconds
+[00:00:07]: ReleaseAll
+[00:00:07]: ReleaseAll Finished
+[00:00:07]: cGame::StartPlaying
+[00:00:07]: AppVersion::GetArchitecture() x64
+[00:00:07]: LOADING LUA
+[00:00:07]: DoLuaFile scripts/main.lua
+[00:00:07]: DoLuaFile loading buffer scripts/main.lua
+[00:00:08]:   taskgrouplist:	default	Together	
+[00:00:08]:   taskgrouplist:	classic	Classic	
+[00:00:08]:   taskgrouplist:	cave_default	Underground	
+[00:00:08]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:00:08]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:00:08]: Running main.lua
+	
+[00:00:08]: loaded modindex	
+[00:00:08]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:09]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:09]: LOADING LUA SUCCESS
+[00:00:09]: PlayerDeaths could not load morgue	
+[00:00:09]: PlayerHistory could not load player_history	
+[00:00:09]: ServerPreferences could not load server_preferences	
+[00:00:09]: ConsoleScreenSettings could not load consolescreen	
+[00:00:09]: bloom_enabled	true	
+[00:00:09]: OnFilesLoaded()	
+[00:00:09]: OnUpdatePurchaseStateComplete	
+[00:00:09]: Not applying level data overrides.	
+[00:00:09]: Found a worldgen override file with these contents:	
+[00:00:09]: 	K: 	override_enabled	 V: 	true	
+[00:00:09]: 	K: 	overrides	 V: 	table: 0x127300a0	
+[00:00:09]: 	K: 	preset	 V: 	DST_CAVE	
+[00:00:09]:   sanity-checking worldgenoverride.lua...	
+[00:00:09]: Loaded and applied world gen overrides from ../worldgenoverride.lua	
+[00:00:09]:   contained worldgen preset DST_CAVE, loading...	
+[00:00:09]:   contained settings preset DST_CAVE, loading...	
+[00:00:09]: Overwriting savedata with override file.	
+[00:00:09]: WorldSim::SimThread::SimThread()
+[00:00:09]: ABOUT TO INSTALL STACKTRACE
+[00:00:09]: DoLuaFile scripts/stacktrace.lua
+[00:00:09]: DoLuaFile loading buffer scripts/stacktrace.lua
+[00:00:09]: INSTALLED STACKTRACE
+[00:00:09]: Engine Seed: (1732328086 + 272144032) & 0x7FFFFFFF = 2004472118
+[00:00:09]: WorldSim::SimThread::SimThread() complete
+[00:00:09]: Check for write access: TRUE
+[00:00:09]: Check for read access: TRUE
+[00:00:09]: Available disk space for save files: 4606 MB
+[00:00:09]: ModIndex: Load sequence finished successfully.	
+[00:00:09]: Reset() returning
+[00:00:09]: THREAD - started 'WorldSim' (135909456463552)
+[00:00:09]: WorldSim::SimThread::Main()
+[00:00:09]: DoLuaFile scripts/worldgen_main.lua
+[00:00:09]: DoLuaFile loading buffer scripts/worldgen_main.lua
+[00:00:09]: DLC enabled : 	false	
+[00:00:09]:   taskgrouplist:	default	Together	
+[00:00:09]:   taskgrouplist:	classic	Classic	
+[00:00:09]:   taskgrouplist:	cave_default	Underground	
+[00:00:09]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:00:09]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:00:09]: running worldgen_main.lua
+	
+[00:00:09]: SEED = 	2004472118	
+[00:00:09]: Generating world with these parameters:	
+[00:00:09]: level_type	SURVIVAL	
+[00:00:09]: level_data:	
+[00:00:09]: 	K: 	background_node_range	 V: 	table: 0x7b9bea4535a0	
+[00:00:09]: 		K: 	1	 V: 	0	
+[00:00:09]: 		K: 	2	 V: 	1	
+[00:00:09]: 	K: 	desc	 V: 	Delve into the caves... together!	
+[00:00:09]: 	K: 	hideminimap	 V: 	false	
+[00:00:09]: 	K: 	id	 V: 	DST_CAVE	
+[00:00:09]: 	K: 	location	 V: 	cave	
+[00:00:09]: 	K: 	max_playlist_position	 V: 	999	
+[00:00:09]: 	K: 	min_playlist_position	 V: 	0	
+[00:00:09]: 	K: 	name	 V: 	The Caves	
+[00:00:09]: 	K: 	numrandom_set_pieces	 V: 	0	
+[00:00:09]: 	K: 	override_level_string	 V: 	false	
+[00:00:09]: 	K: 	overrides	 V: 	table: 0x7b9bea456a00	
+[00:00:09]: 		K: 	layout_mode	 V: 	RestrictNodesByKey	
+[00:00:09]: 		K: 	roads	 V: 	never	
+[00:00:09]: 		K: 	season_start	 V: 	default	
+[00:00:09]: 		K: 	start_location	 V: 	caves	
+[00:00:09]: 		K: 	task_set	 V: 	cave_default	
+[00:00:09]: 		K: 	world_size	 V: 	default	
+[00:00:09]: 		K: 	wormhole_prefab	 V: 	tentacle_pillar	
+[00:00:09]: 	K: 	required_prefabs	 V: 	table: 0x7b9bea455bc0	
+[00:00:09]: 		K: 	1	 V: 	multiplayer_portal	
+[00:00:09]: 	K: 	settings_desc	 V: 	Delve into the caves... together!	
+[00:00:09]: 	K: 	settings_id	 V: 	DST_CAVE	
+[00:00:09]: 	K: 	settings_name	 V: 	The Caves	
+[00:00:09]: 	K: 	substitutes	 V: 	table: 0x7b9bea454300	
+[00:00:09]: 	K: 	version	 V: 	4	
+[00:00:09]: 	K: 	worldgen_desc	 V: 	Delve into the caves... together!	
+[00:00:09]: 	K: 	worldgen_id	 V: 	DST_CAVE	
+[00:00:09]: 	K: 	worldgen_name	 V: 	The Caves	
+[00:00:09]: 
+#######
+#
+# Generating SURVIVAL Mode Level
+#
+#######
+	
+[00:00:09]: Prefab Swap Selection: regular grass	
+[00:00:09]: Prefab Swap Selection: twiggy trees	
+[00:00:09]: Prefab Swap Selection: regular berries	
+[00:00:10]: New size:	425	default	
+[00:00:10]: Creating story...	
+[00:00:10]: [Story Gen] Generate nodes. Starting at: 'MudWorld'	
+[00:00:10]: [Story Gen] RestrictNodesByKey	
+[00:00:10]: Finding valid start task...	
+[00:00:10]:    ...picked 	CaveExitTask10	
+[00:00:10]: Has start node	SinkholeOasis	
+[00:00:10]: Adding Background Nodes	
+[00:00:10]: [Story Gen] Adding Cove Nodes	
+[00:00:10]: Warning! Couldn't find a spot in SacredAltar for TwigsBoon	
+[00:00:10]: Warning! Couldn't find a spot in MoreAltars for Level2TwigsBoon	
+[00:00:10]: Warning! Couldn't find a spot in ArchiveMaze for RockBoon	
+[00:00:10]: [WorldSimActual::WorldGen_InitializeNodePoints]
+[00:00:10]: [WorldSimActual::WorldGen_VoronoiPass]
+[00:00:10]: GenerateVoronoiMap [100]:
+[00:00:12]: ...Done.
+[00:00:12]: ... story created	
+[00:00:12]: Baking map...	425	
+[00:00:12]: [WorldSimActual::WorldGen_Commit] worldgen success.
+[00:00:12]: [WorldSimActual::ConvertToTileMap]
+[00:00:12]: [ConvertToTileMap]
+[00:00:12]: [WorldSimActual::ConvertToTileMap] complete
+[00:00:12]: [WorldSimActual::SeparateIslands]
+[00:00:12]: [SeparateIslands]
+[00:00:12]: [WorldSimActual::SeparateIslands] complete
+[00:00:12]: Map Baked!	
+[00:00:12]: [WorldSimActual::ForceConnectivity]
+[00:00:12]: [GenerateLandmasses]
+[00:00:12]: [GenerateLandmasses] islands: 13
+[00:00:12]: [MergeConnectedLandmasses] true
+[00:00:12]: [WorldSimActual::ForceConnectivity] complete
+[00:00:12]: Encoding...	
+[00:00:12]: [WorldSimActual::CreateNodeIdTileMap]
+[00:00:12]: Encoding... DONE	
+[00:00:12]: Checking Tags	
+[00:00:13]: Populating voronoi...	
+[00:00:13]: Warning! Could not find a spot for StraightWall2 in node Residential3:2:Vacant	
+[00:00:13]: Warning! Could not find a spot for CornerWall2 in node Residential3:2:Vacant	
+[00:00:13]: Warning! Could not find a spot for CornerWall2 in node Residential3:2:Vacant	
+[00:00:13]: Warning! Could not find a spot for RabbitTown in node RabbitCity:1:RabbitTown	
+[00:00:13]: Warning! Could not find a spot for CornerWall in node Residential3:0:Vacant	
+[00:00:13]: Warning! Could not find a spot for StraightWall2 in node Residential3:0:Vacant	
+[00:00:13]: Warning! Could not find a spot for StraightWall2 in node Residential3:0:Vacant	
+[00:00:13]: Warning! Could not find a spot for CornerWall2 in node Residential3:0:Vacant	
+[00:00:13]: Warning! Could not find a spot for CornerWall2 in node Residential3:0:Vacant	
+[00:00:13]: Warning! Could not find a spot for CornerWall2 in node Residential3:0:Vacant	
+[00:00:13]: Warning! Could not find a spot for EvergreenSinkhole in node CaveExitTask9:1:GreenMushSinkhole	
+[00:00:13]: Warning! Could not find a spot for StraightWall in node Residential3:3:Vacant	
+[00:00:13]: Warning! Could not find a spot for StraightWall in node Residential3:3:Vacant	
+[00:00:13]: Warning! Could not find a spot for StraightWall2 in node Residential3:3:Vacant	
+[00:00:13]: Warning! Could not find a spot for StraightWall2 in node Residential3:3:Vacant	
+[00:00:13]: Warning! Could not find a spot for StraightWall2 in node Residential3:3:Vacant	
+[00:00:13]: Warning! Could not find a spot for CornerWall2 in node Residential3:3:Vacant	
+[00:00:13]: Warning! Could not find a spot for CornerWall2 in node Residential3:3:Vacant	
+[00:00:13]: Warning! Could not find a spot for RabbitTown in node CaveExitTask2:0:RabbitTown	
+[00:00:13]: Warning! Could not find a spot for RabbitTown in node CaveExitTask10:1:GreenMushRabbits	
+[00:00:13]: Warning! Could not find a spot for GrassySinkhole in node CaveExitTask8:0:GrasslandSinkhole	
+[00:00:13]: Warning! Could not find a spot for StraightWall in node Residential3:1:Vacant	
+[00:00:13]: Warning! Could not find a spot for StraightWall2 in node Residential3:1:Vacant	
+[00:00:13]: Warning! Could not find a spot for StraightWall2 in node Residential3:1:Vacant	
+[00:00:13]: Warning! Could not find a spot for CornerWall2 in node Residential3:1:Vacant	
+[00:00:13]: Warning! Could not find a spot for CornerWall2 in node Residential3:1:Vacant	
+[00:00:13]: Warning! Could not find a spot for CornerWall2 in node Residential3:1:Vacant	
+[00:00:13]: Warning! Could not find a spot for GrassySinkhole in node PleasantSinkhole:4:GrasslandSinkhole	
+[00:00:13]: Warning! Could not find a spot for StraightWall in node Residential:2:Vacant	
+[00:00:13]: Warning! Could not find a spot for StraightWall in node Residential:2:Vacant	
+[00:00:13]: Warning! Could not find a spot for StraightWall2 in node Residential:2:Vacant	
+[00:00:13]: Warning! Could not find a spot for StraightWall2 in node Residential:2:Vacant	
+[00:00:13]: Warning! Could not find a spot for CornerWall2 in node Residential:2:Vacant	
+[00:00:13]: Warning! Could not find a spot for CornerWall2 in node Residential:2:Vacant	
+[00:00:13]: Warning! Could not find a spot for StraightWall2 in node Residential:4:Vacant	
+[00:00:13]: Warning! Could not find a spot for StraightWall2 in node Residential:4:Vacant	
+[00:00:13]: Warning! Could not find a spot for StraightWall2 in node Residential:4:Vacant	
+[00:00:13]: Warning! Could not find a spot for CornerWall2 in node Residential:4:Vacant	
+[00:00:13]: Warning! Could not find a spot for CornerWall2 in node Residential:4:Vacant	
+[00:00:13]: Warning! Could not find a spot for GrassySinkhole in node PleasantSinkhole:3:GrasslandSinkhole	
+[00:00:13]: Warning! Could not find a spot for Mudlights in node CaveSwamp:0:TentacleMud	
+[00:00:13]: Warning! Could not find a spot for EvergreenSinkhole in node CaveExitTask6:1:SinkholeCopses	
+[00:00:13]: Warning! Could not find a spot for EvergreenSinkhole in node CaveExitTask6:1:SinkholeCopses	
+[00:00:13]: Warning! Could not find a spot for StraightWall in node Residential:3:Vacant	
+[00:00:13]: Warning! Could not find a spot for StraightWall in node Residential:3:Vacant	
+[00:00:13]: Warning! Could not find a spot for StraightWall in node Residential:3:Vacant	
+[00:00:13]: Warning! Could not find a spot for StraightWall2 in node Residential:3:Vacant	
+[00:00:13]: Warning! Could not find a spot for StraightWall2 in node Residential:3:Vacant	
+[00:00:13]: Warning! Could not find a spot for StraightWall2 in node Residential:3:Vacant	
+[00:00:13]: Warning! Could not find a spot for CornerWall2 in node Residential:3:Vacant	
+[00:00:13]: Warning! Could not find a spot for CornerWall2 in node Residential:3:Vacant	
+[00:00:13]: [ReplaceSingleNonLandTiles] Validating...
+[00:00:13]: [ReplaceSingleNonLandTiles] Replaced 48 tiles.
+[00:00:13]: disconnected tiles...	1302	
+[00:00:13]: MilitaryPits:2:Barracks Cant process points	
+[00:00:13]: MilitaryPits:1:Barracks Cant process points	
+[00:00:13]: MilitaryPits:0:Barracks Cant process points	
+[00:00:13]: Removing entity on IMPASSABLE		35.265	338.7025	-708.94, 0, 504.81	
+[00:00:13]: Removing entity on IMPASSABLE	brokenwall_ruins	340.4825	188.0625	511.93, 0, -97.75	
+[00:00:13]: Removing entity on IMPASSABLE	brokenwall_ruins	340.4825	188.5625	511.93, 0, -95.75	
+[00:00:13]: Removing entity on IMPASSABLE	brokenwall_ruins	340.4825	188.3125	511.93, 0, -96.75	
+[00:00:13]: Removing entity on IMPASSABLE	brokenwall_ruins	340.4825	187.8125	511.93, 0, -98.75	
+[00:00:13]: Removing entity on IMPASSABLE	brokenwall_ruins	340.4825	184.53	511.93, 0, -111.88	
+[00:00:13]: Removing entity on IMPASSABLE	brokenwall_ruins	340.4825	184.28	511.93, 0, -112.88	
+[00:00:13]: Removing entity on IMPASSABLE	brokenwall_ruins	325.8125	184.515	453.25, 0, -111.94	
+[00:00:13]: Removing entity on IMPASSABLE	brokenwall_ruins	322.9825	190.5	441.93, 0, -88	
+[00:00:13]: Removing entity on IMPASSABLE	brokenwall_ruins	322.7325	190.5	440.93, 0, -88	
+[00:00:13]: Removing entity on IMPASSABLE	brokenwall_ruins	322.4825	190.5	439.93, 0, -88	
+[00:00:13]: Removing entity on IMPASSABLE	brokenwall_ruins	322.2325	190.5	438.93, 0, -88	
+[00:00:13]: Removing entity on IMPASSABLE	brokenwall_ruins	321.4825	188.53	435.93, 0, -95.88	
+[00:00:13]: Removing entity on IMPASSABLE	brokenwall_ruins	321.4825	188.78	435.93, 0, -94.88	
+[00:00:13]: Removing entity on IMPASSABLE	brokenwall_ruins	315.9375	184.4825	413.75, 0, -112.07	
+[00:00:13]: Removing entity on IMPASSABLE	brokenwall_ruins	315.4375	184.4825	411.75, 0, -112.07	
+[00:00:13]: Removing entity on IMPASSABLE	brokenwall_ruins	315.6875	184.4825	412.75, 0, -112.07	
+[00:00:13]: Removing entity on IMPASSABLE	brokenwall_ruins	316.1875	184.4825	414.75, 0, -112.07	
+[00:00:13]: Removing entity on IMPASSABLE	brokenwall_ruins	319.4675	184.4825	427.87, 0, -112.07	
+[00:00:13]: Removing entity on IMPASSABLE	brokenwall_ruins	319.7175	184.4825	428.87, 0, -112.07	
+[00:00:13]: Removing entity on IMPASSABLE	brokenwall_ruins	320.515	180.4675	432.06, 0, -128.13	
+[00:00:13]: Removing entity on IMPASSABLE	brokenwall_ruins	320.515	180.2175	432.06, 0, -129.13	
+[00:00:13]: Removing entity on IMPASSABLE	brokenwall_ruins	320.515	179.9675	432.06, 0, -130.13	
+[00:00:13]: Removing entity on IMPASSABLE	brokenwall_ruins	320.515	179.7175	432.06, 0, -131.13	
+[00:00:13]: Removing entity on IMPASSABLE	insanityrock	286.5	152.25	296, 0, -241	
+[00:00:13]: Removing entity on IMPASSABLE	pandoraschest	310.5	283.5	392, 0, 284	
+[00:00:13]: Removing entity on IMPASSABLE	wall_ruins	340.4825	184.03	511.93, 0, -113.88	
+[00:00:13]: Removing entity on IMPASSABLE	wall_ruins	335.4825	189.4525	491.93, 0, -92.19	
+[00:00:13]: Removing entity on IMPASSABLE	wall_ruins	335.2325	189.4525	490.93, 0, -92.19	
+[00:00:13]: Removing entity on IMPASSABLE	wall_ruins	339.4675	189.4675	507.87, 0, -92.13	
+[00:00:13]: Removing entity on IMPASSABLE	wall_ruins	339.2175	189.4675	506.87, 0, -92.13	
+[00:00:13]: Removing entity on IMPASSABLE	wall_ruins	338.9675	189.4675	505.87, 0, -92.13	
+[00:00:13]: Removing entity on IMPASSABLE	wall_ruins	327.4525	189.515	459.81, 0, -91.94	
+[00:00:13]: Removing entity on IMPASSABLE	wall_ruins	327.4525	189.765	459.81, 0, -90.94	
+[00:00:13]: Removing entity on IMPASSABLE	wall_ruins	327.4525	190.015	459.81, 0, -89.94	
+[00:00:13]: Removing entity on IMPASSABLE	wall_ruins	327.4675	185.53	459.87, 0, -107.88	
+[00:00:13]: Removing entity on IMPASSABLE	wall_ruins	327.4675	185.78	459.87, 0, -106.88	
+[00:00:13]: Removing entity on IMPASSABLE	wall_ruins	327.4675	186.03	459.87, 0, -105.88	
+[00:00:13]: Removing entity on IMPASSABLE	wall_ruins	320.2175	184.4825	430.87, 0, -112.07	
+[00:00:13]: Removing entity on IMPASSABLE	wall_ruins	319.9675	184.4825	429.87, 0, -112.07	
+[00:00:13]: Removing entity on IMPASSABLE	wall_ruins	314.53	182.9675	408.12, 0, -118.13	
+[00:00:13]: Removing entity on IMPASSABLE	bishop_nightmare_spawner	335.25	188.25	491, 0, -97	
+[00:00:13]: Removing entity on IMPASSABLE	bishop_nightmare_spawner	326.25	189.75	455, 0, -91	
+[00:00:13]: Removing entity on IMPASSABLE	bishop_nightmare_spawner	315.75	179.25	413, 0, -133	
+[00:00:13]: Removing entity on IMPASSABLE	chessjunk_spawner	340	185.75	510, 0, -107	
+[00:00:13]: Removing entity on IMPASSABLE	chessjunk_spawner	337	187	498, 0, -102	
+[00:00:13]: Removing entity on IMPASSABLE	chessjunk_spawner	338.5	187.5	504, 0, -100	
+[00:00:13]: Removing entity on IMPASSABLE	chessjunk_spawner	339	184	506, 0, -114	
+[00:00:13]: Removing entity on IMPASSABLE	chessjunk_spawner	338.75	186	505, 0, -106	
+[00:00:13]: Removing entity on IMPASSABLE	chessjunk_spawner	335.5	185.5	492, 0, -108	
+[00:00:13]: Removing entity on IMPASSABLE	chessjunk_spawner	323.75	185	445, 0, -110	
+[00:00:13]: Removing entity on IMPASSABLE	chessjunk_spawner	325	188	450, 0, -98	
+[00:00:13]: Removing entity on IMPASSABLE	chessjunk_spawner	325.5	186.5	452, 0, -104	
+[00:00:13]: Removing entity on IMPASSABLE	chessjunk_spawner	322	186	438, 0, -106	
+[00:00:13]: Removing entity on IMPASSABLE	chessjunk_spawner	324	186.25	446, 0, -105	
+[00:00:13]: Removing entity on IMPASSABLE	chessjunk_spawner	323.5	189.5	444, 0, -92	
+[00:00:13]: Removing entity on IMPASSABLE	chessjunk_spawner	318.25	184	423, 0, -114	
+[00:00:13]: Removing entity on IMPASSABLE	chessjunk_spawner	317	181	418, 0, -126	
+[00:00:13]: Removing entity on IMPASSABLE	chessjunk_spawner	316.5	182.5	416, 0, -120	
+[00:00:13]: Removing entity on IMPASSABLE	chessjunk_spawner	320	183	430, 0, -118	
+[00:00:13]: Removing entity on IMPASSABLE	chessjunk_spawner	318	182.75	422, 0, -119	
+[00:00:13]: Removing entity on IMPASSABLE	chessjunk_spawner	318.5	179.5	424, 0, -132	
+[00:00:13]: Removing entity on IMPASSABLE	rook_nightmare_spawner	338.25	189	503, 0, -94	
+[00:00:13]: Removing entity on IMPASSABLE	rook_nightmare_spawner	337.25	184.75	499, 0, -111	
+[00:00:13]: Removing entity on IMPASSABLE	rook_nightmare_spawner	327	186.75	458, 0, -103	
+[00:00:13]: Removing entity on IMPASSABLE	rook_nightmare_spawner	322.75	187.75	441, 0, -99	
+[00:00:13]: Removing entity on IMPASSABLE	rook_nightmare_spawner	315	182.25	410, 0, -121	
+[00:00:13]: Removing entity on IMPASSABLE	rook_nightmare_spawner	319.25	181.25	427, 0, -125	
+[00:00:13]: Removing entity on IMPASSABLE	wall_stone_2	44.39	302.64	-672.44, 0, 360.56	
+[00:00:13]: Checking Required Prefab atrium_gate has at least 1 instances (1 found).	
+[00:00:13]: Checking Required Prefab archive_orchestrina_main has at least 1 instances (1 found).	
+[00:00:13]: Checking Required Prefab sacred_chest has at least 1 instances (1 found).	
+[00:00:13]: Checking Required Prefab minotaur_spawner has at least 1 instances (1 found).	
+[00:00:13]: Checking Required Prefab tentacle_pillar_atrium has at least 2 instances (2 found).	
+[00:00:13]: Checking Required Prefab archive_lockbox_dispencer has at least 3 instances (6 found).	
+[00:00:13]: [ReplaceSingleNonLandTiles] Validating...
+[00:00:13]: [ReplaceSingleNonLandTiles] Replaced 0 tiles.
+[00:00:13]: Done cave map gen!	
+[00:00:13]: Checking map...	
+[00:00:13]: Generation complete, injecting world entities.	
+[00:00:13]: Injected world entities.	
+[00:00:14]: WorldSim::SimThread::Main() complete
+[00:00:14]: Serializing world: session/165EB7C1107A0E90/0000000002
+[00:00:14]: Auto-enabling encoded user paths
+[00:00:14]: Klump load on boot started.	
+[00:00:14]: Klump files loaded: 	0	
+[00:00:14]: 	Unload FE	
+[00:00:14]: 	Unload FE done	
+[00:00:16]: 	LOAD BE	
+[00:00:29]: 	LOAD BE: done	
+[00:00:29]: Begin Session: 165EB7C1107A0E90
+[00:00:29]: saving to server_temp/server_save	
+[00:00:30]: MiniMapComponent::AddAtlas( minimap/minimap_data1.xml )
+[00:00:30]: MiniMapComponent::AddAtlas( minimap/minimap_data2.xml )
+[00:00:30]: Loading 19 new character(s)	
+[00:00:31]: Total 19 character(s) loaded	
+[00:00:36]: Loading Nav Grid	
+[00:00:36]: World generated on build 639083 with save version: 5.151, using seed: 2004472118	
+[00:00:36]: [Shard] Secondary shard is waiting for LUA...
+[00:00:37]: Can't find prefab archive_sound_area	
+[00:00:37]: SpawnSaveRecord [nil, archive_sound_area] FAILED	
+[00:00:37]: Can't find prefab archive_sound_area	
+[00:00:37]: SpawnSaveRecord [nil, archive_sound_area] FAILED	
+[00:00:37]: Can't find prefab archive_sound_area	
+[00:00:37]: SpawnSaveRecord [nil, archive_sound_area] FAILED	
+[00:00:41]: Reconstructing topology	
+[00:00:41]: 	...Sorting points	
+[00:00:41]: 	...Sorting edges	
+[00:00:41]: 	...Connecting nodes	
+[00:00:41]: 	...Validating connections	
+[00:00:41]: 	...Housekeeping	
+[00:00:41]: 	...Done!	
+[00:00:41]: 1 uploads added to server. From server_temp
+[00:00:41]: About to start a shard with these settings:
+[00:00:41]:   ShardName: Caves
+[00:00:41]:   ShardID: 2
+[00:00:41]:   ShardRole: SECONDARY
+[00:00:41]:   MasterHost: 127.0.0.1
+[00:00:41]:   MasterBind: (null)
+[00:00:41]:   MasterPort: 10889
+[00:00:41]: [Shard] Connecting to master...
+[00:00:41]: Telling Client our new session identifier: 165EB7C1107A0E90
+[00:00:41]: [Shard] Connection to master failed. Waiting to reconnect...
+[00:00:42]: Validating portal[1] <-> <nil>[1] (inactive)	
+[00:00:42]: Validating portal[2] <-> <nil>[2] (inactive)	
+[00:00:42]: Validating portal[3] <-> <nil>[3] (inactive)	
+[00:00:42]: Validating portal[4] <-> <nil>[4] (inactive)	
+[00:00:42]: Validating portal[5] <-> <nil>[5] (inactive)	
+[00:00:42]: Validating portal[6] <-> <nil>[6] (inactive)	
+[00:00:42]: Validating portal[7] <-> <nil>[7] (inactive)	
+[00:00:42]: Validating portal[8] <-> <nil>[8] (inactive)	
+[00:00:42]: Validating portal[9] <-> <nil>[9] (inactive)	
+[00:00:42]: Validating portal[10] <-> <nil>[10] (inactive)	
+[00:00:46]: About to start a shard with these settings:
+[00:00:46]:   ShardName: Caves
+[00:00:46]:   ShardID: 2
+[00:00:46]:   ShardRole: SECONDARY
+[00:00:46]:   MasterHost: 127.0.0.1
+[00:00:46]:   MasterBind: (null)
+[00:00:46]:   MasterPort: 10889
+[00:00:46]: [Shard] Connecting to master...
+[00:00:56]: [Shard] Connection to master failed. Waiting to reconnect...
+[00:01:01]: About to start a shard with these settings:
+[00:01:01]:   ShardName: Caves
+[00:01:01]:   ShardID: 2
+[00:01:01]:   ShardRole: SECONDARY
+[00:01:01]:   MasterHost: 127.0.0.1
+[00:01:01]:   MasterBind: (null)
+[00:01:01]:   MasterPort: 10889
+[00:01:01]: [Shard] Connecting to master...
+[00:01:01]: [Shard] Sending secondary shard information to master...
+[00:01:03]: Received MasterInfoPacket row d54a71ab746f9567fdc946172390201c region ap-southeast-1
+[00:01:03]: Obtaining secondary shard IP from ap-southeast-1 lobby
+[00:01:03]: [Shard] secondary shard is now ready!
+[00:01:03]: World 1 is now connected	
+[00:01:03]: Validating portal[1] <-> 1[1] (active)	
+[00:01:03]: Validating portal[2] <-> 1[2] (active)	
+[00:01:03]: Validating portal[3] <-> 1[3] (active)	
+[00:01:03]: Validating portal[4] <-> 1[4] (active)	
+[00:01:03]: Validating portal[5] <-> 1[5] (active)	
+[00:01:03]: Validating portal[6] <-> 1[6] (active)	
+[00:01:03]: Validating portal[7] <-> 1[7] (active)	
+[00:01:03]: Validating portal[8] <-> 1[8] (active)	
+[00:01:03]: Validating portal[9] <-> 1[9] (active)	
+[00:01:03]: Validating portal[10] <-> 1[10] (active)	
+[00:01:03]: [SyncWorldSettings] recieved world settings from master shard.	true	
+[00:01:03]: [SyncWorldSettings] applying portalresurection = always from master shard.	
+[00:01:03]: [SyncWorldSettings] applying ghostsanitydrain = none from master shard.	
+[00:01:03]: [SyncWorldSettings] applying resettime = none from master shard.	
+[00:01:03]: [SyncWorldSettings] applying basicresource_regrowth = always from master shard.	
+[00:01:03]: [SyncWorldSettings] recieved world settings from master shard.	true	
+[00:01:03]: [SyncWorldSettings] applying portalresurection = always from master shard.	
+[00:01:03]: component hauntable already exists on entity 105418 - multiplayer_portal!	scripts/prefabs/multiplayer_portal.lua:47 in (upvalue) OnGetPortalRez (Lua) <45-54>	
+[00:01:03]: [SyncWorldSettings] applying ghostsanitydrain = none from master shard.	
+[00:01:03]: [SyncWorldSettings] applying resettime = none from master shard.	
+[00:01:03]: [SyncWorldSettings] applying basicresource_regrowth = always from master shard.	
+[00:01:04]: [Shard] secondary shard LUA is now ready!
+[00:01:04]: Sim paused
+[00:01:18]: World 3 is now connected	
+[00:01:18]: Validating portal[1] <-> 3[1] (active)	
+[00:01:18]: Validating portal[2] <-> 3[2] (active)	
+[00:01:18]: Validating portal[3] <-> 3[3] (active)	
+[00:01:18]: Validating portal[4] <-> 3[4] (active)	
+[00:01:18]: Validating portal[5] <-> 3[5] (active)	
+[00:01:18]: Validating portal[6] <-> 3[6] (active)	
+[00:01:18]: Validating portal[7] <-> 3[7] (active)	
+[00:01:18]: Validating portal[8] <-> 3[8] (active)	
+[00:01:18]: Validating portal[9] <-> 3[9] (active)	
+[00:01:18]: Validating portal[10] <-> 3[10] (active)	
+[00:12:32]: Sim unpaused
+[00:12:32]: [SyncWorldSettings] recieved world settings from master shard.	true	
+[00:12:32]: [SyncWorldSettings] applying portalresurection = always from master shard.	
+[00:12:32]: component hauntable already exists on entity 105418 - multiplayer_portal!	scripts/prefabs/multiplayer_portal.lua:47 in (upvalue) OnGetPortalRez (Lua) <45-54>	
+[00:12:32]: [SyncWorldSettings] applying ghostsanitydrain = none from master shard.	
+[00:12:32]: [SyncWorldSettings] applying resettime = none from master shard.	
+[00:12:32]: [SyncWorldSettings] applying basicresource_regrowth = always from master shard.	
+[00:12:35]: Server Autopaused	
+[00:12:36]: Server Unpaused	
+[00:12:37]: Server Autopaused	
+[00:12:37]: Server Unpaused	
+[00:12:37]: Server Autopaused	
+[00:12:52]: Server Unpaused	
+[00:12:52]: Sim paused
+[00:14:13]: Sim unpaused
+[00:14:17]: Server Autopaused	
+[00:14:21]: Server Unpaused	
+[00:14:22]: [Shard] #1 -> session/165EB7C1107A0E90/A7GK9MMPN3T4/0000000003
+[00:14:22]: [Shard] Received migration #1 data for (KU_54sjcu-a)
+[00:14:25]: [P2P] Session request for '76561199127037806'
+[00:14:30]: [P2P] Create session: 16.27.33.171|1 '76561199127037806'
+[00:14:30]: [P2P] Received from 16.27.33.171|1 '76561199127037806'
+[00:14:30]: [P2P] Sent to 16.27.33.171|1 '76561199127037806'
+[00:14:32]: New incoming connection 16.27.33.171|1 <413692157316329299>
+[00:14:33]: Client connected from 16.27.33.171|1 <413692157316329299>
+[00:14:33]: ValidateGameSessionToken GUID<413692157316329299>
+[00:14:33]: Client authenticated: (KU_54sjcu-a) chientrm
+[00:14:34]: [Steam] Authenticated host '76561199127037806'
+[00:14:34]: [Shard] Completed incoming migration #1 for (KU_54sjcu-a)
+[00:14:54]: Resuming user: session/165EB7C1107A0E90/A7GK9MMPN3T4/0000000003
+[00:14:54]: Player will spawn at default location	
+[00:14:54]: Spawning player at: [Load] (4.06, 0.00, 531.93)	
+[00:15:11]: Server Autopaused	
+[00:15:13]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(prin) @(1.37, 485.63)
+[00:15:13]: attempt to call a nil value
+[00:15:13]: Server Unpaused	
+[00:15:14]: Server Autopaused	
+[00:15:30]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(c_find("cave_exit"):GetDebugString()) @(1.37, 485.63)
+[00:15:30]: Server Unpaused	
+[00:15:31]: Server Autopaused	
+[00:15:38]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(print(c_find("cave_exit"):GetDebugString())) @(1.37, 485.63)
+[00:15:38]: 104700 - cave_exit age 83.20
+GUID:104700 Name:  Tags: inspectable migrator blocker 
+Prefab: cave_exit
+AnimState: bank: FROMNUM build: cave_exit anim: open anim/cave_exit.zip:open Frame: 1/2 Facing: 0:right
+Transform: Pos=(8.50,0.00,475.68) Scale=(1.00,1.00,1.00) Heading=0.00 Prediction=-1.00
+Network: NetworkID=20979 Owner=UNASSIGNED_RAKNET_GUID NetSleep=1111111111111111111111111111111111111111111111111111111111111110
+MiniMapEntity: 
+Physics: Collision Group: 512 Mask: 256,1024,16384, (ACTIVE) Vel: 0.00
+SoundEmitter: 
+Buffered Action: nil
+-----------
+worldmigrator: ID: 4 world: 3 (auto) available: true receives: 4 status: active enabled: true
+	
+[00:15:38]: Server Unpaused	
+[00:15:39]: Server Autopaused	
+[00:15:40]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute() @(1.37, 485.63)
+[00:15:40]: Server Unpaused	
+[00:15:46]: Server Autopaused	
+[00:15:47]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(print(c_find("cave_exit"):GetDebugString())) @(1.37, 485.63)
+[00:15:47]: 104700 - cave_exit age 90.37
+GUID:104700 Name:  Tags: inspectable migrator blocker 
+Prefab: cave_exit
+AnimState: bank: FROMNUM build: cave_exit anim: open anim/cave_exit.zip:open Frame: 0/2 Facing: 0:right
+Transform: Pos=(8.50,0.00,475.68) Scale=(1.00,1.00,1.00) Heading=0.00 Prediction=-1.00
+Network: NetworkID=20979 Owner=UNASSIGNED_RAKNET_GUID NetSleep=1111111111111111111111111111111111111111111111111111111111111110
+MiniMapEntity: 
+Physics: Collision Group: 512 Mask: 256,1024,16384, (ACTIVE) Vel: 0.00
+SoundEmitter: 
+Buffered Action: nil
+-----------
+worldmigrator: ID: 4 world: 3 (auto) available: true receives: 4 status: active enabled: true
+	
+[00:15:47]: Server Unpaused	
+[00:15:55]: Server Autopaused	
+[00:15:55]: Server Unpaused	
+[00:15:56]: Server Autopaused	
+[00:15:56]: Server Unpaused	
+[00:15:56]: Server Autopaused	
+[00:15:57]: Server Unpaused	
+[00:15:57]: Server Autopaused	
+[00:15:57]: Server Unpaused	
+[00:15:57]: Server Autopaused	
+[00:15:57]: Server Unpaused	
+[00:15:57]: Server Autopaused	
+[00:15:58]: Server Unpaused	
+[00:15:58]: Server Autopaused	
+[00:15:59]: Server Unpaused	
+[00:16:43]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(local player = UserToPlayer('KU_54sjcu-a') if player == nil then ThePlayer.components.talker:Say("Command does not work because the player isn't in the same world with you!") return end local h = player.components.sanity if player and not player:HasTag("playerghost") and h then h:SetPercent(1) end) @(14.35, 528.56)
+[00:16:45]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(local player = UserToPlayer('KU_54sjcu-a') if player == nil then ThePlayer.components.talker:Say("Command does not work because the player isn't in the same world with you!") return end local h = player.components.sanity if player and not player:HasTag("playerghost") and h then h:SetPercent(1) end) @(14.29, 528.72)
+[00:16:47]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(local player = UserToPlayer('KU_54sjcu-a') if player == nil then ThePlayer.components.talker:Say("Command does not work because the player isn't in the same world with you!") return end local h = player.components.hunger if player and not player:HasTag("playerghost") and h then h:SetPercent(1) end) @(14.83, 528.24)
+[00:16:48]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(local player = UserToPlayer('KU_54sjcu-a') if player == nil then ThePlayer.components.talker:Say("Command does not work because the player isn't in the same world with you!") return end local i = player.components.singinginspiration if player and not player:HasTag("playerghost") and i then i:SetPercent(1) end) @(15.29, 527.59)
+[00:16:53]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(local player = UserToPlayer('KU_54sjcu-a') if player == nil then ThePlayer.components.talker:Say("Command does not work because the player isn't in the same world with you!") return end local h = player.components.health local t = player.components.talker local hpper = h:GetPercent() local minhp = h.minhealth local hv if player and not player:HasTag("playerghost") and h then if minhp == 0 then hv = 1 t:Say("Lock the min health to 1:Enabled") elseif minhp == 1 then hv = 0 t:Say("Lock the min health to 1:Disabled") else hv = 0 t:Say("Lock the min health to 1:Disabled") end h:SetMinHealth(hv) h:SetPercent(hpper) end) @(13.28, 529.79)
+[00:16:56]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(local player = UserToPlayer('KU_54sjcu-a') if player == nil then ThePlayer.components.talker:Say("Command does not work because the player isn't in the same world with you!") return end local h = player.components.health local t = player.components.talker local hpper = h:GetPercent() local minhp = h.minhealth local hv if player and not player:HasTag("playerghost") and h then if minhp == 0 then hv = 1 t:Say("Lock the min health to 1:Enabled") elseif minhp == 1 then hv = 0 t:Say("Lock the min health to 1:Disabled") else hv = 0 t:Say("Lock the min health to 1:Disabled") end h:SetMinHealth(hv) h:SetPercent(hpper) end) @(13.35, 529.74)
+[00:16:58]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(local player = UserToPlayer('KU_54sjcu-a') if player == nil then ThePlayer.components.talker:Say("Command does not work because the player isn't in the same world with you!") return end local h = player.components.hunger if player and not player:HasTag("playerghost") and h then h:SetPercent(1) end) @(14.63, 528.46)
+[00:17:00]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(local player = UserToPlayer('KU_54sjcu-a') if player == nil then ThePlayer.components.talker:Say("Command does not work because the player isn't in the same world with you!") return end local h = player.components.sanity if player and not player:HasTag("playerghost") and h then h:SetPercent(1) end) @(14.41, 528.69)
+[00:17:02]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(local player = UserToPlayer('KU_54sjcu-a') if player == nil then ThePlayer.components.talker:Say("Command does not work because the player isn't in the same world with you!") return end local h = player.components.temperature if player and not player:HasTag("playerghost") and h then h:SetTemperature(25) end) @(12.39, 530.82)
+[00:18:07]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(local player = UserToPlayer('KU_54sjcu-a') if player == nil then ThePlayer.components.talker:Say("Command does not work because the player isn't in the same world with you!") return end local i = player.components.singinginspiration if player and not player:HasTag("playerghost") and i then i:SetPercent(1) end) @(15.20, 527.65)
+[00:18:12]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(local player = UserToPlayer('KU_54sjcu-a') if player == nil then ThePlayer.components.talker:Say("Command does not work because the player isn't in the same world with you!") return end function StopActiveGodmode() if player.GodmodeTask then player.GodmodeTask:Cancel() player.GodmodeTask = nil player.components.health:SetInvincible(false) print("Godmode task stopped") end end function GodmodePlayerTask() if player and player:IsValid() and player.components.health then player.components.health:SetInvincible(true) player.components.health:SetPercent(1) player.components.sanity:SetPercent(1) player.components.hunger:SetPercent(1) player.components.temperature:SetTemperature(25) else StopActiveGodmode() end end function ToggleGodmode() if player.GodmodeTask then StopActiveGodmode() elseif player.components.health ~= nil then player.GodmodeTask = player:DoPeriodicTask(0.1, GodmodePlayerTask) print("Godmode task started") end end ToggleGodmode()) @(13.50, 531.27)
+[00:18:12]: Godmode task started	
+[00:18:14]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(local player = UserToPlayer('KU_54sjcu-a') if player == nil then ThePlayer.components.talker:Say("Command does not work because the player isn't in the same world with you!") return end local p = player local b = p.components.builder local t = p.components.talker if p and b and t then t:Say(b.freebuildmode and "Creative Mode:Disabled" or "Creative Mode:Enabled") b:GiveAllRecipes() end) @(13.82, 530.81)
+[00:18:17]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(local player = UserToPlayer('KU_54sjcu-a') if player == nil then ThePlayer.components.talker:Say("Command does not work because the player isn't in the same world with you!") return end local i = player.components.mightiness if player and not player:HasTag("playerghost") and i then i:SetPercent(1) end) @(15.76, 528.79)
+[00:18:28]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(ThePlayer.components.talker:Say("← Use Ctrl+Alt+Right-click in the items menu to teleport to an item you want If the item is in the world")) @(9.32, 536.26)
+[00:18:37]: Server Autopaused	
+[00:19:13]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(print(c_find("cave_exit"):GetDebugString())) @(4.21, 532.83)
+[00:19:13]: 104700 - cave_exit age 257.93
+GUID:104700 Name:  Tags: inspectable migrator blocker 
+Prefab: cave_exit
+AnimState: bank: FROMNUM build: cave_exit anim: open anim/cave_exit.zip:open Frame: 1/2 Facing: 0:right
+Transform: Pos=(8.50,0.00,475.68) Scale=(1.00,1.00,1.00) Heading=0.00 Prediction=-1.00
+Network: NetworkID=20979 Owner=UNASSIGNED_RAKNET_GUID NetSleep=1111111111111111111111111111111111111111111111111111111111111110
+MiniMapEntity: 
+Physics: Collision Group: 512 Mask: 256,1024,16384, (ACTIVE) Vel: 0.00
+SoundEmitter: 
+Buffered Action: nil
+-----------
+worldmigrator: ID: 4 world: 3 (auto) available: true receives: 4 status: active enabled: true
+	
+[00:19:13]: Server Unpaused	
+[00:19:25]: Server Autopaused	
+[00:19:26]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(print(c_find("cave_exit"):GetDebugString())) @(2.25, 485.91)
+[00:19:26]: 104700 - cave_exit age 270.03
+GUID:104700 Name:  Tags: inspectable migrator blocker 
+Prefab: cave_exit
+AnimState: bank: FROMNUM build: cave_exit anim: open anim/cave_exit.zip:open Frame: 0/2 Facing: 0:right
+Transform: Pos=(8.50,0.00,475.68) Scale=(1.00,1.00,1.00) Heading=0.00 Prediction=-1.00
+Network: NetworkID=20979 Owner=UNASSIGNED_RAKNET_GUID NetSleep=1111111111111111111111111111111111111111111111111111111111111110
+MiniMapEntity: 
+Physics: Collision Group: 512 Mask: 256,1024,16384, (ACTIVE) Vel: 0.00
+SoundEmitter: 
+Buffered Action: nil
+-----------
+worldmigrator: ID: 4 world: 3 (auto) available: true receives: 4 status: active enabled: true
+	
+[00:19:26]: Server Unpaused	
+[00:19:28]: Server Autopaused	
+[00:19:33]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(c_gonext("cave_exit")) @(5.21, 534.45)
+[00:19:33]: Finding a 	cave_exit	
+[00:19:33]: Found 104697 (1/10)	
+[00:19:33]: Server Unpaused	
+[00:19:36]: Server Autopaused	
+[00:19:37]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(c_gonext("cave_exit")) @(159.98, -463.61)
+[00:19:37]: Finding a 	cave_exit	
+[00:19:37]: Found 104698 (2/10)	
+[00:19:37]: Server Unpaused	
+[00:19:39]: Server Autopaused	
+[00:19:40]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(print(c_find("cave_exit"):GetDebugString())) @(-249.50, -476.36)
+[00:19:40]: 104698 - cave_exit age 277.37
+GUID:104698 Name:  Tags: inspectable migrator blocker 
+Prefab: cave_exit
+AnimState: bank: FROMNUM build: cave_exit anim: open anim/cave_exit.zip:open Frame: 0/2 Facing: 0:right
+Transform: Pos=(-251.50,0.00,-480.32) Scale=(1.00,1.00,1.00) Heading=0.00 Prediction=-1.00
+Network: NetworkID=20977 Owner=UNASSIGNED_RAKNET_GUID NetSleep=1111111111111111111111111111111111111111111111111111111111111110
+MiniMapEntity: 
+Physics: Collision Group: 512 Mask: 256,1024,16384, (ACTIVE) Vel: 0.00
+SoundEmitter: 
+Buffered Action: nil
+-----------
+worldmigrator: ID: 1 world: 3 (auto) available: true receives: 1 status: active enabled: true
+	
+[00:19:40]: Server Unpaused	
+[00:19:49]: Server Autopaused	
+[00:19:51]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(print(c_find("cave_exit"):GetDebugString())) @(-242.04, -477.20)
+[00:19:51]: 104698 - cave_exit age 286.30
+GUID:104698 Name:  Tags: inspectable migrator blocker 
+Prefab: cave_exit
+AnimState: bank: FROMNUM build: cave_exit anim: open anim/cave_exit.zip:open Frame: 0/2 Facing: 0:right
+Transform: Pos=(-251.50,0.00,-480.32) Scale=(1.00,1.00,1.00) Heading=0.00 Prediction=-1.00
+Network: NetworkID=20977 Owner=UNASSIGNED_RAKNET_GUID NetSleep=1111111111111111111111111111111111111111111111111111111111111110
+MiniMapEntity: 
+Physics: Collision Group: 512 Mask: 256,1024,16384, (ACTIVE) Vel: 0.00
+SoundEmitter: 
+Buffered Action: nil
+-----------
+worldmigrator: ID: 1 world: 3 (auto) available: true receives: 1 status: active enabled: true
+	
+[00:19:51]: Server Unpaused	
+[00:20:01]: Server Autopaused	
+[00:20:09]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(print(c_find("cave_exit"):GetDebugString())) @(-252.44, -524.87)
+[00:20:09]: 104698 - cave_exit age 296.63
+GUID:104698 Name:  Tags: inspectable migrator blocker 
+Prefab: cave_exit
+AnimState: bank: FROMNUM build: cave_exit anim: open anim/cave_exit.zip:open Frame: 0/2 Facing: 0:right
+Transform: Pos=(-251.50,0.00,-480.32) Scale=(1.00,1.00,1.00) Heading=0.00 Prediction=-1.00
+Network: NetworkID=20977 Owner=UNASSIGNED_RAKNET_GUID NetSleep=1111111111111111111111111111111111111111111111111111111111111110
+MiniMapEntity: 
+Physics: Collision Group: 512 Mask: 256,1024,16384, (ACTIVE) Vel: 0.00
+SoundEmitter: 
+Buffered Action: nil
+-----------
+worldmigrator: ID: 1 world: 3 (auto) available: true receives: 1 status: active enabled: true
+	
+[00:20:09]: Server Unpaused	
+[00:20:18]: Server Autopaused	
+[00:20:19]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(print(c_find("cave_exit"):GetDebugString())) @(-252.44, -524.87)
+[00:20:19]: 104698 - cave_exit age 304.87
+GUID:104698 Name:  Tags: inspectable migrator blocker 
+Prefab: cave_exit
+AnimState: bank: FROMNUM build: cave_exit anim: open anim/cave_exit.zip:open Frame: 1/2 Facing: 0:right
+Transform: Pos=(-251.50,0.00,-480.32) Scale=(1.00,1.00,1.00) Heading=0.00 Prediction=-1.00
+Network: NetworkID=20977 Owner=UNASSIGNED_RAKNET_GUID NetSleep=1111111111111111111111111111111111111111111111111111111111111110
+MiniMapEntity: 
+Physics: Collision Group: 512 Mask: 256,1024,16384, (ACTIVE) Vel: 0.00
+SoundEmitter: 
+Buffered Action: nil
+-----------
+worldmigrator: ID: 1 world: 3 (auto) available: true receives: 1 status: active enabled: true
+	
+[00:20:19]: Server Unpaused	
+[00:20:55]: Server Autopaused	
+[00:20:56]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(c_gonext("cave_exit")) @(-252.44, -524.87)
+[00:20:56]: Finding a 	cave_exit	
+[00:20:56]: Found 104699 (3/10)	
+[00:20:56]: Server Unpaused	
+[00:20:57]: Server Autopaused	
+[00:20:58]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(print(c_find("cave_exit"):GetDebugString())) @(-62.09, 421.71)
+[00:20:58]: 104699 - cave_exit age 341.53
+GUID:104699 Name:  Tags: inspectable migrator blocker 
+Prefab: cave_exit
+AnimState: bank: FROMNUM build: cave_exit anim: open anim/cave_exit.zip:open Frame: 0/2 Facing: 0:right
+Transform: Pos=(-59.50,0.00,467.68) Scale=(1.00,1.00,1.00) Heading=0.00 Prediction=-1.00
+Network: NetworkID=20978 Owner=UNASSIGNED_RAKNET_GUID NetSleep=1111111111111111111111111111111111111111111111111111111111111110
+MiniMapEntity: 
+Physics: Collision Group: 512 Mask: 256,1024,16384, (ACTIVE) Vel: 0.00
+SoundEmitter: 
+Buffered Action: nil
+-----------
+worldmigrator: ID: 7 world: 3 (auto) available: true receives: 7 status: active enabled: true
+	
+[00:20:58]: Server Unpaused	
+[00:21:07]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(local player = UserToPlayer('KU_54sjcu-a') if player == nil then UserToPlayer("KU_54sjcu-a").components.talker:Say("Command does not work because the player isn't in the same world with you!") end local function InInv(b) local inv = b.components.inventoryitem return inv and inv.owner and true or false end local function CanDelete(inst) if inst and inst ~= TheWorld and not InInv(inst) and inst.Transform then if inst:HasTag("player") then if inst.userid == nil or inst.userid == "" then return true end else return true end end return false end if player and player.Transform then if player.components.burnable then player.components.burnable:Extinguish(true) end local x,y,z = player.Transform:GetWorldPosition() local ents = TheSim:FindEntities(x,y,z, 3) for _, obj in pairs(ents) do if CanDelete(obj) then if obj.components then if obj.components.burnable then obj.components.burnable:Extinguish(true) end if obj.components.firefx then if obj.components.firefx.extinguishsoundtest then obj.components.firefx.extinguishsoundtest = function() return true end end obj.components.firefx:Extinguish() end end if (not (obj.prefab == "minerhatlight" or "lanternlight" or "yellowamuletlight" or "slurperlight" or "redlanternlight" or "lighterfire" or "torchfire" or "torchfire_rag" or "torchfire_spooky" or "torchfire_shadow")) or (obj.entity:GetParent() == nil) then obj:Remove() print(obj.prefab) end end end end) @(-61.09, 464.36)
+[00:21:07]: cave_exit	
+[00:21:09]: Server Autopaused	
+[00:21:10]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(c_gonext("cave_exit")) @(-62.66, 465.87)
+[00:21:10]: Finding a 	cave_exit	
+[00:21:10]: Found 104700 (3/9)	
+[00:21:10]: Server Unpaused	
+[00:21:11]: Server Autopaused	
+[00:21:12]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(print(c_find("cave_exit"):GetDebugString())) @(6.07, 474.43)
+[00:21:12]: 104700 - cave_exit age 352.73
+GUID:104700 Name:  Tags: inspectable migrator blocker 
+Prefab: cave_exit
+AnimState: bank: FROMNUM build: cave_exit anim: open anim/cave_exit.zip:open Frame: 1/2 Facing: 0:right
+Transform: Pos=(8.50,0.00,475.68) Scale=(1.00,1.00,1.00) Heading=0.00 Prediction=-1.00
+Network: NetworkID=20979 Owner=UNASSIGNED_RAKNET_GUID NetSleep=1111111111111111111111111111111111111111111111111111111111111110
+MiniMapEntity: 
+Physics: Collision Group: 512 Mask: 256,1024,16384, (ACTIVE) Vel: 0.00
+SoundEmitter: 
+Buffered Action: nil
+-----------
+worldmigrator: ID: 4 world: 3 (auto) available: true receives: 4 status: active enabled: true
+	
+[00:21:12]: Server Unpaused	
+[00:21:16]: Server Autopaused	
+[00:21:17]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(c_gonext("cave_exit")) @(7.39, 434.88)
+[00:21:17]: Finding a 	cave_exit	
+[00:21:17]: Found 104701 (4/9)	
+[00:21:17]: Server Unpaused	
+[00:21:18]: Server Autopaused	
+[00:21:19]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(print(c_find("cave_exit"):GetDebugString())) @(-464.67, 113.31)
+[00:21:19]: 104701 - cave_exit age 357.57
+GUID:104701 Name:  Tags: inspectable migrator blocker 
+Prefab: cave_exit
+AnimState: bank: FROMNUM build: cave_exit anim: open anim/cave_exit.zip:open Frame: 0/2 Facing: 0:right
+Transform: Pos=(-464.32,0.00,151.50) Scale=(1.00,1.00,1.00) Heading=0.00 Prediction=-1.00
+Network: NetworkID=20980 Owner=UNASSIGNED_RAKNET_GUID NetSleep=1111111111111111111111111111111111111111111111111111111111111110
+MiniMapEntity: 
+Physics: Collision Group: 512 Mask: 256,1024,16384, (ACTIVE) Vel: 0.00
+SoundEmitter: 
+Buffered Action: nil
+-----------
+worldmigrator: ID: 9 world: 3 (auto) available: true receives: 9 status: active enabled: true
+	
+[00:21:19]: Server Unpaused	
+[00:21:28]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(local player = UserToPlayer('KU_54sjcu-a') if player == nil then UserToPlayer("KU_54sjcu-a").components.talker:Say("Command does not work because the player isn't in the same world with you!") end local function InInv(b) local inv = b.components.inventoryitem return inv and inv.owner and true or false end local function CanDelete(inst) if inst and inst ~= TheWorld and not InInv(inst) and inst.Transform then if inst:HasTag("player") then if inst.userid == nil or inst.userid == "" then return true end else return true end end return false end if player and player.Transform then if player.components.burnable then player.components.burnable:Extinguish(true) end local x,y,z = player.Transform:GetWorldPosition() local ents = TheSim:FindEntities(x,y,z, 3) for _, obj in pairs(ents) do if CanDelete(obj) then if obj.components then if obj.components.burnable then obj.components.burnable:Extinguish(true) end if obj.components.firefx then if obj.components.firefx.extinguishsoundtest then obj.components.firefx.extinguishsoundtest = function() return true end end obj.components.firefx:Extinguish() end end if (not (obj.prefab == "minerhatlight" or "lanternlight" or "yellowamuletlight" or "slurperlight" or "redlanternlight" or "lighterfire" or "torchfire" or "torchfire_rag" or "torchfire_spooky" or "torchfire_shadow")) or (obj.entity:GetParent() == nil) then obj:Remove() print(obj.prefab) end end end end) @(-465.57, 147.71)
+[00:21:28]: cave_exit	
+[00:21:31]: Server Autopaused	
+[00:21:32]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(c_gonext("cave_exit")) @(-466.04, 152.51)
+[00:21:32]: Finding a 	cave_exit	
+[00:21:32]: Found 104702 (4/8)	
+[00:21:32]: Server Unpaused	
+[00:21:32]: Server Autopaused	
+[00:21:33]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(print(c_find("cave_exit"):GetDebugString())) @(68.61, 512.56)
+[00:21:33]: 104702 - cave_exit age 369.77
+GUID:104702 Name:  Tags: inspectable migrator blocker 
+Prefab: cave_exit
+AnimState: bank: FROMNUM build: cave_exit anim: open anim/cave_exit.zip:open Frame: 1/2 Facing: 0:right
+Transform: Pos=(72.31,0.00,512.50) Scale=(1.00,1.00,1.00) Heading=0.00 Prediction=-1.00
+Network: NetworkID=20981 Owner=UNASSIGNED_RAKNET_GUID NetSleep=1111111111111111111111111111111111111111111111111111111111111110
+MiniMapEntity: 
+Physics: Collision Group: 512 Mask: 256,1024,16384, (ACTIVE) Vel: 0.00
+SoundEmitter: 
+Buffered Action: nil
+-----------
+worldmigrator: ID: 3 world: 3 (auto) available: true receives: 3 status: active enabled: true
+	
+[00:21:33]: Server Unpaused	
+[00:21:37]: Server Autopaused	
+[00:21:37]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(c_gonext("cave_exit")) @(71.38, 467.95)
+[00:21:37]: Finding a 	cave_exit	
+[00:21:37]: Found 104703 (5/8)	
+[00:21:37]: Server Unpaused	
+[00:21:38]: Server Autopaused	
+[00:21:39]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(print(c_find("cave_exit"):GetDebugString())) @(-15.06, 245.80)
+[00:21:39]: 104703 - cave_exit age 373.70
+GUID:104703 Name:  Tags: inspectable migrator blocker 
+Prefab: cave_exit
+AnimState: bank: FROMNUM build: cave_exit anim: open anim/cave_exit.zip:open Frame: 0/2 Facing: 0:right
+Transform: Pos=(-12.50,0.00,291.68) Scale=(1.00,1.00,1.00) Heading=0.00 Prediction=-1.00
+Network: NetworkID=20982 Owner=UNASSIGNED_RAKNET_GUID NetSleep=1111111111111111111111111111111111111111111111111111111111111110
+MiniMapEntity: 
+Physics: Collision Group: 512 Mask: 256,1024,16384, (ACTIVE) Vel: 0.00
+SoundEmitter: 
+Buffered Action: nil
+-----------
+worldmigrator: ID: 8 world: 3 (auto) available: true receives: 8 status: active enabled: true
+	
+[00:21:39]: Server Unpaused	
+[00:21:43]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(local player = UserToPlayer('KU_54sjcu-a') if player == nil then UserToPlayer("KU_54sjcu-a").components.talker:Say("Command does not work because the player isn't in the same world with you!") end local function InInv(b) local inv = b.components.inventoryitem return inv and inv.owner and true or false end local function CanDelete(inst) if inst and inst ~= TheWorld and not InInv(inst) and inst.Transform then if inst:HasTag("player") then if inst.userid == nil or inst.userid == "" then return true end else return true end end return false end if player and player.Transform then if player.components.burnable then player.components.burnable:Extinguish(true) end local x,y,z = player.Transform:GetWorldPosition() local ents = TheSim:FindEntities(x,y,z, 3) for _, obj in pairs(ents) do if CanDelete(obj) then if obj.components then if obj.components.burnable then obj.components.burnable:Extinguish(true) end if obj.components.firefx then if obj.components.firefx.extinguishsoundtest then obj.components.firefx.extinguishsoundtest = function() return true end end obj.components.firefx:Extinguish() end end if (not (obj.prefab == "minerhatlight" or "lanternlight" or "yellowamuletlight" or "slurperlight" or "redlanternlight" or "lighterfire" or "torchfire" or "torchfire_rag" or "torchfire_spooky" or "torchfire_shadow")) or (obj.entity:GetParent() == nil) then obj:Remove() print(obj.prefab) end end end end) @(-15.26, 287.42)
+[00:21:43]: cave_exit	
+[00:21:44]: Server Autopaused	
+[00:21:45]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(c_gonext("cave_exit")) @(-15.40, 288.70)
+[00:21:45]: Finding a 	cave_exit	
+[00:21:45]: Found 104704 (5/7)	
+[00:21:45]: Server Unpaused	
+[00:21:45]: Server Autopaused	
+[00:21:47]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(print(c_find("cave_exit"):GetDebugString())) @(-38.29, -571.19)
+[00:21:47]: 104704 - cave_exit age 379.57
+GUID:104704 Name:  Tags: inspectable migrator blocker 
+Prefab: cave_exit
+AnimState: bank: FROMNUM build: cave_exit anim: open anim/cave_exit.zip:open Frame: 1/2 Facing: 0:right
+Transform: Pos=(-35.50,0.00,-568.32) Scale=(1.00,1.00,1.00) Heading=0.00 Prediction=-1.00
+Network: NetworkID=20983 Owner=UNASSIGNED_RAKNET_GUID NetSleep=1111111111111111111111111111111111111111111111111111111111111110
+MiniMapEntity: 
+Physics: Collision Group: 512 Mask: 256,1024,16384, (ACTIVE) Vel: 0.00
+SoundEmitter: 
+Buffered Action: nil
+-----------
+worldmigrator: ID: 2 world: 3 (auto) available: true receives: 2 status: active enabled: true
+	
+[00:21:47]: Server Unpaused	
+[00:21:49]: Server Autopaused	
+[00:21:50]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(c_gonext("cave_exit")) @(-38.09, -614.28)
+[00:21:50]: Finding a 	cave_exit	
+[00:21:50]: Found 104705 (6/7)	
+[00:21:50]: Server Unpaused	
+[00:21:51]: Server Autopaused	
+[00:21:52]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(print(c_find("cave_exit"):GetDebugString())) @(-170.84, 342.76)
+[00:21:52]: 104705 - cave_exit age 382.63
+GUID:104705 Name:  Tags: inspectable migrator blocker 
+Prefab: cave_exit
+AnimState: bank: FROMNUM build: cave_exit anim: open anim/cave_exit.zip:open Frame: 1/2 Facing: 0:right
+Transform: Pos=(-168.32,0.00,388.50) Scale=(1.00,1.00,1.00) Heading=0.00 Prediction=-1.00
+Network: NetworkID=20984 Owner=UNASSIGNED_RAKNET_GUID NetSleep=1111111111111111111111111111111111111111111111111111111111111110
+MiniMapEntity: 
+Physics: Collision Group: 512 Mask: 256,1024,16384, (ACTIVE) Vel: 0.00
+SoundEmitter: 
+Buffered Action: nil
+-----------
+worldmigrator: ID: 5 world: 3 (auto) available: true receives: 5 status: active enabled: true
+	
+[00:21:52]: Server Unpaused	
+[00:21:55]: Server Autopaused	
+[00:21:56]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(c_gonext("cave_exit")) @(-169.22, 343.98)
+[00:21:56]: Finding a 	cave_exit	
+[00:21:56]: Found 104706 (7/7)	
+[00:21:56]: Server Unpaused	
+[00:21:56]: Server Autopaused	
+[00:21:57]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(print(c_find("cave_exit"):GetDebugString())) @(152.89, -601.71)
+[00:21:57]: 104706 - cave_exit age 386.23
+GUID:104706 Name:  Tags: inspectable migrator blocker 
+Prefab: cave_exit
+AnimState: bank: FROMNUM build: cave_exit anim: open anim/cave_exit.zip:open Frame: 0/2 Facing: 0:right
+Transform: Pos=(155.50,0.00,-555.69) Scale=(1.00,1.00,1.00) Heading=0.00 Prediction=-1.00
+Network: NetworkID=20985 Owner=UNASSIGNED_RAKNET_GUID NetSleep=1111111111111111111111111111111111111111111111111111111111111110
+MiniMapEntity: 
+Physics: Collision Group: 512 Mask: 256,1024,16384, (ACTIVE) Vel: 0.00
+SoundEmitter: 
+Buffered Action: nil
+-----------
+worldmigrator: ID: 10 world: 3 (auto) available: true receives: 10 status: active enabled: true
+	
+[00:21:57]: Server Unpaused	
+[00:22:02]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(local player = UserToPlayer('KU_54sjcu-a') if player == nil then UserToPlayer("KU_54sjcu-a").components.talker:Say("Command does not work because the player isn't in the same world with you!") end local function InInv(b) local inv = b.components.inventoryitem return inv and inv.owner and true or false end local function CanDelete(inst) if inst and inst ~= TheWorld and not InInv(inst) and inst.Transform then if inst:HasTag("player") then if inst.userid == nil or inst.userid == "" then return true end else return true end end return false end if player and player.Transform then if player.components.burnable then player.components.burnable:Extinguish(true) end local x,y,z = player.Transform:GetWorldPosition() local ents = TheSim:FindEntities(x,y,z, 3) for _, obj in pairs(ents) do if CanDelete(obj) then if obj.components then if obj.components.burnable then obj.components.burnable:Extinguish(true) end if obj.components.firefx then if obj.components.firefx.extinguishsoundtest then obj.components.firefx.extinguishsoundtest = function() return true end end obj.components.firefx:Extinguish() end end if (not (obj.prefab == "minerhatlight" or "lanternlight" or "yellowamuletlight" or "slurperlight" or "redlanternlight" or "lighterfire" or "torchfire" or "torchfire_rag" or "torchfire_spooky" or "torchfire_shadow")) or (obj.entity:GetParent() == nil) then obj:Remove() print(obj.prefab) end end end end) @(154.51, -558.41)
+[00:22:05]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(local player = UserToPlayer('KU_54sjcu-a') if player == nil then UserToPlayer("KU_54sjcu-a").components.talker:Say("Command does not work because the player isn't in the same world with you!") end local function InInv(b) local inv = b.components.inventoryitem return inv and inv.owner and true or false end local function CanDelete(inst) if inst and inst ~= TheWorld and not InInv(inst) and inst.Transform then if inst:HasTag("player") then if inst.userid == nil or inst.userid == "" then return true end else return true end end return false end if player and player.Transform then if player.components.burnable then player.components.burnable:Extinguish(true) end local x,y,z = player.Transform:GetWorldPosition() local ents = TheSim:FindEntities(x,y,z, 3) for _, obj in pairs(ents) do if CanDelete(obj) then if obj.components then if obj.components.burnable then obj.components.burnable:Extinguish(true) end if obj.components.firefx then if obj.components.firefx.extinguishsoundtest then obj.components.firefx.extinguishsoundtest = function() return true end end obj.components.firefx:Extinguish() end end if (not (obj.prefab == "minerhatlight" or "lanternlight" or "yellowamuletlight" or "slurperlight" or "redlanternlight" or "lighterfire" or "torchfire" or "torchfire_rag" or "torchfire_spooky" or "torchfire_shadow")) or (obj.entity:GetParent() == nil) then obj:Remove() print(obj.prefab) end end end end) @(154.03, -558.86)
+[00:22:05]: cave_exit	
+[00:22:06]: Server Autopaused	
+[00:22:07]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(c_gonext("cave_exit")) @(154.11, -556.28)
+[00:22:07]: Finding a 	cave_exit	
+[00:22:07]: Found 104697 (1/6)	
+[00:22:07]: Server Unpaused	
+[00:22:07]: Server Autopaused	
+[00:22:09]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(print(c_find("cave_exit"):GetDebugString())) @(155.54, -467.58)
+[00:22:09]: 104697 - cave_exit age 395.60
+GUID:104697 Name:  Tags: inspectable migrator blocker 
+Prefab: cave_exit
+AnimState: bank: FROMNUM build: cave_exit anim: open anim/cave_exit.zip:open Frame: 0/2 Facing: 0:right
+Transform: Pos=(156.31,0.00,-467.50) Scale=(1.00,1.00,1.00) Heading=0.00 Prediction=-1.00
+Network: NetworkID=20976 Owner=UNASSIGNED_RAKNET_GUID NetSleep=1111111111111111111111111111111111111111111111111111111111111110
+MiniMapEntity: 
+Physics: Collision Group: 512 Mask: 256,1024,16384, (ACTIVE) Vel: 0.00
+SoundEmitter: 
+Buffered Action: nil
+-----------
+worldmigrator: ID: 6 world: 3 (auto) available: true receives: 6 status: active enabled: true
+	
+[00:22:09]: Server Unpaused	
+[00:22:14]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(local player = UserToPlayer('KU_54sjcu-a') if player == nil then UserToPlayer("KU_54sjcu-a").components.talker:Say("Command does not work because the player isn't in the same world with you!") end local function InInv(b) local inv = b.components.inventoryitem return inv and inv.owner and true or false end local function CanDelete(inst) if inst and inst ~= TheWorld and not InInv(inst) and inst.Transform then if inst:HasTag("player") then if inst.userid == nil or inst.userid == "" then return true end else return true end end return false end if player and player.Transform then if player.components.burnable then player.components.burnable:Extinguish(true) end local x,y,z = player.Transform:GetWorldPosition() local ents = TheSim:FindEntities(x,y,z, 3) for _, obj in pairs(ents) do if CanDelete(obj) then if obj.components then if obj.components.burnable then obj.components.burnable:Extinguish(true) end if obj.components.firefx then if obj.components.firefx.extinguishsoundtest then obj.components.firefx.extinguishsoundtest = function() return true end end obj.components.firefx:Extinguish() end end if (not (obj.prefab == "minerhatlight" or "lanternlight" or "yellowamuletlight" or "slurperlight" or "redlanternlight" or "lighterfire" or "torchfire" or "torchfire_rag" or "torchfire_spooky" or "torchfire_shadow")) or (obj.entity:GetParent() == nil) then obj:Remove() print(obj.prefab) end end end end) @(153.66, -472.17)
+[00:22:14]: cave_exit	
+[00:22:21]: Server Autopaused	
+[00:22:22]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(c_gonext("cave_exit")) @(156.15, -469.47)
+[00:22:22]: Finding a 	cave_exit	
+[00:22:22]: Found 104698 (1/5)	
+[00:22:22]: Server Unpaused	
+[00:22:22]: Server Autopaused	
+[00:22:23]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(print(c_find("cave_exit"):GetDebugString())) @(-253.46, -482.33)
+[00:22:23]: 104698 - cave_exit age 408.17
+GUID:104698 Name:  Tags: inspectable migrator blocker 
+Prefab: cave_exit
+AnimState: bank: FROMNUM build: cave_exit anim: open anim/cave_exit.zip:open Frame: 0/2 Facing: 0:right
+Transform: Pos=(-251.50,0.00,-480.32) Scale=(1.00,1.00,1.00) Heading=0.00 Prediction=-1.00
+Network: NetworkID=20977 Owner=UNASSIGNED_RAKNET_GUID NetSleep=1111111111111111111111111111111111111111111111111111111111111110
+MiniMapEntity: 
+Physics: Collision Group: 512 Mask: 256,1024,16384, (ACTIVE) Vel: 0.00
+SoundEmitter: 
+Buffered Action: nil
+-----------
+worldmigrator: ID: 1 world: 3 (auto) available: true receives: 1 status: active enabled: true
+	
+[00:22:23]: Server Unpaused	
+[00:22:25]: Server Autopaused	
+[00:22:27]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(c_gonext("cave_exit")) @(-250.42, -479.88)
+[00:22:27]: Finding a 	cave_exit	
+[00:22:27]: Found 104700 (2/5)	
+[00:22:27]: Server Unpaused	
+[00:22:27]: Server Autopaused	
+[00:22:28]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(print(c_find("cave_exit"):GetDebugString())) @(9.51, 476.05)
+[00:22:28]: 104700 - cave_exit age 410.87
+GUID:104700 Name:  Tags: inspectable migrator blocker 
+Prefab: cave_exit
+AnimState: bank: FROMNUM build: cave_exit anim: open anim/cave_exit.zip:open Frame: 0/2 Facing: 0:right
+Transform: Pos=(8.50,0.00,475.68) Scale=(1.00,1.00,1.00) Heading=0.00 Prediction=-1.00
+Network: NetworkID=20979 Owner=UNASSIGNED_RAKNET_GUID NetSleep=1111111111111111111111111111111111111111111111111111111111111110
+MiniMapEntity: 
+Physics: Collision Group: 512 Mask: 256,1024,16384, (ACTIVE) Vel: 0.00
+SoundEmitter: 
+Buffered Action: nil
+-----------
+worldmigrator: ID: 4 world: 3 (auto) available: true receives: 4 status: active enabled: true
+	
+[00:22:28]: Server Unpaused	
+[00:22:30]: Server Autopaused	
+[00:22:30]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(c_gonext("cave_exit")) @(15.13, 476.00)
+[00:22:30]: Finding a 	cave_exit	
+[00:22:30]: Found 104702 (3/5)	
+[00:22:30]: Server Unpaused	
+[00:22:31]: Server Autopaused	
+[00:22:32]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(print(c_find("cave_exit"):GetDebugString())) @(78.82, 512.60)
+[00:22:32]: 104702 - cave_exit age 413.23
+GUID:104702 Name:  Tags: inspectable migrator blocker 
+Prefab: cave_exit
+AnimState: bank: FROMNUM build: cave_exit anim: open anim/cave_exit.zip:open Frame: 1/2 Facing: 0:right
+Transform: Pos=(72.31,0.00,512.50) Scale=(1.00,1.00,1.00) Heading=0.00 Prediction=-1.00
+Network: NetworkID=20981 Owner=UNASSIGNED_RAKNET_GUID NetSleep=1111111111111111111111111111111111111111111111111111111111111110
+MiniMapEntity: 
+Physics: Collision Group: 512 Mask: 256,1024,16384, (ACTIVE) Vel: 0.00
+SoundEmitter: 
+Buffered Action: nil
+-----------
+worldmigrator: ID: 3 world: 3 (auto) available: true receives: 3 status: active enabled: true
+	
+[00:22:32]: Server Unpaused	
+[00:22:33]: Server Autopaused	
+[00:22:34]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(c_gonext("cave_exit")) @(69.74, 466.59)
+[00:22:34]: Finding a 	cave_exit	
+[00:22:34]: Found 104704 (4/5)	
+[00:22:34]: Server Unpaused	
+[00:22:35]: Server Autopaused	
+[00:22:35]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(print(c_find("cave_exit"):GetDebugString())) @(-38.02, -614.03)
+[00:22:36]: 104704 - cave_exit age 415.43
+GUID:104704 Name:  Tags: inspectable migrator blocker 
+Prefab: cave_exit
+AnimState: bank: FROMNUM build: cave_exit anim: open anim/cave_exit.zip:open Frame: 0/2 Facing: 0:right
+Transform: Pos=(-35.50,0.00,-568.32) Scale=(1.00,1.00,1.00) Heading=0.00 Prediction=-1.00
+Network: NetworkID=20983 Owner=UNASSIGNED_RAKNET_GUID NetSleep=1111111111111111111111111111111111111111111111111111111111111110
+MiniMapEntity: 
+Physics: Collision Group: 512 Mask: 256,1024,16384, (ACTIVE) Vel: 0.00
+SoundEmitter: 
+Buffered Action: nil
+-----------
+worldmigrator: ID: 2 world: 3 (auto) available: true receives: 2 status: active enabled: true
+	
+[00:22:36]: Server Unpaused	
+[00:22:38]: Server Autopaused	
+[00:22:43]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(c_countprefabs("cave_exit") @(-37.75, -613.12)
+[00:22:43]: attempt to call a nil value
+[00:22:43]: Server Unpaused	
+[00:22:44]: Server Autopaused	
+[00:22:45]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(c_countprefabs("cave_exit")) @(-37.59, -612.53)
+[00:22:45]: There are 	5	cave_exits in the world.	
+[00:22:45]: Server Unpaused	
+[00:22:48]: Server Autopaused	
+[00:22:51]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(c_migrateto(3)) @(-35.32, -567.67)
+[00:22:51]: Server Unpaused	
+[00:22:51]: Serializing user: session/165EB7C1107A0E90/A7GK9MMPN3T4/0000000003
+[00:22:51]: [Shard] Migration request: (KU_54sjcu-a) to Loot(3)
+[00:22:51]: [Shard] #2 <- session/165EB7C1107A0E90/A7GK9MMPN3T4/0000000003
+[00:22:52]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
+[00:22:52]: [Steam] SendUserDisconnect for '76561199127037806'
+[00:23:32]: Server Autopaused	
+[00:23:34]: Server Unpaused	
+[00:23:34]: Server Autopaused	
+[00:23:36]: Server Unpaused	
+[00:23:36]: Server Autopaused	
+[00:23:37]: Server Unpaused	
+[00:23:37]: Server Autopaused	
+[00:23:43]: Server Unpaused	
+[00:24:07]: Server Autopaused	
+[00:24:17]: Server Unpaused	
+[00:24:33]: Server Autopaused	
+[00:24:36]: Server Unpaused	
+[00:24:36]: Available disk space for save files: 4598 MB
+[00:24:37]: Serializing world: session/165EB7C1107A0E90/0000000003
+[00:24:37]: Server Autopaused	
+[00:24:37]: Server Unpaused	
+[00:24:50]: Sim paused
+[00:26:20]: Sim unpaused
+[00:27:10]: Server Autopaused	
+[00:27:12]: Server Unpaused	
+[00:27:16]: Server Autopaused	
+[00:27:19]: Server Unpaused	
+[00:27:20]: Server Autopaused	
+[00:27:21]: Server Unpaused	
+[00:27:26]: Server Autopaused	
+[00:27:26]: Server Unpaused	
+[00:27:27]: Server Autopaused	
+[00:27:27]: Server Unpaused	
+[00:27:28]: Server Autopaused	
+[00:27:29]: Server Unpaused	
+[00:27:32]: Server Autopaused	
+[00:27:33]: Server Unpaused	
+[00:27:33]: Server Autopaused	
+[00:27:34]: Server Unpaused	
+[00:27:39]: Server Autopaused	
+[00:27:40]: Server Unpaused	
+[00:27:40]: Server Autopaused	
+[00:27:41]: Server Unpaused	
+[00:27:43]: Server Autopaused	
+[00:27:44]: Server Unpaused	
+[00:27:45]: Server Autopaused	
+[00:27:46]: Server Unpaused	
+[00:28:03]: Server Autopaused	
+[00:28:05]: Server Unpaused	
+[00:28:05]: Server Autopaused	
+[00:28:06]: Server Unpaused	
+[00:28:08]: Server Autopaused	
+[00:28:10]: Server Unpaused	
+[00:28:10]: Server Autopaused	
+[00:28:11]: Server Unpaused	
+[00:28:13]: Server Autopaused	
+[00:28:15]: Server Unpaused	
+[00:28:15]: Server Autopaused	
+[00:28:16]: Server Unpaused	
+[00:28:21]: Server Autopaused	
+[00:28:21]: Server Unpaused	
+[00:28:22]: Server Autopaused	
+[00:28:23]: Server Unpaused	
+[00:28:25]: Server Autopaused	
+[00:28:26]: Server Unpaused	
+[00:28:26]: Server Autopaused	
+[00:28:27]: Server Unpaused	
+[00:28:30]: Server Autopaused	
+[00:28:36]: Server Unpaused	
+[00:29:05]: Server Autopaused	
+[00:30:02]: Server Unpaused	
+[00:30:07]: [200] Account Communication Success (6)
+[00:30:07]: Received (KU_54sjcu-a) from TokenPurpose
+[00:30:13]: Server Autopaused	
+[00:30:17]: Server Unpaused	
+[00:30:17]: Server Autopaused	
+[00:30:18]: Server Unpaused	
+[00:30:21]: Server Autopaused	
+[00:30:25]: Server Unpaused	
+[00:30:26]: [Shard] #4 -> session/165EB7C1107A0E90/A7GK9MMPN3T4/0000000004
+[00:30:26]: [Shard] Received migration #4 data for (KU_54sjcu-a)
+[00:30:34]: [P2P] Received from 16.27.33.171|1 '76561199127037806'
+[00:30:34]: [P2P] Sent to 16.27.33.171|1 '76561199127037806'
+[00:30:35]: New incoming connection 16.27.33.171|1 <8762168147075215581>
+[00:30:35]: Client connected from 16.27.33.171|1 <8762168147075215581>
+[00:30:35]: ValidateGameSessionToken GUID<8762168147075215581>
+[00:30:36]: Client authenticated: (KU_54sjcu-a) chientrm
+[00:30:36]: [Steam] Authenticated host '76561199127037806'
+[00:30:36]: [Shard] Completed incoming migration #4 for (KU_54sjcu-a)
+[00:30:49]: Resuming user: session/165EB7C1107A0E90/A7GK9MMPN3T4/0000000004
+[00:30:49]: Player will spawn close to portal #1	
+[00:30:49]: Spawning player at: [Load] (-249.94, 0.00, -478.37)	
+[00:30:55]: Server Autopaused	
+[00:31:06]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(for k,v in pairs(Ents) do if v.prefab=="cave_exit" then v.components.worldmigrator:SetDestinationWorld("1", true) end end) @(-252.62, -524.68)
+[00:31:06]: Validating portal[1] <-> 1[1] (active)	
+[00:31:06]: Validating portal[4] <-> 1[4] (active)	
+[00:31:06]: Validating portal[3] <-> 1[3] (active)	
+[00:31:06]: Validating portal[2] <-> 1[2] (active)	
+[00:31:06]: Validating portal[5] <-> 1[5] (active)	
+[00:31:06]: Server Unpaused	
+[00:31:12]: Server Autopaused	
+[00:31:15]: [(KU_54sjcu-a) chientrm] ReceiveRemoteExecute(c_migrateto(1)) @(-254.72, -474.53)
+[00:31:15]: Server Unpaused	
+[00:31:15]: Serializing user: session/165EB7C1107A0E90/A7GK9MMPN3T4/0000000004
+[00:31:15]: [Shard] Migration request: (KU_54sjcu-a) to [SHDMASTER](1)
+[00:31:15]: [Shard] #5 <- session/165EB7C1107A0E90/A7GK9MMPN3T4/0000000004
+[00:31:15]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
+[00:31:15]: [Steam] SendUserDisconnect for '76561199127037806'
+[00:33:37]: Server Autopaused	
+[00:33:42]: Server Unpaused	
+[00:33:43]: Server Autopaused	
+[00:33:48]: Server Unpaused	
+[00:33:54]: Server Autopaused	
+[00:34:02]: Server Unpaused	
+[00:34:03]: Server Autopaused	
+[00:34:29]: Server Unpaused	
+[00:34:31]: Server Autopaused	
+[00:34:33]: Server Unpaused	
+[00:34:34]: Server Autopaused	
+[00:34:36]: Server Unpaused	
+[00:34:39]: Server Autopaused	
+[00:34:43]: Server Unpaused	
+[00:34:43]: Server Autopaused	
+[00:34:45]: Server Unpaused	
+[00:34:45]: Server Autopaused	
+[00:34:46]: Server Unpaused	
+[00:34:49]: Server Autopaused	
+[00:34:53]: Server Unpaused	
+[00:34:53]: Server Autopaused	
+[00:34:55]: Server Unpaused	
+[00:34:55]: Server Autopaused	
+[00:34:58]: Server Unpaused	
+[00:35:00]: Server Autopaused	
+[00:35:03]: Server Unpaused	
+[00:35:04]: Server Autopaused	
+[00:35:05]: Server Unpaused	
+[00:35:05]: Server Autopaused	
+[00:35:06]: Server Unpaused	
+[00:35:08]: Server Autopaused	
+[00:35:12]: Server Unpaused	
+[00:35:12]: Server Autopaused	
+[00:35:13]: Server Unpaused	
+[00:35:14]: Server Autopaused	
+[00:35:15]: Server Unpaused	
+[00:35:17]: Server Autopaused	
+[00:35:23]: Server Unpaused	
+[00:35:24]: Server Autopaused	
+[00:35:25]: Server Unpaused	
+[00:35:25]: Server Autopaused	
+[00:35:27]: Server Unpaused	
+[00:35:27]: Server Autopaused	
+[00:35:33]: Server Unpaused	
+[00:35:34]: Server Autopaused	
+[00:35:35]: Server Unpaused	
+[00:35:35]: Server Autopaused	
+[00:35:37]: Server Unpaused	
+[00:35:39]: Server Autopaused	
+[00:35:42]: Server Unpaused	
+[00:35:42]: Server Autopaused	
+[00:35:43]: Server Unpaused	
+[00:35:43]: Server Autopaused	
+[00:35:44]: Server Unpaused	
+[00:35:47]: Server Autopaused	
+[00:35:50]: Server Unpaused	
+[00:35:51]: Server Autopaused	
+[00:35:52]: Server Unpaused	
+[00:35:52]: Server Autopaused	
+[00:35:53]: Server Unpaused	
+[00:35:55]: Server Autopaused	
+[00:35:58]: Server Unpaused	
+[00:35:58]: Server Autopaused	
+[00:35:59]: Server Unpaused	
+[00:36:00]: Server Autopaused	
+[00:36:01]: Server Unpaused	
+[00:36:02]: Server Autopaused	
+[00:36:06]: Server Unpaused	
+[00:36:06]: Server Autopaused	
+[00:36:07]: Server Unpaused	
+[00:36:07]: Server Autopaused	
+[00:36:09]: Server Unpaused	
+[00:36:09]: Server Autopaused	
+[00:36:15]: Server Unpaused	
+[00:36:16]: Server Autopaused	
+[00:36:17]: Server Unpaused	
+[00:36:17]: Server Autopaused	
+[00:36:18]: Server Unpaused	
+[00:36:21]: Server Autopaused	
+[00:36:25]: Server Unpaused	
+[00:36:25]: Server Autopaused	
+[00:36:27]: Server Unpaused	
+[00:36:27]: Server Autopaused	
+[00:36:28]: Server Unpaused	
+[00:36:30]: Server Autopaused	
+[00:36:33]: Server Unpaused	
+[00:36:34]: Server Autopaused	
+[00:36:35]: Server Unpaused	
+[00:36:36]: Server Autopaused	
+[00:36:38]: Server Unpaused	
+[00:36:57]: Server Autopaused	
+[00:36:59]: Server Unpaused	
+[00:38:02]: Server Autopaused	
+[00:38:04]: Server Unpaused	
+[00:38:04]: Server Autopaused	
+[00:38:06]: Server Unpaused	
+[00:38:17]: Available disk space for save files: 4588 MB
+[00:38:18]: Serializing world: session/165EB7C1107A0E90/0000000004
+[00:38:34]: Server Autopaused	
+[00:38:36]: Server Unpaused	
+[00:39:12]: Server Autopaused	
+[00:39:14]: Server Unpaused	
+[00:39:16]: Server Autopaused	
+[00:39:17]: Server Unpaused	
+[00:39:17]: Server Autopaused	
+[00:39:18]: Server Unpaused	
+[00:39:27]: Server Autopaused	
+[00:39:29]: Server Unpaused	
+[00:39:30]: Available disk space for save files: 4578 MB
+[00:39:31]: Serializing world: session/165EB7C1107A0E90/0000000005
+[00:39:41]: Server Autopaused	
+[00:39:44]: Server Unpaused	
+[00:41:17]: [P2P] Session timed out for '76561199127037806'
+[00:41:17]: [P2P] Remove session: 16.27.33.171|1 '76561199127037806'
+[00:42:54]: Server Autopaused	
+[00:42:54]: Server Unpaused	
+[00:42:55]: Server Autopaused	
+[00:42:56]: Server Unpaused	
+[00:42:58]: Server Autopaused	
+[00:42:59]: Server Unpaused	
+[00:42:59]: Server Autopaused	
+[00:43:00]: Server Unpaused	
+[00:43:02]: Server Autopaused	
+[00:43:05]: Server Unpaused	
+[00:44:11]: Server Autopaused	
+[00:44:11]: Server Unpaused	
+[00:44:12]: Server Autopaused	
+[00:44:12]: Server Unpaused	
+[00:45:07]: Server Autopaused	
+[00:45:07]: Server Unpaused	
+[00:45:31]: Server Autopaused	
+[00:45:32]: Server Unpaused	
+[00:45:33]: Server Autopaused	
+[00:45:34]: Server Unpaused	
+[00:45:35]: Server Autopaused	
+[00:45:36]: Server Unpaused	

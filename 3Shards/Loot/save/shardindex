@@ -1,0 +1,86 @@
+KLEI     1 return {
+  enabled_mods={  },
+  server={
+    clan={ admin=false, id="", only=false },
+    description="2 surfaces 1 cave",
+    encode_user_path=true,
+    game_mode="survival",
+    max_players=32,
+    name="Singapore Homeless Multiworlds",
+    online_mode=true,
+    password="",
+    playstyle="endless",
+    privacy_type=0,
+    pvp=false,
+    server_language="en" 
+  },
+  session_id="608E9B3712D4EC7B",
+  version=5,
+  world={
+    options={
+      desc="A never-ending Don't Starve sandbox.\
+Resurrection is always available via the Florid Postern.",
+      hideminimap=false,
+      id="ENDLESS",
+      location="forest",
+      max_playlist_position=999,
+      min_playlist_position=0,
+      name="Endless",
+      numrandom_set_pieces=4,
+      override_level_string=false,
+      overrides={
+        basicresource_regrowth="always",
+        bees="often",
+        berrrybush="often",
+        ghostsanitydrain="none",
+        has_ocean=true,
+        keep_disconnected_tiles=true,
+        layout_mode="LinkNodesByKeys",
+        no_joining_islands=true,
+        no_wormholes_to_disconnected_tiles=true,
+        portalresurection="always",
+        resettime="none",
+        roads="default",
+        season_start="default",
+        start_location="default",
+        task_set="default",
+        world_size="default",
+        wormhole_prefab="wormhole" 
+      },
+      playstyle="endless",
+      random_set_pieces={
+        "Sculptures_2",
+        "Sculptures_3",
+        "Sculptures_4",
+        "Sculptures_5",
+        "Chessy_1",
+        "Chessy_2",
+        "Chessy_3",
+        "Chessy_4",
+        "Chessy_5",
+        "Chessy_6",
+        "Maxwell1",
+        "Maxwell2",
+        "Maxwell3",
+        "Maxwell4",
+        "Maxwell6",
+        "Maxwell7",
+        "Warzone_1",
+        "Warzone_2",
+        "Warzone_3" 
+      },
+      required_prefabs={ "multiplayer_portal" },
+      required_setpieces={ "Sculptures_1", "Maxwell5" },
+      settings_desc="A never-ending Don't Starve sandbox.\
+Resurrection is always available via the Florid Postern.",
+      settings_id="ENDLESS",
+      settings_name="Endless",
+      substitutes={  },
+      version=4,
+      worldgen_desc="A never-ending Don't Starve sandbox.\
+Resurrection is always available via the Florid Postern.",
+      worldgen_id="ENDLESS",
+      worldgen_name="Endless" 
+    } 
+  } 
+}
